@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Limitación de resultados | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Limitación de resultados | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 24, 2014
+date: Nov 24, 2014
+---
 
 # Limitación de resultados
 
-[%Date]
+{{date}}
 
 Después de haber hecho una búsqueda y obtener el sumario de resultados
 correspondientes, se puede proceder a una depuración o ajuste de los

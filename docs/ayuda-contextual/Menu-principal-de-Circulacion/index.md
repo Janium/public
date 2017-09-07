@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Menú principal de Circulación | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Menú principal de Circulación | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 26, 2014
+date: Nov 26, 2014
+---
 
 # Menú principal de Circulación
 
-[%Date]
+{{date}}
 
 La pantalla principal de gestión del módulo de Circulación presenta el
 siguiente diseño:

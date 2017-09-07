@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Creación y edición de registros bibliográficos | Ayuda contextual de\nJanium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Creación y edición de registros bibliográficos | Ayuda contextual de
-  Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 25,2014
+---
+title: Creación y edición de registros bibliográficos | Ayuda contextual de Janium
+date: Nov 25, 2014
+---
 
 # Creación y edición de registros bibliográficos
 
-[%Date]
+{{date}}
 
 Por lo general, un nuevo registro bibliográfico se crea cuando:
 

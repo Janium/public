@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Resultados de búsqueda en Control bibliográfico | Ayuda contextual de\nJanium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Resultados de búsqueda en Control bibliográfico | Ayuda contextual de
-  Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
+---
+title: Resultados de búsqueda en Control bibliográfico | Ayuda contextual de Janium
 Date:Nov 25, 2014
+---
 
 # Resultados de búsqueda en Control bibliográfico
 
-[%Date]
+{{date}}
 
 ## Sumarios de resultados
 

@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Registro en detalle | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Registro en detalle | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 24, 2014
+date: Nov 24, 2014
+---
 
 # Registro en detalle
 
-[%Date]
+{{date}}
 
 En ocasiones, es posible que sólo se recupere un único registro que se
 ajuste a los criterios requeridos en la búsqueda. En esos casos, esto es

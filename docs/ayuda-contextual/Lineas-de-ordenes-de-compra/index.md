@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Líneas de órdenes de compra | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Líneas de órdenes de compra | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 28, 2014
+date: Nov 28, 2014
+---
 
 # Líneas de órdenes de compra
 
-[%Date]
+{{date}}
 
 Después de crear una orden, deben registrarse las respectivas líneas
 relacionadas con los materiales que se van a solicitar al proveedor.

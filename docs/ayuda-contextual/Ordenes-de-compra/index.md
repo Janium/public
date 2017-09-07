@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Órdenes de compra | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Órdenes de compra | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 27, 2014
+date: Nov 27, 2014
+---
 
 # Órdenes de compra
 
-[%Date]
+{{date}}
 
 Como ya se ha comentado, este elemento es el primero que debe crearse
 para iniciar el flujo de adquisiciones. Cada orden de compra se

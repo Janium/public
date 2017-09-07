@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Búsqueda de registros de autoridad | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Búsqueda de registros de autoridad | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 25, 2014
+date: Nov 25, 2014
+---
 
 # Búsqueda de registros de autoridad
 
-[%Date]
+{{date}}
 
 Pueden realizarse búsquedas de los registros de autoridad existentes en
 el propio sistema. Para ello, se debe seleccionar el <span

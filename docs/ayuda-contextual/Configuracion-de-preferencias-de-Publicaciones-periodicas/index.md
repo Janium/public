@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Configuración de preferencias de Publicaciones periódicas | Ayuda\ncontextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Configuración de preferencias de Publicaciones periódicas | Ayuda
-  contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0
-Date:Nov 27, 2014
+---
+title: Configuración de preferencias de Publicaciones periódicas | Ayuda contextual de Janium
+date: Nov 27, 2014
+---
 
 # Configuración de preferencias de Publicaciones periódicas
 
-[%Date]
+{{date}}
 
 En los distintos procesos que se pueden llevar a cabo en el módulo de
 Publicaciones periódicas intervienen diferentes parámetros y valores.

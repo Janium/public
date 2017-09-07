@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Reclamaciones de fascículos | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Reclamaciones de fascículos | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Dec 2, 2014
+date: Dec 2, 2014
+---
 
 # Reclamaciones de fascículos
 
-[%Date]
+{{date}}
 
 Cuando, por alguna circunstancia, uno o más fascículos no llegan en las
 fechas en que se esperan, el sistema Janium está preparado para generar

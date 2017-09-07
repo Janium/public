@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Creación de apartados / reservas | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Creación de apartados / reservas | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Mar 23, 2015
+date: Mar 23, 2015
+---
 
 # Creación de apartados / reservas
 
-[%Date]
+{{date}}
 
 En relación con el proceso de creación de apartados / reservas, es en
 esta pantalla donde se puede escribir una nota informativa acerca de la

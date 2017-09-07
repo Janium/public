@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Creación de usuarios | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Creación de usuarios | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 26, 2014
+date: Nov 26, 2014
+---
 
 # Creación de usuarios
 
-[%Date]
+{{date}}
 
 Esta opción permite crear nuevos registros de usuarios del sistema. Para
 esto es necesario asignar un **número de cuenta** a cada uno de ellos.

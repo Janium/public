@@ -1,12 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Exportación de registros bibliográficos | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Exportación de registros bibliográficos | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 25, 2014
+date: Nov 25, 2014
+---
 
 # Exportación de registros bibliográficos
 
-[%Date]
+{{date}}
 
 El sistema exporta a un archivo los registros en formato MARC21 que
 hayan sido seleccionados. En esta función, es opcional la exportación

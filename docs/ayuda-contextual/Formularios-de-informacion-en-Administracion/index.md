@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Formularios de información en Administración | Ayuda contextual de\nJanium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Formularios de información en Administración | Ayuda contextual de
-  Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Dec 1, 2014
+---
+title: Formularios de información en Administración | Ayuda contextual de Janium
+date: Dec 1, 2014
+---
 
 # Formularios de información en Administración
 
-[%Date]
+{{date}}
 
 ## Creación y edición de registros
 

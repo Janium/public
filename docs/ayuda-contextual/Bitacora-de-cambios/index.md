@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Bitácora de cambios | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Bitácora de cambios | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Dec 1, 2014
-
+date: Dec 1, 2014
+---
 
 # Bitácora de cambios
 
-[%Date]
+{{date}}
 
 Esta función del módulo de Administración permite acceder a las
 **descripciones de mejoras, adiciones o correcciones implementadas en el

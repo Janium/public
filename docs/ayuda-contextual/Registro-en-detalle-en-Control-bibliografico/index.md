@@ -1,14 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Registro en detalle en Control bibliográfico | Ayuda contextual de\nJanium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Registro en detalle en Control bibliográfico | Ayuda contextual de
-  Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 25, 2014
-
+---
+title: Registro en detalle en Control bibliográfico | Ayuda contextual de Janium
+date: Nov 25, 2014
+---
 
 # Registro en detalle en Control bibliográfico
 
-[%Date]
+{{date}}
 
 En ocasiones, es posible que sólo se recupere un único registro que se
 ajuste a los criterios requeridos en la búsqueda. En esos casos, esto es

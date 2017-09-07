@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Control de cronologías y numeraciones | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Control de cronologías y numeraciones | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Nov 27, 2014
-
+date: Nov 27, 2014
+---
 
 # Control de cronologías y numeraciones
 
-[%Date]
+{{date}}
 
 Esta función sirve para indicar al sistema que los fascículos se
 publican con una frecuencia o periodicidad específica y están numerados

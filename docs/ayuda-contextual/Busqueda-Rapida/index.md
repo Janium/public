@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Búsqueda rápida | Ayuda contextual de Janium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
+---
 title: Búsqueda rápida | Ayuda contextual de Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0  
-Date:Nov 21, 2014
-
+date: Nov 21, 2014
+---
 
 # Búsqueda rápida
 
-[%Date]
+{{date}}
 
 Esta es la pantalla a la que se accede por defecto al entrar en el
 catálogo. Sin embargo, es posible definir otra sección (como *Búsqueda

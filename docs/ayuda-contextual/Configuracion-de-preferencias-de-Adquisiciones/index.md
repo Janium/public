@@ -1,13 +1,11 @@
-meta-json: {"viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0,\nuser-scalable=0","robots":"noindex,follow","title":"Configuración de preferencias de Adquisiciones | Ayuda contextual de\nJanium","generator":["Divi v.2.2","WordPress 4.0.18"]}
-robots: noindex,follow
-title: Configuración de preferencias de Adquisiciones | Ayuda contextual de
-  Janium
-viewport: width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
-Date:Dec 17, 2014
+---
+title: Configuración de preferencias de Adquisiciones | Ayuda contextual de Janium
+date: Dec 17, 2014
+---
 
 # Configuración de preferencias de Adquisiciones
 
-[%Date]
+{{date}}
 
 En el módulo de Adquisiciones, es posible que cada operador determine
 algunos parámetros de uso propios con el objetivo de hacer más fácil y
