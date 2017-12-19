@@ -1,11 +1,4 @@
----
-title: Búsqueda rápida | Ayuda contextual de Janium
-date: Nov 21, 2014
----
-
 # Búsqueda rápida
-
-{{date}}
 
 Esta es la pantalla a la que se accede por defecto al entrar en el
 catálogo. Sin embargo, es posible definir otra sección (como *Búsqueda
