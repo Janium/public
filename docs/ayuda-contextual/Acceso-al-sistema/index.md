@@ -1,11 +1,4 @@
----
-title: Acceso al sistema | Ayuda contextual de Janium
-date: Nov 24, 2014
----
-
 # Acceso al sistema
-
-{{date}}
 
 El acceso a los distintos módulos del sistema Janium se realiza a través
 de internet y / o intranet, usando cualquiera de los navegadores
