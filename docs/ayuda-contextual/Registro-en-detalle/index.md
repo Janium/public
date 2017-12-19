@@ -1,12 +1,4 @@
----
-title: Registro en detalle | Ayuda contextual de Janium
-date: Nov 24, 2014
----
-
 # Registro en detalle
-
-{{date}}
-
 En ocasiones, es posible que sólo se recupere un único registro que se
 ajuste a los criterios requeridos en la búsqueda. En esos casos, esto es
 lo que se muestra:
