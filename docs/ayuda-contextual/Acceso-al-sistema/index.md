@@ -1,6 +1,6 @@
 # Acceso al sistema
 
-El accesoO a los distintos módulos del sistema Janium se realiza a través
+El acceso a los distintos módulos del sistema Janium se realiza a través
 de internet y / o intranet, usando cualquiera de los navegadores
 existentes (Internet Explorer, Google Chrome, Mozilla Firefox o Safari,
 entre otros).
