@@ -1,12 +1,4 @@
----
-title: Apartados / Reservas (Catálogo al público) | Ayuda contextual de Janium
-date: Nov 21, 2014
----
-
 # Apartados / Reservas (Catálogo al público)
-
-{{date}}
-
 En esta opción, el usuario puede apartar / reservar un material cuyo
 estado en ese momento sea *Prestado*. Para ello, el procedimiento a
 seguir es el siguiente:
