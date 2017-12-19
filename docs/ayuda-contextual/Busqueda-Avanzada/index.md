@@ -1,12 +1,4 @@
----
-title: Búsqueda avanzada | Ayuda contextual de Janium
-date: Nov 21, 2014
----
-
 # Búsqueda avanzada
-
-{{date}}
-
 Para acceder a ella, se debe usar la opción específica de la barra de
 navegación del catálogo.
 
