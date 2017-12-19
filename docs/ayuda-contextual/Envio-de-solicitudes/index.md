@@ -1,12 +1,4 @@
----
-title: Envío de solicitudes | Ayuda contextual de Janium
-date: Nov 21, 2014
----
-
 # Envío de solicitudes
-
-{{date}}
-
 En esta opción, el usuario puede enviar mensajes
 (peticiones de información, comentarios sobre los servicios, quejas,
 recomendaciones) al personal de la institución, que serán recibidas y
