@@ -1,12 +1,4 @@
----
-title: Creación de bibliografías | Ayuda contextual de Janium
-date: Nov 24, 2014
----
-
 # Creación de bibliografías
-
-{{date}}
-
 Mediante esta función, el usuario tiene la posibilidad de gestionar sus
 propios registros a partir de cualquier tipo de búsqueda que lleve a
 cabo.
