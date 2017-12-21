@@ -3,5 +3,15 @@
 
 @import "{{ site.theme }}";
 
-.page-header { padding: 1rem 1rem; }
-.project-tagline { font-size: 7pt; }
+.page-header {
+    padding: 1rem 1rem;
+}
+
+.project-tagline {
+    margin: auto;
+    font-size: 7pt;
+}
+
+.site-footer-owner {
+    font-size: 7pt;
+}
