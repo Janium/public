@@ -15,6 +15,6 @@ Una vez que la URL es reconocida, aparece la pantalla de acceso al
 sistema, donde se debe escribir un **número de cuenta de usuario y
 contraseña autorizados**.
 
-![Pantalla de acceso al módulo](pantalla_acceso.png)
+![Pantalla de acceso al módulo](Pantalla_acceso.png)
 
 

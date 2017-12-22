@@ -1,22 +1,8 @@
----
-title: Apartados / Reservas (Circulación) | Ayuda contextual de Janium
-date: Nov 26, 2014
----
-
 # Apartados / Reservas (Circulación)
 
-{{date}}
+Los usuarios interesados en obtener en préstamo un material que no está disponible **por estar prestado a otro usuario** pueden registrar en el sistema un apartado / reserva del mismo.
 
-Los usuarios interesados en obtener en préstamo un material que no está
-disponible **por estar prestado a otro usuario** pueden registrar en el
-sistema un apartado / reserva del mismo.
-
-Al llevar a cabo esta acción, la petición queda en una “lista de espera”
-del material, por lo que, al ser éste devuelto, queda reservado para el
-usuario solicitante <span style="text-decoration: underline;">por un
-tiempo determinado establecido por la institución</span>. Además, el
-usuario solicitante es informado de la disponibilidad del material por
-medio de **notificaciones por correo electrónico**.
+Al llevar a cabo esta acción, la petición queda en una “lista de espera” del material, por lo que, al ser éste devuelto, queda reservado para el usuario solicitante <span style="text-decoration: underline;">por un tiempo determinado establecido por la institución</span>. Además, el usuario solicitante es informado de la disponibilidad del material por medio de **notificaciones por correo electrónico**.
 
 Durante el tiempo designado por la institución para mantener la reserva,
 el material apartado no puede ser prestado a otro usuario, a menos que

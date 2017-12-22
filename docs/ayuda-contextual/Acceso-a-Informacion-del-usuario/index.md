@@ -1,11 +1,4 @@
----
-title: Acceso a Información del usuario | Ayuda contextual de Janium
-date: Nov 21, 2014
----
-
 # Acceso a Información del usuario
-
-{{date}}
 
 Para acceder a esta función **por primera vez** es necesario escribir el
 número de cuenta (o identificador alterno) y la contraseña en los

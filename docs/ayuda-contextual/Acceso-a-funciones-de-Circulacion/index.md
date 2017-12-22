@@ -1,18 +1,5 @@
----
-title: Acceso a funciones de Circulación | Ayuda contextual de Janium
-date: Nov 26, 2014
----
-
 # Acceso a funciones de Circulación
 
-{{date}}
-
-Es importante destacar que para empezar a trabajar con las distintas
-funciones del módulo de Circulación, es necesario **identificar
-previamente al usuario** cuya información va a ser tratada, bien
-mediante su <span style="text-decoration: underline;">número de
-cuenta</span> o su <span
-style="text-decoration: underline;">identificador alterno</span>.
+Es importante destacar que para empezar a trabajar con las distintas funciones del módulo de Circulación, es necesario **identificar previamente al usuario** cuya información va a ser tratada, bien mediante su _número de cuenta_ o su _identificador alterno_.
 
 [<img src="Cuadro_identificacion-300x115.png" alt="wpid-Cuadro_identificacion.png" width="300" height="115">](Cuadro_identificacion.png)
-
