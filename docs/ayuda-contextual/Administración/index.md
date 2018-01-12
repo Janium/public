@@ -1,2323 +1,1530 @@
----
-title: Administración | Ayuda contextual de Janium
-date: Dec 1, 2014
----
+![](Janium_puertas.jpg)
 
 # Administración
 
-{{date}}
+## Introducción
 
-## ÍNDICE
+El módulo de Administración está dividido en las siguientes secciones generales:
 
--   [Pantalla principal del módulo](index.html?p=1317#enlace1)
--   [Creación y edición de registros](index.html?p=1317#enlace2)
--   [Búsqueda y selección de registros](index.html?p=1317#enlace3)
--   [Configuración general](index.html?p=1317#enlace4)
--   [Módulo de Catalogación](index.html?p=1317#enlace5)
--   [Módulo de Circulación](index.html?p=1317#enlace6)
--   [Módulo de Adquisiciones](index.html?p=1317#enlace7)
--   [Módulo de Publicaciones periódicas](index.html?p=1317#enlace8)
--   [Módulo de Seguridad avanzada](index.html?p=1317#enlace9)
--   [Módulo de Inventario](index.html?p=1317#enlace10)
--   [Tareas de mantenimiento general](index.html?p=1317#enlace11)
--   [Módulo de Reportes](index.html?p=1317#enlace12)
--   [Bitácora de cambios](index.html?p=1317#enlace13)
++ Configuración general.
 
-## Pantalla principal del módulo [enlace1]
++ Módulo de Catalogación.
 
-Tras el proceso de identificación previo, se presenta la pantalla
-principal del módulo de Administración.
++ Módulo de Circulación.
 
-![\*\*Pantalla principal del módulo\*\*](wpid-Pantalla_principal1.png)
++ Módulo de Adquisiciones.
 
-En esta pantalla pueden distinguirse cuatro tipos de iconos que
-determinan, a su vez, el tipo de función y su comportamiento:
++ Módulo de Publicaciones periódicas.
 
--   ![](wpid-Iconos.png)
++ Módulo de Seguridad avanzada.
 
-    Agrupa funciones que comparten un módulo o temática común. Bajo este
-    icono se establecen tanto grupos principales como subgrupos dentro
-    de los primeros, los cuales pueden desplegarse y replegarse usando
-    la “flecha” situada a la izquierda del icono.
++ Módulo de Inventario.
 
--   ![](wpid-Iconos2.png)
++ Tareas de mantenimiento general.
 
-    Permite acceder a la pantalla de creación y edición de registros
-    para cada tipo de función.
++ Módulo de Reportes.
 
--   ![](wpid-Iconos3.png)
++ Bitácora de cambios.
 
-    Ejecuta de forma automática la función seleccionada al hacer clic
-    sobre su nombre.
+Además, cada una de estas secciones (a excepción de _Módulo de Inventario_ y _Bitácora de cambios_) se organizan en diferentes **subsecciones**, dependiendo del caso, que serán explicadas en detalle llegado el momento.
 
--   ![](wpid-Iconos4.png)
+## Forma de acceso
 
-    Permite acceder a la *Bitácora de cambios* del sistema Janium.
+El ingreso al módulo se realiza a través de internet y / o intranet, usando cualquiera de los navegadores existentes (Internet Explorer, Google Chrome, Mozilla Firefox o Safari, entre otros).
 
-Además, es importante destacar que en esta pantalla principal del módulo
-**es posible desplegar varios niveles del menú al mismo tiempo**, así
-como, mediante el uso del almacenamiento local del navegador (o
-*cookies*, cuando éste no esté disponible), **el sistema recuerda la
-última opción visitada**.
+En algunos casos, las instituciones pueden contar con un enlace o medio similar para vincular el sistema con su página web. De no ser así, se deberá ingresar usando la siguiente "URL tipo" en el navegador:
 
-## Creación y edición de registros [enlace2]
+> http://biblioteca.janium.net
 
-NOTA: dado que el proceso para crear y editar un registro de información
-en el módulo de Administración es idéntico para cualquier tipo de
-función, se describe en este punto de forma global, evitando así la
-reiteración de incluirlo en cada una de las secciones relacionadas.
+Siendo el término “biblioteca” algo que cambiará para adecuar dicha URL a cada institución. El sistema Janium, por otro lado, también ofrece la posibilidad de configurar cualquier otro tipo de dirección distinta a la descrita que solicite la institución.
+
+Una vez que la URL es reconocida, aparece la pantalla de acceso al sistema, donde se debe escribir un número de cuenta y contraseña autorizados.
+
+![](Pantalla_acceso.png)
+
+Tras haber ingresado los datos de identificación mencionados, se presenta la pantalla principal del módulo.
+
+![](Pantalla_principal.png)
+
+En esta pantalla pueden distinguirse cuatro tipos de iconos que determinan, a su vez, el tipo de función y su comportamiento:
+
++ ![](Iconos.png)
+
+	Agrupa funciones que comparten un módulo o temática común. Bajo este icono se establecen tanto grupos principales como subgrupos dentro de los primeros, los cuales pueden desplegarse y replegarse usando la "flecha" situada a la izquierda del icono.
+
++ ![](Iconos2.png)
+
+	Permite acceder a la pantalla de creación y edición de registros para cada tipo de función.
+
++ ![](Iconos3.png)
+
+	Ejecuta de forma automática la función seleccionada al hacer clic sobre su nombre.
+
++ ![](Iconos4.png)
+
+	Permite acceder a la _Bitácora de cambios_ del sistema Janium.
+
+Además, es importante destacar que en esta pantalla principal del módulo **es posible desplegar varios niveles del menú al mismo tiempo**, así como, mediante el uso del almacenamiento local del navegador (o _cookies_, cuando éste no esté disponible), **el sistema recuerda la última opción visitada**.
+
+## Creación y edición de registros
+
+**NOTA**: dado que el proceso para crear y editar un registro de información en el módulo de Administración es idéntico <u>para cualquier tipo de función</u>, se describe en este punto de forma global, evitando así la reiteración de incluirlo en cada una de las secciones relacionadas.
 
 El procedimiento a seguir es el siguiente:
 
--   Introducir el valor a crear en el cuadro de texto del campo (o
-    campos) ***Información***, o seleccionarlo de la lista desplegable,
-    dependiendo del tipo de función.
++ Introducir el valor a crear en el cuadro de texto del campo (o campos) _**Información**_, o seleccionarlo de la lista desplegable, dependiendo del tipo de función.
 
-![\*\*Creación y edición de registros\*\*](wpid-Creacion_registros.png)
+![](Creacion_registros.png)
 
--   Hacer clic en el botón **OK**. Si el valor introducido en el paso
-    anterior ya está asignado, el registro se despliega para editarlo.
-    Si no es así, si es nuevo, el registro se despliega para completarlo
-    y guardarlo.
++ Hacer clic en el botón **OK**. Si el valor introducido en el paso anterior ya está asignado, el registro se despliega <u>para editarlo</u>. Si no es así, si es nuevo, el registro se despliega <u>para completarlo y guardarlo</u>.
 
-![\*\*Creación y edición de registros
-2\*\*](wpid-Creacion_registros2.png)
+![](Creacion_registros2.png)
 
-![\*\*Creación y edición de registros
-3\*\*](wpid-Creacion_registros3.png)
+![](Creacion_registros3.png)
 
--   Además, si se quiere saber cuál es el último número de orden que va
-    a ser asignado por el sistema al valor que se va a crear, se puede
-    hacer clic sobre el icono situado a la derecha del campo
-    ***Información***.
++ Además, si se quiere saber cuál es el último <u>número de orden</u> que va a ser asignado por el sistema al valor que se va a crear, se puede hacer clic sobre el icono situado a la derecha del campo _**Información**_.
 
-![\*\*Creación y edición de registros
-4\*\*](wpid-Creacion_registros4.png)
+![](Creacion_registros4.png)
 
-## Búsqueda y selección de registros [enlace3]
+## Búsqueda y selección de registros
 
-Para poder buscar, y seleccionar a continuación, valores ya creados para
-alguna de las funciones del módulo se debe desplegar la lista que se
-encuentra en el campo ***Nombre***. Al llevar a cabo la selección del
-valor deseado, el sistema lo coloca de forma automática en su campo
-***Información*** correspondiente.
+Para poder buscar, y seleccionar a continuación, valores ya creados para alguna de las funciones del módulo se debe desplegar la lista que se encuentra en el campo _**Nombre**_. Al llevar a cabo la selección del valor deseado, el sistema lo coloca de forma automática en su campo _**Información**_ correspondiente.
 
-![\*\*Búsqueda y selección de
-registros\*\*](wpid-Busqueda_registros.png)
+![](Busqueda_registros.png)
 
-No obstante, la lista desplegable mencionada no muestra el total de los
-valores registrados para la función. Si se quiere seleccionar uno que no
-esté en ella, se debe hacer clic en el botón **Examinar** y buscarlo en
-la ventana emergente que se despliega, mediante los cuadros de texto
-disponibles. Es importante destacar que dichos cuadros son sensibles a
-textos en minúsculas y mayúsculas (no es igual *Nombre* que *NOMBRE* o
-*nombre*).
+No obstante, la lista desplegable mencionada <u>no muestra el total de los valores registrados para la función</u>. Si se quiere seleccionar uno que no esté en ella, se debe hacer clic en el botón **Examinar** y buscarlo en la ventana emergente que se despliega, mediante los cuadros de texto disponibles. Es importante destacar que dichos cuadros <u>son sensibles a textos en minúsculas y mayúsculas</u> (no es igual _Nombre_ que _NOMBRE_ o _nombre_).
 
-Una vez encontrado el valor deseado, hacer clic sobre su nombre para que
-el sistema lo coloque en el campo ***Información***, como en el caso
-anterior.
+Una vez encontrado el valor deseado, hacer clic sobre su nombre para que el sistema lo coloque en el campo _**Información**_, como en el caso anterior.
 
-![\*\*Búsqueda y selección de registros
-2\*\*](wpid-Busqueda_registros2.png)
+![](Busqueda_registros2.png)
 
-La ventana emergente mencionada también puede mostrarse haciendo clic
-sobre la opción **Ver más**, que se encuentra al final de la lista
-desplegable de valores del campo ***Nombre***.
+La ventana emergente mencionada también puede mostrarse haciendo clic sobre la opción **Ver más**, que se encuentra al final de la lista desplegable de valores del campo _**Nombre**_.
 
-![\*\*Búsqueda y selección de registros
-3\*\*](wpid-Parametros_generales3.png)
+![](Parametros_generales3.png)
 
-Los elementos que pueden verse en la ventana de búsqueda y selección de
-registros son los siguientes:
+Los elementos que pueden verse en la ventana de búsqueda y selección de registros son los siguientes:
 
--   Número de registros encontrados en total (1).
++ Número de registros encontrados en total (1).
 
--   Número de registros desplegados por página (2).
++ Número de registros desplegados por página (2).
 
--   Primera opción de búsqueda, que puede usarse introduciendo los
-    términos deseados en el cuadro de texto y haciendo clic en el botón
-    **Buscar** (3).
++ Primera opción de búsqueda, que puede usarse introduciendo los términos deseados en el cuadro de texto y haciendo clic en el botón **Buscar** (3).
 
--   Segunda opción de búsqueda, que puede usarse introduciendo los
-    términos deseados en el cuadro de texto y haciendo clic en el botón
-    **Buscar** (4).
++ Segunda opción de búsqueda, que puede usarse introduciendo los términos deseados en el cuadro de texto y haciendo clic en el botón **Buscar** (4).
 
--   Botones de navegación, para pasar de una página de registros a otra
-    (5).
++ Botones de navegación, para pasar de una página de registros a otra (5).
 
--   Columna con los nombres de los valores, redactados de forma breve
-    (6).
++ Columna con los nombres de los valores, redactados de forma breve (6).
 
--   Columna con las descripciones respectivas de los valores (7).
++ Columna con las descripciones respectivas de los valores (7).
 
--   Botón para cerrar la ventana emergente, situado en la parte inferior
-    de la misma (8).
++ Botón para cerrar la ventana emergente, situado en la parte inferior de la misma (8).
 
-![\*\*Búsqueda y selección de registros
-4\*\*](wpid-Parametros_generales4.png)
-![](wpid-Parametros_generales5.png)
+![](Parametros_generales4.png)
+![](Parametros_generales5.png)
 
-## Configuración general [enlace4]
+## Configuración general
 
-En esta sección se determinan las características funcionales generales
-del sistema Janium para todos los módulos. Es importante mencionar que
-**el sistema Janium se entrega con parámetros ya establecidos para la
-mayor parte de las opciones**, por lo que no es necesario realizar una
-definición completa de estos parámetros por parte de la institución.
+En esta sección se determinan las características funcionales generales del sistema Janium para todos los módulos. Es importante mencionar que **el sistema Janium se entrega con parámetros ya establecidos para la mayor parte de las opciones**, por lo que no es necesario realizar una definición completa de estos parámetros por parte de la institución.
 
-![\*\*Sección \_Configuración
-general\_\*\*](wpid-Configuracion_general.png)
+![](Configuracion_general.png)
 
 ### Parámetros generales
 
-Aquí se mantiene lo que acaba de indicarse: los parámetros generales
-quedan definidos **en el momento de instalar el sistema** y, si bien
-éstos pueden modificarse dependiendo de las necesidades de la
-institución, no pueden crearse nuevos parámetros por iniciativa propia,
-ya que son utilizados por los programas del sistema y por la base de
-datos del sistema Janium.
+Aquí se mantiene lo que acaba de indicarse: los parámetros generales quedan definidos **en el momento de instalar el sistema** y, si bien éstos pueden modificarse dependiendo de las necesidades de la institución, no pueden crearse nuevos parámetros por iniciativa propia, ya que son utilizados por los programas del sistema y por la base de datos del sistema Janium.
 
-![\*\*Parámetros generales\*\*](wpid-Parametros_generales.png)
+![](Parametros_generales.png)
 
-![\*\*Parámetros generales 2\*\*](wpid-Parametros_generales2.png)
+![](Parametros_generales2.png)
 
-Los campos que se presentan en un registro de parámetros generales son
-los siguientes:
+Los campos que se presentan en un registro de parámetros generales son los siguientes:
 
--   **Parámetro:** nombre identificador del parámetro.
++ **Parámetro:** nombre identificador del parámetro.
 
--   **Descripción:** texto breve que describe la función o el propósito
-    del parámetro.
++ **Descripción:** texto breve que describe la función o el propósito del parámetro.
 
--   **Valor 1**, **Valor 2**, **Valor 3**, **Valor 4** y **Valor 5:**
-    estos campos van a contener distintos tipos de datos dependiendo del
-    parámetro que se trate.
++ **Valor 1**, **Valor 2**, **Valor 3**, **Valor 4** y **Valor 5:** estos campos van a contener distintos tipos de datos dependiendo del parámetro que se trate.
 
--   **Notas:** campo donde puede incluirse cualquier información que
-    pueda ser de utilidad. Por ejemplo, la explicación ampliada de qué
-    datos deben introducirse en cada uno de los campos de *Valor*.
++ **Notas:** campo donde puede incluirse cualquier información que pueda ser de utilidad. Por ejemplo, la explicación ampliada de qué datos deben introducirse en cada uno de los campos de _Valor_.
 
-![\*\*Parámetros generales 3\*\*](wpid-Parametros_generales8.png)
+![](Parametros_generales8.png)
 
 #### Lista de parámetros generales
 
-##### Parámetros de uso general
+##### Parámetros de uso general
 
-**add time** Permite agregar tiempo (en segundos) a la hora de apertura
-y cierre de la biblioteca. Es complemento del parámetro *bloqueo
-holidays*.
+**add time**
+Permite agregar tiempo (en segundos) a la hora de apertura y cierre de la biblioteca. Es complemento del parámetro _bloqueo holidays_.
 
-**autoregistro usuarios** Activa la configuración del autoregistro de
-usuarios. Valor 1: el sistema permite autoregistro de usuarios (1 = Sí,
-0 = No). Valor 2: contenido del “asunto” de los correos de confirmación
-de registro que se enviarán.
+**autoregistro usuarios**
+Activa la configuración del autoregistro de usuarios. Valor 1: el sistema permite autoregistro de usuarios (1 = Sí, 0 = No). Valor 2: contenido del "asunto" de los correos de confirmación de registro que se enviarán.
 
-**bloqueo holidays** Controla que se puedan realizar o no préstamos,
-devoluciones y renovaciones de materiales en días y horas en que la
-institución esté cerrada. 0 = no verifica (siempre se pueden realizar
-estas acciones); 1 = valida que sea un día hábil y se esté dentro del
-horario de trabajo para permitir la realización de un préstamo,
-devolución o renovación.
+**bloqueo holidays**
+Controla que se puedan realizar o no préstamos, devoluciones y renovaciones de materiales en días y horas en que la institución esté cerrada. 0 = no verifica (siempre se pueden realizar estas acciones); 1 = valida que sea un día hábil y se esté dentro del horario de trabajo para permitir la realización de un préstamo, devolución o renovación.
 
-**chat** Controla la función de chat con operadores. Valor 1: indica si
-la función está disponible (1) o no (0). Valor 2: indica si es necesario
-(1) o no (0) que los usuarios del catálogo al público estén registrados
-en el sistema para acceder a la función. Si el valor 3 y el valor 4 son
-ambos distintos de nulo y tienen formato HH:MM, restringen el horario en
-que la función está disponible, con cualquier otro valor o nulo se
-indica “siempre”.
+**chat**
+Controla la función de chat con operadores. Valor 1: indica si la función está disponible (1) o no (0). Valor 2: indica si es necesario (1) o no (0) que los usuarios del catálogo al público estén registrados en el sistema para acceder a la función. Si el valor 3 y el valor 4 son ambos distintos de nulo y tienen formato HH:MM, restringen el horario en que la función está disponible, con cualquier otro valor o nulo se indica "siempre".
 
-**crea mensajes para envio x sms** Define el envío de mensajes de tipo
-sms a los usuarios. Valor 1: 1 = se envían, 0 = no se envían. Valor 2:
-cuenta de correo a la que se enviarán los mensajes. Valor 3: columna de
-la que se obtendrá el identificador del usuario (*nocuenta* o *altid*).
-Valor 4, si es numérico, indica en que *Tipo de domicilio* se guarda el
-número de teléfono; si no es numérico, indica qué etiqueta de las *Notas
-extendidas* contiene (en el subcampo a) el dato del teléfono.
+**crea mensajes para envio x sms**
+Define el envío de mensajes de tipo sms a los usuarios. Valor 1: 1 = se envían, 0 = no se envían. Valor 2: cuenta de correo a la que se enviarán los mensajes. Valor 3: columna de la que se obtendrá el identificador del usuario (_nocuenta_ o _altid_). Valor 4, si es numérico, indica en que _Tipo de domicilio_ se guarda el número de teléfono; si no es numérico, indica qué etiqueta de las _Notas extendidas_ contiene (en el subcampo a) el dato del teléfono.
 
-**version** Define la versión del sistema instalado en el servidor.
+**version**
+Define la versión del sistema instalado en el servidor.
 
-**multi** Define si el sistema es multibibliotecas o no. El valor 0
-indica una biblioteca, y el 1 un sistema multibibliotecas.
+**multi**
+Define si el sistema es multibibliotecas o no. El valor 0 indica una biblioteca, y el 1 un sistema multibibliotecas.
 
-**seguridad** Define si el sistema cuenta con seguridad avanzada o no.
-El valor 0 indica un sistema con seguridad estándar, y el 1 un sistema
-con seguridad avanzada.
+**seguridad**
+Define si el sistema cuenta con seguridad avanzada o no. El valor 0 indica un sistema con seguridad estándar, y el 1 un sistema con seguridad avanzada.
 
-**database** Define el tipo de base de datos. 1=PostgreSQL, 2=ORACLE.
+**database**
+Define el tipo de base de datos. 1=PostgreSQL, 2=ORACLE.
 
-**dirdescarga** Define la ruta desde la que se descargan los archivos
-del servidor. Por ejemplo: */usr/local/janium/htdocs/Descargar*.
+**dirdescarga**
+Define la ruta desde la que se descargan los archivos del servidor. Por ejemplo: _/usr/local/janium/htdocs/Descargar_.
 
-**dirrelativa** Define la dirección relativa del servidor web local para
-almacenar objetos en el servidor. El valor 1 contiene la dirección
-relativa y el valor 2, la real. Por ejemplo: dirección
-relativa=*/janium/* y dirección real=*/usr/local/janium/htdocs/*.
+**dirrelativa**
+Define la dirección relativa del servidor web local para almacenar objetos en el servidor. El valor 1 contiene la dirección relativa y el valor 2, la real. Por ejemplo: dirección relativa=_/janium/_ y dirección real=_/usr/local/janium/htdocs/_.
 
-**maxtime** Define la duración máxima (en segundos) de una sesión antes
-de desconectarla.
+**maxtime**
+Define la duración máxima (en segundos) de una sesión antes de desconectarla.
 
-**timeout** Define el tiempo máximo (en segundos) de inactividad de una
-sesión antes de desconectarla.
+**timeout**
+Define el tiempo máximo (en segundos) de inactividad de una sesión antes de desconectarla.
 
-**mail handler** Define el programa para envío de correo. Este programa
-depende de la plataforma en la que se instale el sistema. Los valores
-más comunes son 1=Linux/Unix SMTP, 2=Windows SMTP.
+**mail handler**
+Define el programa para envío de correo. Este programa depende de la plataforma en la que se instale el sistema. Los valores más comunes son 1=Linux/Unix SMTP, 2=Windows SMTP.
 
-**mail params** Parámetro donde se registran los datos que utilizará el
-sistema para el envío de correos electrónicos. Valor 1: nombre del
-remitente que envía el correo. Valor 2: cuenta de correo electrónico que
-envía el correo. Valor 3: dirección IP o nombre del servidor de correo.
-Valor 4: servidor que envía el correo y modo de autenticación. Valor 5:
-valores de autenticación.
+**mail params**
+Parámetro donde se registran los datos que utilizará el sistema para el envío de correos electrónicos. Valor 1: nombre del remitente que envía el correo. Valor 2: cuenta de correo electrónico que envía el correo. Valor 3: dirección IP o nombre del servidor de correo. Valor 4: servidor que envía el correo y modo de autenticación. Valor 5: valores de autenticación.
 
-**filtro salida** Definición del filtro para la salida de texto
-(necesario para salida impresa). El valor por omisión para este
-parámetro es | awk ’{printf “ %s r n”,$0;}’.
+**filtro salida**
+Definición del filtro para la salida de texto (necesario para salida impresa). El valor por omisión para este parámetro es | awk ’{printf “ %s r n”,$0;}’.
 
-**zona** Definición de la zona horaria establecida en el sistema,
-tomando como referencia el huso horario de Greenwich.
+**zona**
+Definición de la zona horaria establecida en el sistema, tomando como referencia el huso horario de Greenwich.
 
-**doblelogo** Parámetro que permite usar dos logotipos en la cabecera de
-la página del sistema (*banner*). En el campo valor 1 se escribe el dato
-**1** si se quieren mostrar dos imágenes. Se debe escribir **0** en caso
-de que se desee desplegar una sola imagen.
+**doblelogo**
+Parámetro que permite usar dos logotipos en la cabecera de la página del sistema (_banner_). En el campo <u>valor 1</u> se escribe el dato **1** si se quieren mostrar dos imágenes. Se debe escribir **0** en caso de que se desee desplegar una sola imagen.
 
-En el campo valor 2 se escribe la ruta completa donde se localiza el
-archivo de imagen. Este archivo será utilizado cuando se coloque el dato
-**0** en el campo valor 1 (es decir, para desplegar una sola imagen).
-También se indica aquí la posición donde se va a situar (*left*:
-izquierda, *right*: derecha, *center*: centro). Por ejemplo:
-left:/janium/Imagenes/logo1.png
+En el campo <u>valor 2</u> se escribe la ruta completa donde se localiza el archivo de imagen. Este archivo será utilizado cuando se coloque el dato **0** en el campo valor 1 (es decir, para desplegar una sola imagen). También se indica aquí la posición donde se va a situar (_left_: izquierda, _right_: derecha, _center_: centro). Por ejemplo: left:/janium/Imagenes/logo1.png
 
-En el campo valor 3 se escribe la ruta completa donde se localiza el
-archivo de imagen. Este archivo no será utilizado cuando se coloque el
-dato **0** en el campo valor 1. También se indica aquí la posición donde
-se va a situar (*left*: izquierda, *right*: derecha, *center*: centro).
-Por ejemplo: right:/janium/Imagenes/logo2.png
+En el campo <u>valor 3</u> se escribe la ruta completa donde se localiza el archivo de imagen. Este archivo no será utilizado cuando se coloque el dato **0** en el campo valor 1. También se indica aquí la posición donde se va a situar (_left_: izquierda, _right_: derecha, _center_: centro). Por ejemplo: right:/janium/Imagenes/logo2.png
 
-Finalmente, existen varias reglas relacionadas con hojas de estilos que
-afectan a este parámetro. Dichas reglas se definen en el archivo del
-sistema *janium.css* y se pueden redefinir en *janium custom.css*
+Finalmente, existen varias reglas relacionadas con <u>hojas de estilos</u> que afectan a este parámetro. Dichas reglas se definen en el archivo del sistema _janium.css_ y se pueden redefinir en _janium custom.css_
 
-**cmdmove** Este parámetro depende del sistema operativo usado y se
-refiere a la instrucción para mover un fichero de un directorio a otro.
-En Windows es *MOVE* y en Linux es *mv*.
+**cmdmove**
+Este parámetro depende del sistema operativo usado y se refiere a la instrucción para <u>mover</u> un fichero de un directorio a otro. En Windows es _MOVE_ y en Linux es _mv_.
 
-**tipo sistema** Define el tipo de sistema y la plataforma en la que se
-ejecuta. Este valor no debe ser modificado ya que altera el
-comportamiento del sistema.
+**tipo sistema**
+Define el tipo de sistema y la plataforma en la que se ejecuta. Este valor no debe ser modificado ya que altera el comportamiento del sistema.
 
-**show version** Parámetro para mostrar u ocultar la indicación de
-versión del sistema. 1=Sí, 0=No.
+**show version**
+Parámetro para mostrar u ocultar la indicación de versión del sistema. 1=Sí, 0=No.
 
-**show logo** Parámetro para mostrar u ocultar el logo en las páginas.
-1=Sí, 0=No.
+**show logo**
+Parámetro para mostrar u ocultar el logo en las páginas. 1=Sí, 0=No.
 
-**allow proxy** Permite el acceso simultáneo del mismo usuario desde la
-misma IP. Adecuado para proxys. 1=permitir, 0=no permitir.
+**allow proxy**
+Permite el acceso simultáneo del mismo usuario desde la misma IP. Adecuado para proxys. 1=permitir, 0=no permitir.
 
-**upload path** Ruta para recibir los objetos digitales transferidos
-desde los clientes.
+**upload path**
+Ruta para recibir los objetos digitales transferidos desde los clientes.
 
-##### Parámetros sobre el catálogo al público
+---- 
 
-**acercamiento progresivo** Permite la configuración del visor de
-acercamiento progresivo. Valor 1: muestra el botón *Vista de impresión*
-(1=mostrar, otro=no mostrar). Valor 2: desactiva el menú de contexto en
-el visor de impresión (1=desactivar, otro=no desactivar).
+##### Parámetros sobre el catálogo al público
 
-**apartados otros usuarios** Ofrece la posibilidad de que un usuario
-efectúe apartados para otros, a parte de él. Si el valor es 1, el
-usuario podrá apartar materiales para otras cuentas desde el catálogo al
-público. Si es 0, el usuario sólo podrá colocar apartados a sus propias
-cuentas.
+**acercamiento progresivo**
+Permite la configuración del visor de acercamiento progresivo. Valor 1: muestra el botón _Vista de impresión_ (1=mostrar, otro=no mostrar). Valor 2: desactiva el menú de contexto en el visor de impresión (1=desactivar, otro=no desactivar).
 
-**bib orden** Parámetro que determina la ordenación de los sumarios de
-resultados:
+**apartados otros usuarios**
+Ofrece la posibilidad de que un usuario efectúe apartados para otros, a parte de él. Si el valor es 1, el usuario podrá apartar materiales para otras cuentas desde el catálogo al público. Si es 0, el usuario sólo podrá colocar apartados a sus propias cuentas.
 
--   Valor 1: número de índice alfabético usado para ordenar los sumarios
-    de resultados.
+**bib orden**
+Parámetro que determina la ordenación de los sumarios de resultados:
 
-| Número | Índice               |
-|:-----: | :------------------: |
-| 21     | Título alfabético    |
-| 22     | Autor alfabético     |
-| 23     | Materia alfabética   |
-| 24     | Serie alfabética     |
-| 25     | Editorial alfabética |
++ <u>Valor 1</u>: número de índice alfabético usado para ordenar los sumarios de resultados.
 
--   Valor 2: aquí se escriben los campos y subcampos que serán
-    utilizados para ordenar los registros en el sumario de resultados.
-    Estos elementos deben ser introducidos separados por *pipes* (**|**)
-    y de forma continua (sin espacios). Algunas indicaciones genéricas:
+![](Tabla1.png)
 
-    -   La palabra TERMINO colocada en el campo valor 2 representa al
-        número de índice alfabético escrito en el campo valor 1.
-    -   *E:S(*A*)* se sustituye por la información del subcampo *S* de
-        la etiqueta *E*, tomando dicha información como “alfabética”. Es
-        decir, eliminando de ella cualquier información no alfabética
-        que contenga.
-    -   *E:S(*N*)* se sustituye por la información del subcampo *S* de
-        la etiqueta *E*, tomando dicha información como “numérica”. Es
-        decir, eliminando de ella cualquier información no numérica que
-        contenga.
-    -   *E:S(*N\#*)* se sustituye por la información del subcampo *S* de
-        la etiqueta *E*, tomando dicha información como “numérica”. Es
-        decir, eliminando de ella cualquier información no numérica que
-        contenga. Y, además, para formar la llave de ordenamiento, la
-        información del subcampo se completa desde la izquierda hasta
-        con **\#** ceros para formar una cadena de **\#** posiciones.
-    -   Para que la llave de ordenamiento se construya es necesario
-        utilizar un número de índice válido en valor 1, incluso cuando
-        en valor 2 no se incluya el campo TERMINO.
++ <u>Valor 2</u>: aquí se escriben los campos y subcampos que serán utilizados para ordenar los registros en el sumario de resultados. Estos elementos deben ser introducidos separados por _pipes_ (**|**) y de forma continua (sin espacios). Algunas indicaciones genéricas:
 
--   Valor 3: criterios de ordenamiento del sumario: *asc* (ascendente) o
-    *desc* (descendente). NULL equivale a *desc*.
+	+ La palabra TERMINO colocada en el campo valor 2 representa al número de índice alfabético escrito en el campo valor 1.
+	+ _E:S(*A*)_ se sustituye por la información del subcampo _S_ de la etiqueta _E_, tomando dicha información como “alfabética”. Es decir, eliminando de ella cualquier información no alfabética que contenga.
+	+ _E:S(*N*)_ se sustituye por la información del subcampo _S_ de la etiqueta _E_, tomando dicha información como “numérica”. Es decir, eliminando de ella cualquier información no numérica que contenga.
+	+ _E:S(*N\#*)_ se sustituye por la información del subcampo _S_ de la etiqueta _E_, tomando dicha información como “numérica”. Es decir, eliminando de ella cualquier información no numérica que contenga. Y, además, para formar la llave de ordenamiento, la información del subcampo se completa desde la izquierda hasta con **\\#** ceros para formar una cadena de **\\#** posiciones.
+	+ Para que la llave de ordenamiento se construya es necesario utilizar un número de índice válido en valor 1, incluso cuando en valor 2 no se incluya el campo TERMINO.
+
++ <u>Valor 3</u>: criterios de ordenamiento del sumario: _asc_ (ascendente) o _desc_ (descendente). NULL equivale a _desc_.
 
 Ejemplos:
 
--   Los registros serán ordenados por Título y Número de edición:
++ Los registros serán ordenados por <u>Título</u> y <u>Número de edición</u>:
 
-Valor 1 | Valor 2 | :————: | :————: | 21 | TERMINO|250:a | Índice
-“Título alfabético” | 250:a = Campo de edición en formato MARC
-Bibliográfico |
+![](Tabla2.png)
 
--   Los registros serán ordenados por Fecha de publicación, Título y
-    Autor:
++ Los registros serán ordenados por <u>Fecha de publicación</u>, <u>Título</u> y <u>Autor</u>:
 
-Valor 1 | Valor 2 | :————: | :————: | 22 | 260:c|245:a|TERMINO | Índice
-“Autor alfabético” | 260:c = Campos de fecha de publicación en formato
-MARC Bibliográfico; 245:a = Campo de Título en formato MARC
-Bibliográfico |
+![](Tabla3.png)
 
-**bibliografia iconos** Establece qué iconos se van a desplegar y cuáles
-no en la sección *Bibliografía*. 1=Sí, 0=No.
+**bibliografia iconos**
+Establece qué iconos se van a desplegar y cuáles no en la sección _Bibliografía_. 1=Sí, 0=No.
 
-**bitacora busquedas** Controla el comportamiento del registro de
-búsquedas en la bitácora. Valor 1: habilitar el registro de búsquedas en
-la bitácora (1 = Sí, 0 = no). Valor 2: no borrar bitácora (0), borrar
-bitácora diariamente (1), borrar bitácora cada mes (2), borrar bitácora
-cada año (3).
+**bitacora busquedas**
+Controla el comportamiento del registro de búsquedas en la bitácora. Valor 1: habilitar el registro de búsquedas en la bitácora (1 = Sí, 0 = no). Valor 2: no borrar bitácora (0), borrar bitácora diariamente (1), borrar bitácora cada mes (2), borrar bitácora cada año (3).
 
-**busqueda palabras exacta** Permite buscar los términos en el índice de
-palabras de manera exacta. Si no encuentra resultados reporta 0
-encontrados. Si el valor es 0, al fallar la búsqueda se inicia una
-búsqueda alfabética en el índice alterno.
+**busqueda palabras exacta**
+Permite buscar los términos en el índice de palabras de manera exacta. Si no encuentra resultados reporta 0 encontrados. Si el valor es 0, al fallar la búsqueda se inicia una búsqueda alfabética en el índice alterno.
 
-**columnas acervo opac** Controla el despliegue de las columnas de
-información sobre los ejemplares en el catálogo al público. El valor 1
-puede contener estos códigos: CB: Código de barras; BI: Biblioteca; CL:
-Clasificación; PA: Partes; UB: Ubicación; TM: Tipo de material; ES:
-Estado. En el campo quedaría así: CB|BI|CL|PA|UB|TM|ES
+**columnas acervo opac**
+Controla el despliegue de las columnas de información sobre los ejemplares en el catálogo al público. El valor 1 puede contener estos códigos: CB: Código de barras; BI: Biblioteca; CL: Clasificación; PA: Partes; UB: Ubicación; TM: Tipo de material; ES: Estado. En el campo quedaría así: CB|BI|CL|PA|UB|TM|ES
 
-**confirmar usuario** Controla el despliegue de la página de
-confirmación de datos del usuario. 1 = Sí, 0 = No.
+**confirmar usuario**
+Controla el despliegue de la página de confirmación de datos del usuario. 1 = Sí, 0 = No.
 
-**crit busq rapida** Establece la búsqueda rápida como criterio por
-defecto en el catálogo al público. Valor 1: define si se muestra el
-selector de criterio en el catálogo a usuarios “no staff” (1 = Sí, 0 =
-No). Para usuarios de staff el criterio siempre es visible. Valor 2:
-define el criterio por defecto para usuarios “no staff” (p=palabra
-clave, a=alfabeticamente). Valor 3: define el criterio por defecto para
-usuarios de staff.
+**crit busq rapida**
+Establece la búsqueda rápida como criterio por defecto en el catálogo al público. Valor 1: define si se muestra el selector de criterio en el catálogo a usuarios "no staff" (1 = Sí, 0 = No). Para usuarios de staff el criterio siempre es visible. Valor 2: define el criterio por defecto para usuarios "no staff" (p=palabra clave, a=alfabeticamente). Valor 3: define el criterio por defecto para usuarios de staff.
 
-**historico prestamos** Permite el despliegue, o no, del listado
-histórico de préstamos en el catálogo al público. Valor 1: 1 = lo
-permite, 0 = lo oculta. Valor 2: número de registros que se mostrará en
-cada página del histórico.
+**historico prestamos**
+Permite el despliegue, o no, del listado histórico de préstamos en el catálogo al público. Valor 1: 1 = lo permite, 0 = lo oculta. Valor 2: número de registros que se mostrará en cada página del histórico.
 
-**info item sumario** Configura la información que aparece en la columna
-*info* del sumario en el catálogo al público. Valor 1 = código de
-biblioteca visible (1 = Sí, 0 = No). Valor 2 = formato de registro
-visible (1 = Sí, 0 = No). Valor 3 = formato de ítem visible (1 = Sí, 0 =
-No). Valor 4 = estado del ítem visible (1 = Sí, 0 = No).
+**info item sumario**
+Configura la información que aparece en la columna _info_ del sumario en el catálogo al público. Valor 1 = código de biblioteca visible (1 = Sí, 0 = No). Valor 2 = formato de registro visible (1 = Sí, 0 = No). Valor 3 = formato de ítem visible (1 = Sí, 0 = No). Valor 4 = estado del ítem visible (1 = Sí, 0 = No).
 
-**info sumario** Usando este parámetro puede añadirse un texto de
-encabezamiento para la columna que contiene la información de las
-portadas en los sumarios de resultados y en el despliegue del detalle.
-El texto en sí se incluye en el campo *Notas*, mientras que en los
-campos de valor se autoriza o no su uso (1 = Sí, 0 = No.)
+**info sumario**
+Usando este parámetro puede añadirse un texto de encabezamiento para la columna que contiene la información de las portadas en los <u>sumarios de resultados</u> y en el <u>despliegue del detalle</u>. El texto en sí se incluye en el campo _Notas_, mientras que en los campos de valor se autoriza o no su uso (1 = Sí, 0 = No.)
 
-**limite terminos** Establece el número de términos aceptados en las
-búsquedas por palabra clave. Valor 1: cifra de términos aceptados en las
-búsquedas (sin contar operadores y paréntesis). Si el límite se excede,
-el sistema responde con una alerta. NOTA: Sólo aplica si la base no es
-PostgreSQL.
+**limite terminos**
+Establece el número de términos aceptados en las búsquedas por palabra clave. Valor 1: cifra de términos aceptados en las búsquedas (sin contar operadores y paréntesis). Si el límite se excede, el sistema responde con una alerta. NOTA: Sólo aplica si la base no es PostgreSQL.
 
-**muestra prefs items** Controla el despliegue de los prefijos de
-información de los ítems en el catálogo al público. Valor 1: Vol. Valor
-2: Pte. Valor 3: No. Valor 4: Tomo. Valor 5: Ejemplar (1 = mostrar, Otro
-= no mostrar).
+**muestra prefs items**
+Controla el despliegue de los prefijos de información de los ítems en el catálogo al público. Valor 1: Vol. Valor 2: Pte. Valor 3: No. Valor 4: Tomo. Valor 5: Ejemplar (1 = mostrar, Otro = no mostrar).
 
-**opac formatos** Permite limitar por formatos en el catálogo al
-público. El valor 1 habilita la función y 0 (o cualquier otro valor) la
-deshabilita. La restricción no aplica para catalogadores con
-instrucciones definidas.
+**opac formatos**
+Permite limitar por formatos en el catálogo al público. El valor 1 habilita la función y 0 (o cualquier otro valor) la deshabilita. La restricción no aplica para catalogadores con instrucciones definidas.
 
-**opac indices opcionales** Permite mostrar u ocultar los índices
-opcionales de búsqueda en el catálogo al púbico. Valor 1: ISBN. Valor 2:
-ISSN. Valor 3: Editorial. Valor 4: Serie. Valor 5: Clasificación (1 =
-mostrar, 0 = no mostrar).
+**opac indices opcionales**
+Permite mostrar u ocultar los índices opcionales de búsqueda en el catálogo al púbico. Valor 1: ISBN. Valor 2: ISSN. Valor 3: Editorial. Valor 4: Serie. Valor 5: Clasificación (1 = mostrar, 0 = no mostrar).
 
-**orden items** Controla el orden por defecto de los ejemplares en sus
-sumarios correspondientes. Valor 1: lista de códigos separados por
-comas. Los códigos que pueden usarse son: B = biblioteca, C =
-clasificación, CB = código de barras, V = volumen, P = parte, N =
-numero, T = tomo, E = ejemplar. A continuación de los códigos se coloca
-un + (signo más) para ordenamiento ascendente o un – (signo menos) para
-descendente. Por ejemplo: V+,P+,N+,T+,E+.
+**orden items**
+Controla el orden por defecto de los ejemplares en sus sumarios correspondientes. Valor 1: lista de códigos separados por comas. Los códigos que pueden usarse son: B = biblioteca, C = clasificación, CB = código de barras, V = volumen, P = parte, N = numero, T = tomo, E = ejemplar. A continuación de los códigos se coloca un + (signo más) para ordenamiento ascendente o un - (signo menos) para descendente. Por ejemplo: V+,P+,N+,T+,E+.
 
-**prefs items** Prefijos para el despliegue de la información de
-ejemplares. Se complementa con los parámetros *muestra prefs items* y
-*desplieguecopia*. Valor 1: Vol. Valor 2: Pte. Valor 3: No. Valor 4:
-Tomo.
+**prefs items**
+Prefijos para el despliegue de la información de ejemplares. Se complementa con los parámetros _muestra prefs items_ y _desplieguecopia_. Valor 1: Vol. Valor 2: Pte. Valor 3: No. Valor 4: Tomo.
 
-**radios busqueda avanzada** Controla el despliegue y el orden de las
-opciones de selección mostradas en la búsqueda avanzada. Los códigos que
-pueden usarse son: CODBARRAS = Código de barras, NOCTRL = No. control,
-NOADQ = No. adquisición, CALL = Clasificación (item), CALLB =
-Clasificación (bib), ISBN = ISBN, ISBN = ISSN, NOBIB = No. de ficha,
-NOITEM = Id de item. Si no se definen al menos dos códigos válidos, la
-serie de valores por defecto será:
+**radios busqueda avanzada**
+Controla el despliegue y el orden de las opciones de selección mostradas en la búsqueda avanzada. Los códigos que pueden usarse son: CODBARRAS = Código de barras, NOCTRL = No. control, NOADQ = No. adquisición, CALL = Clasificación (item), CALLB = Clasificación (bib), ISBN = ISBN, ISBN = ISSN, NOBIB = No. de ficha, NOITEM = Id de item. Si no se definen al menos dos códigos válidos, la serie de valores por defecto será:
+
 CODBARRAS|NOCTRL|NOADQ|CALL|CALLB|ISBN|ISBN|NOBIB|NOITEM
 
-**seguridad biblioteca** Restringe las búsquedas sólo a la biblioteca a
-la que pertenece el usuario. Valor 1: 1 = activa la función, 0 =
-desactiva la función.
+**seguridad biblioteca**
+Restringe las búsquedas sólo a la biblioteca a la que pertenece el usuario. Valor 1: 1 = activa la función, 0 = desactiva la función.
 
-**sel items opac** Permite elegir en el catálogo al público las copias
-del registro para generar una papeleta de solicitud de material. Valor
-1: controla si se muestra o no la casilla de selección (1 = Sí, 0 = No).
-Si en valor 1 es 1, en valor 2 se puede configurar una lista de números
-de ubicación separados por **|** (*pipes*) para indicar en qué
-ubicaciones se debe impedir la solicitud de préstamos.
+**sel items opac**
+Permite elegir en el catálogo al público las copias del registro para generar una papeleta de solicitud de material. Valor 1: controla si se muestra o no la casilla de selección (1 = Sí, 0 = No). Si en valor 1 es 1, en valor 2 se puede configurar una lista de números de ubicación separados por **|** (_pipes_) para indicar en qué ubicaciones se debe impedir la solicitud de préstamos.
 
-**solicitudesabiertas** Indica si permite hacer solicitudes a cualquier
-usuario desde el catálogo al público. Si es 1, no verifica el número de
-cuenta en la base de datos. Si es 0, no permite hacer la solicitud a
-menos que la cuenta sea válida en la base de datos del usuario.
+**solicitudesabiertas**
+Indica si permite hacer solicitudes a cualquier usuario desde el catálogo al público. Si es 1, no verifica el número de cuenta en la base de datos. Si es 0, no permite hacer la solicitud a menos que la cuenta sea válida en la base de datos del usuario.
 
-**renovacion cat** Determina si se puede renovar un préstamo desde el
-catálogo al público. 1=Sí, 0=No.
+**renovacion cat**
+Determina si se puede renovar un préstamo desde el catálogo al público:
 
-**chop** Define el porcentaje de caracteres que se quitan de la cadena
-de búsqueda antes de iniciar una búsqueda desde un hipervínculo
-alfabético. Esto provoca que la búsqueda considere cierto número de
-caracteres antes del final del término para así ampliar el número de
-resultados. Si el valor es mayor que 50 el sistema lo cambiará a 50, ya
-que es poco probable que una búsqueda obtenga resultados aceptables si
-busca términos recortados en más de un 50 por ciento.
++ **Valor 1:** controla la posibilidad de que un usuario pueda renovar un material desde el catálogo (1: Sí, 0: No).
++ **Valor 2:** indica si para renovar un material desde el catálogo se tomará en consideración la fecha de vencimiento del mismo (1: Sí, 0: No).
++ **Valor 3:** número de días previos a la fecha de vencimiento a partir de los cuales se podrá renovar un material. Por ejemplo, si en este campo el valor es **2** y un material prestado por **8** días vence el viernes a medio día, el mismo sólo podrá ser renovado a partir del miércoles anterior, pasado el medio día. Antes de esa fecha y hora, el material no estará en condición de ser renovado.
 
-**pagitems** Define el tamaño de la página de despliegue de ítems en el
-programa que despliega la vista en detalle de los registros
-bibliográficos.
+**chop**
+Define el porcentaje de caracteres que se quitan de la cadena de búsqueda antes de iniciar una búsqueda desde un hipervínculo alfabético. Esto provoca que la búsqueda considere cierto número de caracteres antes del final del término para así ampliar el número de resultados. Si el valor es mayor que 50 el sistema lo cambiará a 50, ya que es poco probable que una búsqueda obtenga resultados aceptables si busca términos recortados en más de un 50 por ciento.
 
-**bibformat1** Si existe este parámetro, la opción de bibliografía en
-formato abreviado estará disponible en el catálogo al público.
+**pagitems**
+Define el tamaño de la página de despliegue de ítems en el programa que despliega la vista en detalle de los registros bibliográficos.
 
-**bibformat2** Si existe este parámetro, la opción de bibliografía en
-formato bibliográfico estará disponible en el catálogo al público.
+**bibformat1**
+Si existe este parámetro, la opción de bibliografía en formato abreviado estará disponible en el catálogo al público.
 
-**bibformat3** Si existe este parámetro, la opción de bibliografía en
-formato de etiquetas estará disponible en el catálogo al público.
+**bibformat2**
+Si existe este parámetro, la opción de bibliografía en formato bibliográfico estará disponible en el catálogo al público.
 
-**bibformat4** Si existe este parámetro, la opción de bibliografía en
-formato bibliográfico sin copias estará disponible en el catálogo al
-público.
+**bibformat3**
+Si existe este parámetro, la opción de bibliografía en formato de etiquetas estará disponible en el catálogo al público.
 
-**limitebibliografia** Indica el número máximo de registros que podrán
-seleccionarse y desplegarse en una bibliografía.
+**bibformat4**
+Si existe este parámetro, la opción de bibliografía en formato bibliográfico sin copias estará disponible en el catálogo al público.
 
-**pagsumario** Define el tamaño de la página de despliegue de registros
-en los sumarios.
+**limitebibliografia**
+Indica el número máximo de registros que podrán seleccionarse y desplegarse en una bibliografía.
 
-**desplieguecopia** Define la descripción que se presenta en la columna
-copia en el detalle de registros bibliográficos. Los valores comunes
-pueden ser Copias o Ejemplares.
+**pagsumario**
+Define el tamaño de la página de despliegue de registros en los sumarios.
 
-**pacubicaciones** Permite limitar por ubicaciones/colecciones en el
-catálogo al público. El valor 1 indica que aparece la opción de
-selección de ubicaciones/colecciones y el 0 deshabilita esta función.
+**desplieguecopia**
+Define la descripción que se presenta en la columna copia en el detalle de registros bibliográficos. Los valores comunes pueden ser Copias o Ejemplares.
 
-**pacestadoitem** Permite limitar por estado del ejemplar en el catálogo
-al público. El valor 1 indica que aparece la opción de selección de
-estado y el 0 deshabilita esta función.
+**pacubicaciones**
+Permite limitar por ubicaciones/colecciones en el catálogo al público. El valor 1 indica que aparece la opción de selección de ubicaciones/colecciones y el 0 deshabilita esta función.
 
-**pactipomaterial** Permite limitar por tipo de material del ejemplar en
-el catálogo al público. El valor 1 indica que aparece la opción de
-selección de tipo de material y el 0 deshabilita esta función.
+**pacestadoitem**
+Permite limitar por estado del ejemplar en el catálogo al público. El valor 1 indica que aparece la opción de selección de estado y el 0 deshabilita esta función.
 
-**desplegaretiqopac** Indica si el botón de “desplegar etiquetas” que
-aparece en el despliegue de registros bibliográficos en el catálogo al
-público debe activarse o no. 1=Activar función, 0=No activar función.
+**pactipomaterial**
+Permite limitar por tipo de material del ejemplar en el catálogo al público. El valor 1 indica que aparece la opción de selección de tipo de material y el 0 deshabilita esta función.
 
-**urlusuario** Define si se activa el enlace asociado a una fotografía
-de usuario en el catálogo al público o no. 1=activar 0=desactivar.
+**desplegaretiqopac**
+Indica si el botón de “desplegar etiquetas” que aparece en el despliegue de registros bibliográficos en el catálogo al público debe activarse o no. 1=Activar función, 0=No activar función.
 
-**num columnas busq pred** Define el número de columnas que se
-utilizarán para desplegar opciones en la página de la búsqueda
-predefinida.
+**urlusuario**
+Define si se activa el enlace asociado a una fotografía de usuario en el catálogo al público o no. 1=activar 0=desactivar.
 
-**maxregsZ3950** Define el número máximo de registros a recuperar en una
-consulta Z39.50. El valor 0 define número ilimitado de registros a
-recuperar.
+**num columnas busq pred**
+Define el número de columnas que se utilizarán para desplegar opciones en la página de la búsqueda predefinida.
 
-**reservacion cat** Determina si se puede reservar un material desde el
-catálogo al público. 1=Sí, 0=No.
+**maxregsZ3950**
+Define el número máximo de registros a recuperar en una consulta Z39.50. El valor 0 define número ilimitado de registros a recuperar.
 
-**cat central** Definición del tipo de catalogación para búsquedas. Si
-el parámetro es 1, define un catálogo central en el que la restricción
-de biblioteca se da desde la tabla *items*. Si es 0, define un
-comportamiento normal, en el que la biblioteca que está definida como
-propietaria del registro en la tabla *bibdata* es la que se usa para la
-restricción de la búsqueda. La opción 1 requiere cambio de “views”, por
-lo que, después de cambiar este valor es necesario utilizar el programa
-*platform setup* para la creación de los “views” apropiados en la base
-de datos.
+**reservacion cat**
+Determina si se puede reservar un material desde el catálogo al público. 1=Sí, 0=No.
 
-**sumario despfec** Define si la fecha del subcampo $c de la etiqueta
-260, es decir, la fecha de publicación, se desplegará en el sumario de
-títulos, junto a la clasificación. 1=Sí, 0=No. Esto sólo aplica para
-registros hechos con formatos basados en MARC.
+**cat central**
+Definición del tipo de catalogación para búsquedas. Si el parámetro es 1, define un catálogo central en el que la restricción de biblioteca se da desde la tabla _items_. Si es 0, define un comportamiento normal, en el que la biblioteca que está definida como propietaria del registro en la tabla _bibdata_ es la que se usa para la restricción de la búsqueda. La opción 1 requiere cambio de "views", por lo que, después de cambiar este valor es necesario utilizar el programa _platform setup_ para la creación de los "views" apropiados en la base de datos.
 
-**sumario despclass** Define si se despliega, o no, la clasificación
-bibliográfica en el sumario. 1 = Sí, 0 = No.
+**sumario despfec**
+Define si la fecha del subcampo $c de la etiqueta 260, es decir, la fecha de publicación, se desplegará en el sumario de títulos, junto a la clasificación. 1=Sí, 0=No. Esto sólo aplica para registros hechos con formatos basados en MARC.
 
-##### Parámetros sobre la indización
+**sumario despclas**
+Define si se despliega, o no, la clasificación bibliográfica en el sumario. 1 = Sí, 0 = No.
 
-**bloquepalabra** Define cuántos registros se procesan en cada bloque
-para la generación de índices.
+---- 
 
-**caracteres equivalentes a espacio** Define qué caracteres van a ser
-considerados por el sistema como equivalentes a espacio durante las
-búsquedas y la indización. Valor 1: lista de caracteres, enumerados uno
-junto a otro. Por ejemplo: .,:/\~@\_;{}?¿¡!\#$&’=&lt;&gt;+
+##### Parámetros sobre la indización
 
-**caracteres no alfanum indizables** Define qué caracteres no
-alfanuméricos van a ser tenidos en cuenta por el sistema durante la
-indización. Valor 1: lista de caracteres, enumerados uno junto a otro.
-Por ejemplo: \*()”%-
+**bloquepalabra**
+Define cuántos registros se procesan en cada bloque para la generación de índices.
 
-**caracteres no alfanum validos en busquedas** Define qué caracteres no
-alfanuméricos van a ser tenidos en cuenta por el sistema para realizar
-búsquedas. Valor 1: lista de caracteres, enumerados uno junto a otro.
-Por ejemplo: %-
+**caracteres equivalentes a espacio**
+Define qué caracteres van a ser considerados por el sistema como equivalentes a espacio durante las búsquedas y la indización. Valor 1: lista de caracteres, enumerados uno junto a otro. Por ejemplo: .,:/~@\_;?¿¡!#$&'=\<\>+
 
-**reindex** Parámetro relacionado con la indización de registros en
-línea. Valor 1: indica al sistema si ejecuta la indización utilizando
-*reindex.pl* (1 = Activo, 0 = Inactivo).
+**caracteres no alfanum indizables**
+Define qué caracteres no alfanuméricos van a ser tenidos en cuenta por el sistema durante la indización. Valor 1: lista de caracteres, enumerados uno junto a otro. Por ejemplo: \*()"%-
 
-**tagsindicadoralfa1** Define a qué etiquetas va a aplicarles la
-alfabetización en el primer indicador. Los valores deben separarse por
-el carácter **|**. Por ejemplo:|245|240|222|242|243|
+**caracteres no alfanum validos en busquedas**
+Define qué caracteres no alfanuméricos van a ser tenidos en cuenta por el sistema para realizar búsquedas. Valor 1: lista de caracteres, enumerados uno junto a otro. Por ejemplo: %-
 
-**tagsindicadoralfa2** Define a que etiquetas va a aplicarles la
-alfabetización en el segundo indicador. Los valores deben separarse por
-el carácter **|**. Por ejemplo:|730|740|
+**reindex**
+Parámetro relacionado con la indización de registros en línea. Valor 1: indica al sistema si ejecuta la indización utilizando _reindex.pl_ (1 = Activo, 0 = Inactivo).
 
-**prefijo url relativo ft** Prefijo que se agrega a los urls relativos
-para la indización por texto completo. Normalmente sólo se necesita
-cuando el servidor debe responder a un puerto distinto de 80 o a un
-nombre distinto de servidor virtual.
+**tagsindicadoralfa1**
+Define a qué etiquetas va a aplicarles la alfabetización en el primer indicador. Los valores deben separarse por el carácter **|**. Por ejemplo:|245|240|222|242|243|
 
-##### Parámetros sobre el editor
+**tagsindicadoralfa2**
+Define a que etiquetas va a aplicarles la alfabetización en el segundo indicador. Los valores deben separarse por el carácter **|**. Por ejemplo:|730|740|
 
-**editor advertencia** Indica si se deben desplegar advertencias cuando
-el editor encuentre elementos que no estén definidos en el sistema.
-1=desplegar advertencias, 0=no desplegar advertencias.
+**prefijo url relativo ft**
+Prefijo que se agrega a los urls relativos para la indización por texto completo. Normalmente sólo se necesita cuando el servidor debe responder a un puerto distinto de 80 o a un nombre distinto de servidor virtual.
 
-**editor max columnas** Define el número de columnas que se desplegarán
-como máximo al editar un campo de un registro bibliográfico. El valor
-por omisión es de 40. Este valor controla el despliegue definido en el
-campo *Capturar como área de texto* de la tabla de *elementos formatos*.
+---- 
 
-**editor max renglones** Define el número de renglones que se
-desplegarán como máximo al editar un campo de un registro bibliográfico.
-El valor por omisión es de 10. Este valor controla el despliegue
-definido en el campo *Capturar como área de texto* de la tabla de
-*elementos formatos*.
+##### Parámetros sobre el editor
 
-##### Parámetros sobre Circulación
+**editor advertencia**
+Indica si se deben desplegar advertencias cuando el editor encuentre elementos que no estén definidos en el sistema. 1=desplegar advertencias, 0=no desplegar advertencias.
 
-**acumula info prestamos** Define la forma en que se acumula la
-información del material a prestar, devolver o renovar. Si es 1, los
-materiales se acumulan hasta que se oprime el botón *Fin*. Si es 0, los
-materiales aparecen en pantalla hasta que el sistema detecta que se
-trata de otro usuario; en ese momento, limpia la información del
-material existente y empieza a acumular la del nuevo usuario.
+**editor max columnas**
+Define el número de columnas que se desplegarán como máximo al editar un campo de un registro bibliográfico. El valor por omisión es de 40. Este valor controla el despliegue definido en el campo _Capturar como área de texto_ de la tabla de _elementos formatos_.
 
-**apartados pcd por bib usuario** Controla el comportamiento de los
-materiales apartados del tipo *Primera copia disponible*. Valor 1: si es
-0, asignará el material de acuerdo a las reglas definidas en el mapa de
-circulación. Si es 1, al hacer un apartado asignará al usuario sólo
-aquellos materiales que pertenezcan a su biblioteca, aunque en el mapa
-de circulación tenga definidas reglas para otros ítems del mismo
-registro.
+**editor max renglones**
+Define el número de renglones que se desplegarán como máximo al editar un campo de un registro bibliográfico. El valor por omisión es de 10. Este valor controla el despliegue definido en el campo _Capturar como área de texto_ de la tabla de _elementos formatos_.
 
-**auto codigo barras** Establece el uso automático de los números de
-código de barras. Valor 1: el sistema genera automáticamente códigos de
-barras (1=Sí, 0=No). Valor 2: el sistema usa las máscaras configuradas
-por biblioteca durante la captura o el despliegue (1=Sí, 0=No). Valor 3:
-el sistema usa las máscaras configuradas por biblioteca durante la
-impresión de etiquetas (1=Sí, 0=No).
+---- 
 
-**controlprestamo** Define si un material puede ser prestado a un
-usuario el mismo día en que éste realizó la devolución del material.
-Valor 1: 0 = permite el préstamo siempre, 1 = valida el ítem devuelto, 2
-= valida todas las copias que pertenecen al mismo registro y biblioteca
-del material devuelto, 3 = valida todas las copias que pertenecen al
-mismo registro del material devuelto, sin importar la biblioteca. Valor
-2: 1 = valida el número de cuenta del usuario, 2 = valida todas las
-cuentas ligadas al registro del usuario.
+##### Parámetros sobre Circulación
 
-**desp prestamo interno** Texto de despliegue para préstamos internos.
-Se muestra en la parte superior de la pantalla de devolución. Los
-valores comunes pueden ser *Préstamo interno* o *Préstamo en sala*.
+**acumula info prestamos**
+Define la forma en que se acumula la información del material a prestar, devolver o renovar. Si es 1, los materiales se acumulan hasta que se oprime el botón _Fin_. Si es 0, los materiales aparecen en pantalla hasta que el sistema detecta que se trata de otro usuario; en ese momento, limpia la información del material existente y empieza a acumular la del nuevo usuario.
 
-**despliegue usuario prestamo** Permite elegir categorías informativas
-del usuario para su despliegue al estar realizando un préstamo. Valor 1
-= Bibliotecas, valor 2 = Perfiles, valor 3 = Vigencia, valor 4 =Cat 1 de
-usuario valor 5 = Cat 2 de usuario (1 = se muestra el dato, 0 = no se
-muestra).
+**apartados pcd por bib usuario**
+Controla el comportamiento de los materiales apartados del tipo _Primera copia disponible_. Valor 1: si es 0, asignará el material de acuerdo a las reglas definidas en el mapa de circulación. Si es 1, al hacer un apartado asignará al usuario sólo aquellos materiales que pertenezcan a su biblioteca, aunque en el mapa de circulación tenga definidas reglas para otros ítems del mismo registro.
 
-**estado items inv** Definición de los estados de los ítems para
-inventarios. Valor 1 = “faltante”, usado para marcar ítems existentes en
-la base de datos pero no encontrados en el inventario. Valor 2 =
-“perdido”, usado para marcar ítems existentes en la base pero declarados
-perdidos (y no considerados nunca en un inventario). Valor 3 =
-“inexistente”, usado para marcar ítems recogidos en un inventario pero
-que no existen en la base.
+**auto codigo barras**
+Establece el uso automático de los números de código de barras. Valor 1: el sistema genera automáticamente códigos de barras (1=Sí, 0=No). Valor 2: el sistema usa las máscaras configuradas por biblioteca durante la captura o el despliegue (1=Sí, 0=No). Valor 3: el sistema usa las máscaras configuradas por biblioteca durante la impresión de etiquetas (1=Sí, 0=No).
 
-**estado usuario despues const no adeudo** Estado que se asigna al
-usuario después de que se le emita una constancia de no adeudo.
+**controlprestamo**
+Define si un material puede ser prestado a un usuario el mismo día en que éste realizó la devolución del material. Valor 1: 0 = permite el préstamo siempre, 1 = valida el ítem devuelto, 2 = valida todas las copias que pertenecen al mismo registro y biblioteca del material devuelto, 3 = valida todas las copias que pertenecen al mismo registro del material devuelto, sin importar la biblioteca. Valor 2: 1 = valida el número de cuenta del usuario, 2 = valida todas las cuentas ligadas al registro del usuario.
 
-**pass pre verif** Permite la preverificación de contraseñas. Valor 1: 1
-= password preverificado, 0 = password no preverificado. Valor 2: código
-que debe recibirse desde la forma preverificada.
+**desp prestamo interno**
+Texto de despliegue para préstamos internos. Se muestra en la parte superior de la pantalla de devolución. Los valores comunes pueden ser _Préstamo interno_ o _Préstamo en sala_.
 
-**prestamo dias naturales** Permite elegir la forma en que se desea que
-los días de préstamo de material sean calculados, bien usando días
-naturales (se incluyen fines de semana, festivos y vacaciones) o tomando
-en cuenta sólo días hábiles (aquellos en los que la institución
-permanece abierta). Valor 1: 1 = días naturales, 0 = días hábiles.
+**despliegue usuario prestamo**
+Permite elegir categorías informativas del usuario para su despliegue al estar realizando un préstamo. Valor 1 = Bibliotecas, valor 2 = Perfiles, valor 3 = Vigencia, valor 4 =Cat 1 de usuario valor 5 = Cat 2 de usuario (1 = se muestra el dato, 0 = no se muestra).
 
-Por ejemplo: un material prestado a un usuario el día 1 del mes, durante
-un periodo de quince días, por una institución que tenga establecidos
-días naturales para el control de sus préstamos, debería ser devuelto el
-día 15 del mes, ya que se contabilizarían los fines de semana. Mientras
-que, si se aplicase un criterio de días hábiles, el material debería
-entregarse el día 22 del mes, excluyéndose del cálculo los fines de
-semana.
+**estado items inv**
+Definición de los estados de los ítems para inventarios. Valor 1 = "faltante", usado para marcar ítems existentes en la base de datos pero no encontrados en el inventario. Valor 2 = "perdido", usado para marcar ítems existentes en la base pero declarados perdidos (y no considerados nunca en un inventario). Valor 3 = "inexistente", usado para marcar ítems recogidos en un inventario pero que no existen en la base.
 
-**ver domicilios** Valida si se muestra o no la pestaña de información
-de domicilios al realizar el préstamo de material. 1 = Se muestra, 0 =
-No se muestra.
+**estado usuario despues const no adeudo**
+Estado que se asigna al usuario después de que se le emita una constancia de no adeudo.
+
+**pass pre verif**
+Permite la preverificación de contraseñas. Valor 1: 1 = password preverificado, 0 = password no preverificado. Valor 2: código que debe recibirse desde la forma preverificada.
+
+**prestamo dias naturales**
+Permite elegir la forma en que se desea que los días de préstamo de material sean calculados, bien usando días <u>naturales</u> (se incluyen fines de semana, festivos y vacaciones) o tomando en cuenta sólo días <u>hábiles</u> (aquellos en los que la institución permanece abierta). Valor 1: 1 = días naturales, 0 = días hábiles.
+
+Por ejemplo: un material prestado a un usuario el día 1 del mes, durante un periodo de quince días, por una institución que tenga establecidos días <u>naturales</u> para el control de sus préstamos, debería ser devuelto el día 15 del mes, ya que se contabilizarían los fines de semana. Mientras que, si se aplicase un criterio de días <u>hábiles</u>, el material debería entregarse el día 22 del mes, excluyéndose del cálculo los fines de semana.
+
+**ver domicilios**
+Valida si se muestra o no la pestaña de información de domicilios al realizar el préstamo de material. 1 = Se muestra, 0 = No se muestra.
+
+---- 
 
 ##### Parámetros sobre Adquisiciones
 
-**adq ordenes** Permite establecer la creación de líneas de orden de
-compra sólo si están relacionadas con registros bibliográficos, o forzar
-esta creación sin relaciones. Valor 1: si es 1, debe existir una
-relación para poder crear la línea de orden. Si es 0, permite crear
-líneas de orden sin relaciones con registros bibliográficos.
+**adq ordenes**
+Permite establecer la creación de líneas de orden de compra sólo si están relacionadas con registros bibliográficos, o forzar esta creación sin relaciones. Valor 1: si es 1, debe existir una relación para poder crear la línea de orden. Si es 0, permite crear líneas de orden sin relaciones con registros bibliográficos.
 
-**codigos avisos\_adq** Códigos correspondientes a las tablas *tipo
-cancelacion* y *tipo reclamacion* para ser utilizados por el programa en
-“batch” que genera reclamaciones y cancelaciones. El valor 1 se usa para
-definir *ntipo cancelacion* y el valor 2, para definir *ntipo
-reclamacion*.
+**codigos avisos adq**
+Códigos correspondientes a las tablas _tipo cancelacion_ y _tipo reclamacion_ para ser utilizados por el programa en "batch" que genera reclamaciones y cancelaciones. El valor 1 se usa para definir _ntipo cancelacion_ y el valor 2, para definir _ntipo reclamacion_.
 
-**equivalencias adq** Definición de equivalencias para campos de órdenes
-de compra. Valor 1: se guarda el valor de *nformato* por omisión cuando
-se leen registros desde la base de datos. Valor 2: contiene el formato
-por omisión para crear registros bibliográficos a partir de los
-registros de órdenes.
+**equivalencias adq**
+Definición de equivalencias para campos de órdenes de compra. Valor 1: se guarda el valor de _nformato_ por omisión cuando se leen registros desde la base de datos. Valor 2: contiene el formato por omisión para crear registros bibliográficos a partir de los registros de órdenes.
 
-**estado items adq** Definición de los estados de los ítems para
-Adquisiciones. Valor 1 = valor preferido al ordenar el ítem. Valor 2 =
-valor a asignar al ítem cuando es recibido. Valor 3 = valor a asignar al
-cancelar la línea de orden. Valor 4 = valor a asignar cuando se reclama
-el ítem.
+**estado items adq**
+Definición de los estados de los ítems para Adquisiciones. Valor 1 = valor preferido al ordenar el ítem. Valor 2 = valor a asignar al ítem cuando es recibido. Valor 3 = valor a asignar al cancelar la línea de orden. Valor 4 = valor a asignar cuando se reclama el ítem.
 
-**facturas** Parámetro para control de facturación. Valor 1: 1 = permite
-facturar mayor cantidad a la ordenada, 0 = no permite facturar más de lo
-ordenado. Valor 2: 1 = permite crear facturas aunque no se hayan
-recibido los materiales, 0 = solo permite facturar la cantidad recibida.
+**facturas**
+Parámetro para control de facturación. Valor 1: 1 = permite facturar mayor cantidad a la ordenada, 0 = no permite facturar más de lo ordenado. Valor 2: 1 = permite crear facturas aunque no se hayan recibido los materiales, 0 = solo permite facturar la cantidad recibida.
+
+---- 
 
 ##### Parámetros sobre Control bibliográfico
 
-**autoridades** Parámetros para controlar la creación de autoridades.
-Valor 1: 1 = crear autoridades si no existen, 0 = no crear autoridades.
-Valor 2: 1 = crear referencias cruzadas en autoridades, 0 = no crear
-referencias. Valor 3: 1 = balancear referencias cruzadas, 0 = no
-balancear referencias.
+**autoridades**
+Parámetros para controlar la creación de autoridades. Valor 1: 1 = crear autoridades si no existen, 0 = no crear autoridades. Valor 2: 1 = crear referencias cruzadas en autoridades, 0 = no crear referencias. Valor 3: 1 = balancear referencias cruzadas, 0 = no balancear referencias.
 
-**boton acervo** Controla la aparición de un botón para crear un nuevo
-ítem (*“Crear nueva copia”*) justo antes de la parte de información de
-ejemplares. 1 = usar botón, 0 = no usar botón.
+**boton acervo**
+Controla la aparición de un botón para crear un nuevo ítem (_"Crear nueva copia"_) justo antes de la parte de información de ejemplares. 1 = usar botón, 0 = no usar botón.
 
-**copiar clasificacion** Permite copiar la clasificación al crear un
-ítem, desde la etiqueta o etiquetas definidas para ello. Valor 1: 1 =
-copiar, 0 = no copiar. Valor 2: etiqueta a copiar 1. Valor 3: etiqueta a
-copiar 2. Valor 4: etiqueta a copiar 3. Valor 5: etiqueta a copiar 4.
+**copiar clasificacion**
+Permite copiar la clasificación al crear un ítem, desde la etiqueta o etiquetas definidas para ello. Valor 1: 1 = copiar, 0 = no copiar. Valor 2: etiqueta a copiar 1. Valor 3: etiqueta a copiar 2. Valor 4: etiqueta a copiar 3. Valor 5: etiqueta a copiar 4.
 
-**listas aut** Parámetro para controlar el uso de listas de autoridad en
-lugar del control de autoridades. Valor 1: 1 = usar listas, 0 = usar
-control. Valor 2: 1 = guardar entradas de la lista que no se usan, 0 =
-borrar entradas de la lista que no se usan.
+**listas aut**
+Parámetro para controlar el uso de listas de autoridad en lugar del control de autoridades. Valor 1: 1 = usar listas, 0 = usar control. Valor 2: 1 = guardar entradas de la lista que no se usan, 0 = borrar entradas de la lista que no se usan.
 
-**multi seleccion** Permite seleccionar varios ítems de una vez para
-poder editarlos o borrarlos. Valor 1: 1 = conserva el comportamiento
-actual por el que, al hacer clic sobre cualquier cuadro de selección de
-ejemplar se despliega la pantalla de Administración de ítems. Valor 1: 0
-= se activa la selección múltiple.
+**multi seleccion**
+Permite seleccionar varios ítems de una vez para poder editarlos o borrarlos. Valor 1: 1 = conserva el comportamiento actual por el que, al hacer clic sobre cualquier cuadro de selección de ejemplar se despliega la pantalla de Administración de ítems. Valor 1: 0 = se activa la selección múltiple.
 
-**ocultar referencias aut** Permite mostrar u ocultar la columna de
-referencias en los sumarios de autoridades. Valor 1: 1 = ocultar, 0 =
-mostrar.
+**ocultar referencias aut**
+Permite mostrar u ocultar la columna de referencias en los sumarios de autoridades. Valor 1: 1 = ocultar, 0 = mostrar.
 
-**solo formatos padres** Define si se despliegan solamente formatos
-“padres”, o no, en la lista de formatos durante la creación de registros
-(1 = Sí, 0 = No).
+**solo formatos padres**
+Define si se despliegan solamente formatos "padres", o no, en la lista de formatos durante la creación de registros (1 = Sí, 0 = No).
+
+---- 
 
 ##### Parámetros sobre Reportes
 
-**rep repetir iguales** Permite repetir valores iguales en Reportes (1 =
-Repetir, 0 = No repetir).
+**rep repetir iguales**
+Permite repetir valores iguales en Reportes (1 = Repetir, 0 = No repetir).
+
+---- 
 
 ##### Parámetros sobre Publicaciones periódicas
 
-**tipo reclamacion pubper** Número de tipo de reclamación preferida para
-publicaciones periódicas que el sistema usará al generar las
-reclamaciones de forma automática.
+**tipo reclamacion pubper**
+Número de tipo de reclamación preferida para publicaciones periódicas que el sistema usará al generar las reclamaciones de forma automática.
 
-**usa sisac** Activa el uso del número SISAC para identificar fascículos
-en el sistema. Valor 1: 1 = función activada, 0 = función desactivada.
+**usa sisac**
+Activa el uso del número SISAC para identificar fascículos en el sistema. Valor 1: 1 = función activada, 0 = función desactivada.
 
 ### Definición de etiquetas a desplegar en OPAC
 
-Es posible seleccionar las etiquetas y subcampos que deben desplegarse
-en el catálogo al público. Cualquier etiqueta que se haya definido en el
-sistema Janium, ya sea de formato MARC o no, puede ser mostrada al
-desplegar un registro.
+Es posible seleccionar las etiquetas y subcampos que deben desplegarse en el catálogo al público. Cualquier etiqueta que se haya definido en el sistema Janium, ya sea de formato MARC o no, puede ser mostrada al desplegar un registro.
 
-![\*\*Definición de etiquetas a desplegar en
-OPAC\*\*](wpid-Despliegue_etiquetas_opac.png)
+![](Despliegue_etiquetas_opac.png)
 
-![\*\*Definición de etiquetas a desplegar en OPAC
-2\*\*](wpid-Despliegue_etiquetas_opac2.png)
+![](Despliegue_etiquetas_opac2.png)
 
-Los campos necesarios para definir una etiqueta que debe desplegarse en
-el catálogo al público son:
+Los campos necesarios para definir una etiqueta que debe desplegarse en el catálogo al público son:
 
--   **Gateway**: número de *pasarela* al que pertenece esta definición.
-    Este es un dato numérico y es parte de la llave del registro.
++ **Gateway**: número de _pasarela_ al que pertenece esta definición. Este es un dato numérico y es parte de la llave del registro.
 
--   **Idioma**: idioma bajo el que se desplegará la información definida
-    en este registro.
++ **Idioma**: idioma bajo el que se desplegará la información definida en este registro.
 
--   **Orden para desplegar**: orden consecutivo para desplegar la
-    información. Es recomendable dejar espacios en la numeración para
-    poder intercalar nuevas definiciones sin tener que mover los
-    registros existentes, por ejemplo, 120, 130, 140, etc.
++ **Orden para desplegar**: orden consecutivo para desplegar la información. Es recomendable dejar espacios en la numeración para poder intercalar nuevas definiciones sin tener que mover los registros existentes, por ejemplo, 120, 130, 140, etc.
 
--   **Desplegar etiqueta (1=Sí, 0=No)**: es posible definir etiquetas de
-    texto a desplegar, por ejemplo la etiqueta 245 puede tener definida
-    la etiqueta como TITULO o TITULO PRINCIPAL, etc. Este campo indica
-    si esa etiqueta es desplegada o no.
++ **Desplegar etiqueta (1=Sí, 0=No)**: es posible definir etiquetas de texto a desplegar, por ejemplo la etiqueta 245 puede tener definida la etiqueta como TITULO o TITULO PRINCIPAL, etc. Este campo indica si esa etiqueta es desplegada o no.
 
--   **Saltar renglón (1=Sí, 0=No)**: indica si hace un salto de línea
-    después de desplegar la información o continúa escribiendo a renglón
-    seguido el siguiente elemento a desplegar.
++ **Saltar renglón (1=Sí, 0=No)**: indica si hace un salto de línea después de desplegar la información o continúa escribiendo a renglón seguido el siguiente elemento a desplegar.
 
--   **Etiqueta**: etiqueta del registro desde la que obtiene la
-    información.
++ **Etiqueta**: etiqueta del registro desde la que obtiene la información.
 
--   **Subcampo**: subcampo de la etiqueta desde el que obtiene la
-    información.
++ **Subcampo**: subcampo de la etiqueta desde el que obtiene la información.
 
--   **Etiqueta**: texto que debe desplegarse antes de la información,
-    por ejemplo, TITULO, AUTOR, TEMA, etc.
++ **Etiqueta**: texto que debe desplegarse antes de la información, por ejemplo, TITULO, AUTOR, TEMA, etc.
 
--   **Búsqueda por hipertexto (1=Sí, 0=No)**: define si se habilita un
-    hipervínculo para ejecutar una búsqueda con la información
-    desplegada.
++ **Búsqueda por hipertexto (1=Sí, 0=No)**: define si se habilita un hipervínculo para ejecutar una búsqueda con la información desplegada.
 
--   **Indice**: si el campo anterior tiene como valor 1, en este campo
-    se debe indicar el número del índice en el que hará la búsqueda al
-    dar click sobre la información. Se pueden seleccionar índices
-    alfabéticos o de palabra clave. Cuando se seleccionan índices de
-    palabra clave, todas las palabras que están desplegadas son enviadas
-    al subsistema de búsquedas con operador booleano *and*. Por ejemplo,
-    con una materia México – Historia, el término a buscar será MEXICO
-    AND HISTORIA.
++ **Indice**: si el campo anterior tiene como valor 1, en este campo se debe indicar el número del índice en el que hará la búsqueda al dar click sobre la información. Se pueden seleccionar índices alfabéticos o de palabra clave. Cuando se seleccionan <u>índices de palabra clave</u>, todas las palabras que están desplegadas son enviadas al subsistema de búsquedas con operador booleano _and_. Por ejemplo, con una materia México – Historia, el término a buscar será MEXICO AND HISTORIA.
 
-    Si se selecciona un índice alfabético, la entrada será enviada al
-    subsistema de búsqueda para hacer una búsqueda alfabética. Si se
-    quieren ampliar los resultados de la búsqueda se puede usar el
-    parámetro *chop* de la tabla *config* para indicar el porcentaje de
-    texto a buscar que será truncado. Por ejemplo, si el parámetro
-    *chop* tiene un valor de 5 % el término a buscar sería MEXICO
-    HISTORI, y esta búsqueda obtendría entradas como México – Historia,
-    México – Historiadores, etc. El valor máximo del parámetro *chop* es
-    de 50 %.
-
-![\*\*Definición de etiquetas a desplegar en OPAC
-3\*\*](wpid-Despliegue_etiquetas_opac3.png)
+	Si se selecciona un <u>índice alfabético</u>, la entrada será enviada al subsistema de búsqueda para hacer una búsqueda alfabética. Si se quieren ampliar los resultados de la búsqueda se puede usar el parámetro _chop_ de la tabla _config_ para indicar el porcentaje de texto a buscar que será truncado. Por ejemplo, si el parámetro _chop_ tiene un valor de 5 % el término a buscar sería MEXICO HISTORI, y esta búsqueda obtendría entradas como México – Historia, México – Historiadores, etc. El valor máximo del parámetro _chop_ es de 50 %.
+	 
+![](Despliegue_etiquetas_opac3.png)
 
 ### Contadores del sistema
 
-La tabla de *contadores* mantiene el **último número** que se ha usado
-dentro del sistema para distintas categorías de registros. Esta tabla es
-actualizada automáticamente por el sistema por lo que, si se altera
-algún contador de forma manual el funcionamiento del sistema puede verse
-seriamente afectado.
+La tabla de _contadores_ mantiene el **último número** que se ha usado dentro del sistema para distintas categorías de registros. Esta tabla es actualizada automáticamente por el sistema por lo que, si se altera algún contador de forma manual <u>el funcionamiento del sistema puede verse seriamente afectado</u>.
 
-![\*\*Contadores del sistema\*\*](wpid-Contadores_sistema.jpg)
+![](Contadores_sistema.jpg)
 
-Los campos que se presentan en un registro de contadores del sistema son
-los siguientes:
+Los campos que se presentan en un registro de contadores del sistema son los siguientes:
 
--   **Clave:** nombre identificador del contador del sistema.
++ **Clave:** nombre identificador del contador del sistema.
 
--   **Contador:** último número correlativo asignado por el sistema para
-    el tipo de contador indicado en el campo anterior. El valor de este
-    campo se establece en función de las diferentes acciones que se
-    llevan a cabo con el sistema.
++ **Contador:** último número correlativo asignado por el sistema para el tipo de contador indicado en el campo anterior. El valor de este campo se establece en función de las diferentes acciones que se llevan a cabo con el sistema.
 
-![\*\*Contadores del sistema 2\*\*](wpid-Contadores_sistema2.png)
+![](Contadores_sistema2.png)
 
 ### Navegación en el sistema
 
-La tabla de *navegación* permite modificar las opciones que se presentan
-en el menú. Ayuda a personalizar el menú de opciones para distintos
-usuarios agregando o restringiendo funciones de acuerdo a las
-características del usuario que va a usar el sistema.
+La tabla de _navegación_ permite modificar las opciones que se presentan en el menú. Ayuda a personalizar el menú de opciones para distintos usuarios agregando o restringiendo funciones de acuerdo a las características del usuario que va a usar el sistema.
 
-![\*\*Navegación en el sistema\*\*](wpid-Navegacion_sistema.png)
+![](Navegacion_sistema.png)
 
-![\*\*Navegación en el sistema 2\*\*](wpid-Navegacion_sistema2.png)
+![](Navegacion_sistema2.png)
 
-Los campos de la tabla se describen a continuación:
+Los campos de la tabla se describen a continuación:
 
--   **Programa o función:** define el nombre del grupo de programas o
-    funciones en el menú e incluye la posición que tiene en la jerarquía
-    de las funciones. La notación es la misma que la de un directorio en
-    Unix/Linux, no se debe utilizar la notación de Windows. El signo
-    **/** indica el primer nivel o raíz del directorio, la segunda rama
-    puede definirse como **/cat**. Para definir una tercera rama bajo la
-    rama /cat tendríamos que usar una definición como la siguiente:
-    **/cat/rama3** y así, sucesivamente.
++ **Programa o función:** define el nombre del grupo de programas o funciones en el menú e incluye la posición que tiene en la jerarquía de las funciones. La notación es la misma que la de un directorio en Unix/Linux, <u>no se debe utilizar la notación de Windows</u>. El signo **/** indica el primer nivel o raíz del directorio, la segunda rama puede definirse como **/cat**. Para definir una tercera rama bajo la rama /cat tendríamos que usar una definición como la siguiente: **/cat/rama3** y así, sucesivamente.
 
--   **Opción:** número de la opción.
++ **Opción:** número de la opción.
 
--   **Descripción:** nombre que se desplegará en el menú.
++ **Descripción:** nombre que se desplegará en el menú.
 
--   **Perfil de seguridad:** nombre del perfil de seguridad del usuario,
-    requerido para hacer uso de esta función.
++ **Perfil de seguridad:** nombre del perfil de seguridad del usuario, requerido para hacer uso de esta función.
 
--   **Nombre programa:** nombre del programa a ejecutar. Si se trata de
-    un submenú se tiene que indicar el nombre del manejador del menú
-    *nav.pl*. Si se trata de un programa de ingreso y modificación de
-    datos se usa el programa *universal.pl*.
++ **Nombre programa:** nombre del programa a ejecutar. Si se trata de un submenú se tiene que indicar el nombre del manejador del menú _nav.pl_. Si se trata de un programa de ingreso y modificación de datos se usa el programa _universal.pl_.
 
--   **valor1:** nombre del programa o función que se presentará en el
-    grupo o rama definido por el primer valor de *Programa o función*.
-    Por ejemplo, en *Programa o función* se indica que se está
-    definiendo una entrada para el grupo o rama de catalogación **/cat**
-    y en valor1 se indica que se trata de una subrama **/cat/indices**.
-    Esto definiría un submenú dentro de un menú.
++ **valor1:** nombre del programa o función que se presentará en el grupo o rama definido por el primer valor de _Programa o función_. Por ejemplo, en _Programa o función_ se indica que se está definiendo una entrada para el grupo o rama de catalogación **/cat** y en valor1 se indica que se trata de una subrama **/cat/indices**. Esto definiría un submenú dentro de un menú.
 
--   **valor2:** este campo está reservado para uso futuro.
++ **valor2:** este campo está reservado para uso futuro.
 
--   **valor3:** valores que se envían al programa definido en el campo
-    valor1. Si se usa el programa *universal.pl* entonces en este campo
-    se debe indicar el nombre de la tabla que se usa. La notación es la
-    siguiente: tabla=NOMBRE TABLA.
++ **valor3:** valores que se envían al programa definido en el campo valor1. Si se usa el programa _universal.pl_ entonces en este campo se debe indicar el nombre de la tabla que se usa. La notación es la siguiente: tabla=NOMBRE TABLA.
 
-![\*\*Navegación en el sistema 3\*\*](wpid-Navegacion_sistema3.png)
+![](Navegacion_sistema3.png)
 
 ### Bibliotecas del sistema
 
-Conjunto de bibliotecas configuradas en el sistema y que son utilizadas
-por el personal de las mismas para sus actividades diarias y por los
-usuarios en el catálogo al público.
+Conjunto de bibliotecas configuradas en el sistema y que son utilizadas por el personal de las mismas para sus actividades diarias y por los usuarios en el catálogo al público.
 
-![\*\*Bibliotecas del sistema\*\*](wpid-Bibliotecas_sistema.png)
+![](Bibliotecas_sistema.png)
 
-![\*\*Bibliotecas del sistema 2\*\*](wpid-Bibliotecas_sistema2.png)
+![](Bibliotecas_sistema2.png)
 
-Los campos usados para definir un registro de biblioteca en el sistema
-son los siguientes:
+Los campos usados para definir un registro de biblioteca en el sistema son los siguientes:
 
--   **Biblioteca:** código numérico que identifica a la biblioteca
-    dentro del sistema. Este código es único y no es repetible.
++ **Biblioteca:** código numérico que identifica a la biblioteca dentro del sistema. <u>Este código es único y no es repetible</u>.
 
--   **Código biblioteca:** descripción abreviada que se va a desplegar
-    en las distintas pantallas y reportes del sistema.
++ **Código biblioteca:** descripción abreviada que se va a desplegar en las distintas pantallas y reportes del sistema.
 
--   **Descripción:** campo de 100 caracteres para guardar el nombre
-    completo de la biblioteca.
++ **Descripción:** campo de 100 caracteres para guardar el nombre completo de la biblioteca.
 
--   **Tipo:** se refiere al tipo de biblioteca: R=biblioteca real,
-    V=biblioteca virtual.
++ **Tipo:** se refiere al tipo de biblioteca: R=biblioteca real, V=biblioteca virtual.
 
--   **Hora apertura:** horario de inicio diario de labores en la
-    biblioteca. El formato para registrar los datos es *00:00:00*.
++ **Hora apertura:** horario de inicio diario de labores en la biblioteca. El formato para registrar los datos es _00:00:00_.
 
--   **Hora de cierre:** horario de fin diario de labores en la
-    biblioteca. El formato para registrar los datos es *00:00:00*.
++ **Hora de cierre:** horario de fin diario de labores en la biblioteca. El formato para registrar los datos es _00:00:00_.
 
--   **Activo (1=Sí, 0=No):** indica si esta entrada aparecerá en la
-    lista de selección del catálogo al público.
++ **Activo (1=Sí, 0=No):** indica si esta entrada aparecerá en la lista de selección del catálogo al público.
 
--   **Duración apartado**: unidad temporal usada para regular la
-    duración de los apartados / reservas de material llevadas a cabo por
-    los usuarios (*Horas*, *Días*).
++ **Duración apartado**: unidad temporal usada para regular la duración de los apartados / reservas de material llevadas a cabo por los usuarios (_Horas_, _Días_).
 
--   **Cantidad:** valor numérico relacionado con el campo anterior que
-    define cuánto tiempo van a durar los apartados / reservas de
-    material de los usuarios antes de anularse.
++ **Cantidad:** valor numérico relacionado con el campo anterior que define cuánto tiempo van a durar los apartados / reservas de material de los usuarios antes de anularse.
 
--   **Devolución de material de otra biblioteca (1 = Sí, 0 = No):**
-    permite autorizar, o no, a la biblioteca que se está definiendo para
-    recibir de los usuarios devoluciones de material prestado por parte
-    de alguna otra biblioteca del sistema.
++ **Devolución de material de otra biblioteca (1 = Sí, 0 = No):** permite autorizar, o no, a la biblioteca que se está definiendo para recibir de los usuarios devoluciones de material prestado por parte de alguna otra biblioteca del sistema.
 
--   **Tiempo en tránsito:** unidad temporal usada para gestionar la
-    duración del regreso del material devuelto en esta biblioteca a su
-    biblioteca de origen (*Horas*, *Días*).
++ **Tiempo en tránsito:** unidad temporal usada para gestionar la duración del regreso del material devuelto en esta biblioteca a su biblioteca de origen (_Horas_, _Días_).
 
--   **Cantidad:** valor numérico relacionado con el campo anterior que
-    define cuánto tiempo debe pasar para que el material devuelto en
-    esta biblioteca regrese a la biblioteca que lo prestó.
++ **Cantidad:** valor numérico relacionado con el campo anterior que define cuánto tiempo debe pasar para que el material devuelto en esta biblioteca regrese a la biblioteca que lo prestó.
 
-![\*\*Bibliotecas del sistema 3\*\*](wpid-Bibliotecas_sistema3.png)
+![](Bibliotecas_sistema3.png)
 
 ### Biblioteca, excepciones de horario
 
-Por lo general, mediante el parámetro *Bibliotecas del sistema* se
-definen los horarios de apertura y cierre de la biblioteca para un
-periodo de lunes a viernes. Sin embargo, algunas puede que abran durante
-otros días (sábados, domingos o festivos). Para estos casos es necesario
-configurar **excepciones de horario**.
+Por lo general, mediante el parámetro _Bibliotecas del sistema_ se definen los horarios de apertura y cierre de la biblioteca para un periodo de lunes a viernes. Sin embargo, algunas puede que abran durante otros días (sábados, domingos o festivos). Para estos casos es necesario configurar **excepciones de horario**.
 
-![\*\*Excepciones de horario para
-bibliotecas\*\*](wpid-Excepciones_horario.png)
+![](Excepciones_horario.png)
 
-![\*\*Excepciones de horario para bibliotecas
-2\*\*](wpid-Excepciones_horario2.png)
+![](Excepciones_horario2.png)
 
-Los campos usados para definir un registro de excepción de horario en el
-sistema son los siguientes:
+Los campos usados para definir un registro de excepción de horario en el sistema son los siguientes:
 
--   **No. biblioteca:** nombre o descripción de la biblioteca del
-    sistema a la que va a aplicar la excepción.
++ **No. biblioteca:** nombre o descripción de la biblioteca del sistema a la que va a aplicar la excepción.
 
--   **ndia:** día de la semana afectado por la excepción.
++ **ndia:** día de la semana afectado por la excepción.
 
--   **Hora apertura:** horario de inicio de labores en la biblioteca en
-    el día de la excepción. El formato para registrar los datos es
-    *00:00:00*.
++ **Hora apertura:** horario de inicio de labores en la biblioteca en el día de la excepción. El formato para registrar los datos es _00:00:00_.
 
--   **Hora de cierre:** horario de fin de labores en la biblioteca en el
-    día de la excepción. El formato para registrar los datos es
-    *00:00:00*.
++ **Hora de cierre:** horario de fin de labores en la biblioteca en el día de la excepción. El formato para registrar los datos es _00:00:00_.
 
--   **Hora de vencimiento:** horario que será utilizado en los préstamos
-    que se venzan en el día de la excepción. El formato para registrar
-    los datos es *00:00:00*.
++ **Hora de vencimiento:** horario que será utilizado en los préstamos que se venzan en el día de la excepción. El formato para registrar los datos es _00:00:00_.
 
-![\*\*Excepciones de horario para bibliotecas
-3\*\*](wpid-Excepciones_horario3.png)
+![](Excepciones_horario3.png)
 
 ### Grupos de bibliotecas
 
-Permite crear grupos de bibliotecas para ser utilizados como
-**limitadores de búsqueda** en el catálogo al público. Estos grupos
-serán identificados a través del código que lo defina en la lista de
-bibliotecas. De esta manera, los usuarios y operadores podrán
-seleccionar el grupo antes de ejecutar su búsqueda, para desplegar
-únicamente los registros pertenecientes a las bibliotecas agrupadas.
+Permite crear grupos de bibliotecas para ser utilizados como **limitadores de búsqueda** en el catálogo al público. Estos grupos serán identificados a través del código que lo defina en la lista de bibliotecas. De esta manera, los usuarios y operadores podrán seleccionar el grupo antes de ejecutar su búsqueda, para desplegar únicamente los registros pertenecientes a las bibliotecas agrupadas.
 
-![\*\*Grupos de bibliotecas\*\*](wpid-Grupos_bibliotecas.png)
+![](Grupos_bibliotecas.png)
 
-![\*\*Grupos de bibliotecas 2\*\*](wpid-Grupos_bibliotecas2.png)
+![](Grupos_bibliotecas2.png)
 
-Los campos usados para definir un registro de grupo de bibliotecas en el
-sistema son los siguientes:
+Los campos usados para definir un registro de grupo de bibliotecas en el sistema son los siguientes:
 
--   **No. biblioteca:** valor numérico de identificación del grupo. Este
-    número será el que se vea en la lista desplegable de limitadores de
-    búsqueda en el catálogo al público.
++ **No. biblioteca:** valor numérico de identificación del grupo. <u>Este número será el que se vea en la lista desplegable de limitadores de búsqueda en el catálogo al público</u>.
 
--   **Código biblioteca:** nombre o descripción breve del grupo.
++ **Código biblioteca:** nombre o descripción breve del grupo.
 
--   **Descripción:** descripción larga sobre el grupo de bibliotecas.
++ **Descripción:** descripción larga sobre el grupo de bibliotecas.
 
--   **Grupo:** identificadores numéricos de las bibliotecas que serán
-    agrupadas. Los valores deben ser escritos separados por comas y de
-    forma continua, sin espacios entre ellos.
++ **Grupo:** identificadores numéricos de las bibliotecas que serán agrupadas. Los valores deben ser escritos separados por comas y de forma continua, sin espacios entre ellos.
 
-![\*\*Grupos de bibliotecas 3\*\*](wpid-Grupos_bibliotecas3.png)
+![](Grupos_bibliotecas3.png)
 
 ### Descripciones de campos
 
-La tabla *descripción* guarda las descripciones de los campos que se
-presentan en las pantallas de acceso, edición de datos y en los
-reportes. Mediante el uso de esta tabla se pueden “localizar” los
-términos para adecuar el sistema a las necesidades del usuario final.
+La tabla _descripción_ guarda las descripciones de los campos que se presentan en las pantallas de acceso, edición de datos y en los reportes. Mediante el uso de esta tabla se pueden "localizar" los términos para adecuar el sistema a las necesidades del usuario final.
 
-![\*\*Descripciones de campos\*\*](wpid-Descripciones_campos.png)
+![](Descripciones_campos.png)
 
-![\*\*Descripciones de campos 2\*\*](wpid-Descripciones_campos2.png)
+![](Descripciones_campos2.png)
 
 Los campos para definir una entrada en la tabla son los siguientes:
 
--   **Etiqueta:** el nombre de la etiqueta a convertir. Cuando se
-    encuentre un campo de cualquier tabla que se llame de la misma forma
-    que la etiqueta definida aquí, la descripción a desplegar e imprimir
-    serán la definida para este registro, en lugar del nombre del campo
-    en la base de datos.
++ **Etiqueta:** el nombre de la etiqueta a convertir. Cuando se encuentre un campo de cualquier tabla que se llame de la misma forma que la etiqueta definida aquí, la descripción a desplegar e imprimir serán la definida para este registro, en lugar del nombre del campo en la base de datos.
 
--   **Descripción corta para captura:** palabra o frase que se muestra
-    en el ingreso y modificación de datos.
++ **Descripción corta para captura:** palabra o frase que se muestra en el ingreso y modificación de datos.
 
--   **Descripción larga para reportes:** palabra o frase que se usa en
-    la impresión de los reportes del sistema.
++ **Descripción larga para reportes:** palabra o frase que se usa en la impresión de los reportes del sistema.
 
-![\*\*Descripciones de campos 3\*\*](wpid-Descripciones_campos3.png)
+![](Descripciones_campos3.png)
 
 ### Idiomas
 
-La tabla de *idiomas* contiene los idiomas soportados por el sistema.
+La tabla de _idiomas_ contiene los idiomas soportados por el sistema.
 
-![\*\*Idiomas\*\*](wpid-Idiomas.png)
+![](Idiomas.png)
 
-![\*\*Idiomas 2\*\*](wpid-Idiomas2.png)
+![](Idiomas2.png)
 
-Los campos necesarios para definir un idioma dentro del sistema son los
-siguientes:
+Los campos necesarios para definir un idioma dentro del sistema son los siguientes:
 
--   **Idioma:** código numérico que identifica al idioma dentro del
-    sistema. Este código es único y no es repetible.
++ **Idioma:** código numérico que identifica al idioma dentro del sistema. <u>Este código es único y no es repetible</u>.
 
--   **Descripción:** descripción del idioma.
++ **Descripción:** descripción del idioma.
 
-![\*\*Idiomas 3\*\*](wpid-Idiomas3.png)
+![](Idiomas3.png)
 
 ### Control de impresoras
 
-NOTA: parámetro obsoleto, que será eliminado próximamente.
+**NOTA**: parámetro obsoleto, que será eliminado próximamente.
 
-Es posible definir varias colas de impresión y asociarlas a usuarios
-específicos o a grupos de usuarios, así como a funciones o programas
-particulares. También se puede definir una impresora por omisión a la
-que se envíen todos los reportes.
+Es posible definir varias colas de impresión y asociarlas a usuarios específicos o a grupos de usuarios, así como a funciones o programas particulares. También se puede definir una impresora por omisión a la que se envíen todos los reportes.
 
-La prioridad de impresión es la siguiente: primero trata de imprimir en
-la impresora definida para el programa, si no encuentra una definición
-para el programa, intenta usar la definida para el usuario. Si el
-usuario no tiene definida una impresora, intenta con la definida para un
-grupo de usuarios. Por último, envía el reporte a la impresora definida
-por omisión.
+La prioridad de impresión es la siguiente: primero trata de imprimir en la impresora <u>definida para el programa</u>, si no encuentra una definición para el programa, intenta usar la <u>definida para el usuario</u>. Si el usuario no tiene definida una impresora, intenta con la <u>definida para un grupo de usuarios</u>. Por último, envía el reporte a la impresora <u>definida por omisión</u>.
 
-![\*\*Control de impresoras\*\*](wpid-Control_impresoras.png)
+![](Control_impresoras.png)
 
-![\*\*Control de impresoras 2\*\*](wpid-Control_impresoras2.png)
+![](Control_impresoras2.png)
 
-Los campos necesarios para definir una impresora en la tabla *ctrl
-impresoras* son los siguientes:
+Los campos necesarios para definir una impresora en la tabla _ctrl impresoras_ son los siguientes:
 
--   **Código:** código alfanumérico que identifica a la impresora dentro
-    del sistema. Este código es único y no es repetible.
++ **Código:** código alfanumérico que identifica a la impresora dentro del sistema. <u>Este código es único y no es repetible</u>.
 
--   **Tipo de control:** U=usuario, G=grupo, D=defecto y P=programa.
++ **Tipo de control:** U=usuario, G=grupo, D=defecto y P=programa.
 
--   **Driver:** programa o *driver* de impresión. Por ejemplo, *lpr
-    -Plp*.
++ **Driver:** programa o _driver_ de impresión. Por ejemplo, _lpr -Plp_.
 
--   **No. de líneas por página:** define el largo de la página.
++ **No. de líneas por página:** define el largo de la página.
 
--   **No. de columnas en la página:** define el ancho de la página.
++ **No. de columnas en la página:** define el ancho de la página.
 
--   **Instrucciones para salto de página:** caracteres de control para
-    salto de página.
++ **Instrucciones para salto de página:** caracteres de control para salto de página.
 
--   **Instrucciones para densidad de impresión:** caracteres de control
-    para modificar la densidad de impresión.
++ **Instrucciones para densidad de impresión:** caracteres de control para modificar la densidad de impresión.
 
-![\*\*Control de impresoras 3\*\*](wpid-Control_impresoras3.png)
+![](Control_impresoras3.png)
 
 ### Definición de URL´S por sistemas de automatización
 
-El sistema Janium permite consultar catálogos externos y otras bases de
-datos mediante el uso de la tecnología CGI (*Common Gateway Interface*).
-Para configurar estos elementos de conexión se debe usar la tabla
-*instrucciones url*.
+El sistema Janium permite consultar catálogos externos y otras bases de datos mediante el uso de la tecnología CGI (_Common Gateway Interface_). Para configurar estos elementos de conexión se debe usar la tabla _instrucciones url_.
 
-![\*\*Definición de URL´S por sistemas de
-automatización\*\*](wpid-Definicion_urls_sistemas.png)
+![](Definicion_urls_sistemas.png)
 
-![\*\*Definición de URL´S por sistemas de automatización
-2\*\*](wpid-Definicion_urls_sistemas2.png)
+![](Definicion_urls_sistemas2.png)
 
-Los campos necesarios para definir un *cgi* de consulta son los
-siguientes:
+Los campos necesarios para definir un _cgi_ de consulta son los siguientes:
 
--   **Código sistema:** código alfanumérico que identifica al sistema
-    externo. Este código se puede repetir.
++ **Código sistema:** código alfanumérico que identifica al sistema externo. <u>Este código se puede repetir</u>.
 
--   **Índice:** número de índice con el que se hace la equivalencia de
-    búsqueda. Por ejemplo, si el índice del sistema Janium número 50 es
-    el de ISBN, cuando se seleccione el catálogo externo y se realice
-    una búsqueda en ese otro catálogo, se usará el *cgi* de este
-    registro para obtener registros por ISBN.
++ **Índice:** número de índice con el que se hace la equivalencia de búsqueda. Por ejemplo, si el índice del sistema Janium número 50 es el de ISBN, cuando se seleccione el catálogo externo y se realice una búsqueda en ese otro catálogo, se usará el _cgi_ de este registro para obtener registros por ISBN.
 
--   **Instrucciones para URL:** contiene el URL con la información
-    necesaria para obtener resultados. Es importante tener en cuenta que
-    se debe usar el comodín \*TERMINO\* para remplazar, dentro del
-    *cgi*, el término de búsqueda que es ingresado en el catálogo al
-    público.
++ **Instrucciones para URL:** contiene el URL con la información necesaria para obtener resultados. Es importante tener en cuenta que se debe usar el comodín \*TERMINO\* para remplazar, dentro del _cgi_, el término de búsqueda que es ingresado en el catálogo al público.
 
-    Por ejemplo, en este campo puede introducirse la siguiente
-    secuencia: http://108.226.6.4/uhtbin/issnsearch?\\ *TERMINO*. Sin
-    embargo, al llevar a cabo en el catálogo al público la búsqueda por
-    el ISBN 1234567890, se usará el siguiente *cgi* para conectarse a la
-    fuente externa: http://108.226.6.4/uhtbin/issnsearch?1234567890.
+	Por ejemplo, en este campo puede introducirse la siguiente secuencia: http://108.226.6.4/uhtbin/issnsearch? *TERMINO*. Sin embargo, al llevar a cabo en el catálogo al público la búsqueda por el ISBN 1234567890, se usará el siguiente _cgi_ para conectarse a la fuente externa: http://108.226.6.4/uhtbin/issnsearch?1234567890.
 
-![\*\*Definición de URL´S por sistemas de automatización
-3\*\*](wpid-Definicion_urls_sistemas3.png)
+![](Definicion_urls_sistemas3.png)
 
 ### Definición de URL´S para búsquedas en otros catálogos
 
-Este parámetro permite establecer consultas con otros sitios de
-referencia. Los sitios pueden ser servidores Z39.50, portales web o
-buscadores. Estos tres tipos de recursos se definen en la tabla
-*sitios*.
+Este parámetro permite establecer consultas con otros sitios de referencia. Los sitios pueden ser <u>servidores Z39.50</u>, <u>portales web</u> o <u>buscadores</u>. Estos tres tipos de recursos se definen en la tabla _sitios_.
 
-![\*\*Definición de URL´S para búsquedas en otros
-catálogos\*\*](wpid-Definicion_urls_busquedas.png)
+![](Definicion_urls_busquedas.png)
 
-![\*\*Definición de URL´S para búsquedas en otros catálogos
-2\*\*](wpid-Definicion_urls_busquedas2.png)
+![](Definicion_urls_busquedas2.png)
 
 #### Servidores Z39.50
 
-Para definir un sitio Z39.50 deben completarse los siguientes campos de
-la forma indicada:
+Para definir un sitio Z39.50 deben completarse los siguientes campos de la forma indicada:
 
--   **Identificador:** código alfanumérico que identifica al sitio
-    dentro del sistema. Este código es único y no se puede repetir.
++ **Identificador:** código alfanumérico que identifica al sitio dentro del sistema. <u>Este código es único y no se puede repetir</u>.
 
--   **Descripción:** nombre completo del sitio.
++ **Descripción:** nombre completo del sitio.
 
--   **Código biblioteca:** código o nombre abreviado del sitio que se va
-    a desplegar en los resultados.
++ **Código biblioteca:** código o nombre abreviado del sitio que se va a desplegar en los resultados.
 
--   **URL:** el enlace de conexión del servidor Z39.50.
++ **URL:** el enlace de conexión del servidor Z39.50.
 
--   **Clave Usuario:** dato de autenticación del usuario. Este campo es
-    opcional ya que sólo algunos servidores piden al usuario que se
-    registre para poder hacer consultas.
++ **Clave Usuario:** dato de autenticación del usuario. Este campo es opcional ya que sólo algunos servidores piden al usuario que se registre para poder hacer consultas.
 
--   **Contraseña:** dato de autenticación para poder tener acceso al
-    servidor. Este campo también es opcional y está relacionado con el
-    anterior.
++ **Contraseña:** dato de autenticación para poder tener acceso al servidor. Este campo también es opcional y está relacionado con el anterior.
 
--   **Sistema:** tipo de sistema al que se va a conectar. Para
-    servidores Z39.50 se debe ingresar aquí: *Z3950*.
++ **Sistema:** tipo de sistema al que se va a conectar. Para servidores Z39.50 se debe ingresar aquí: _Z3950_.
 
--   **Instrucciones:** para el caso de los servidores Z39.50, este campo
-    debe dejarse en blanco ya que no se usa.
++ **Instrucciones:** para el caso de los servidores Z39.50, este campo debe dejarse en blanco ya que no se usa.
 
--   **URL principal:** URL de la página principal del sitio. Este campo
-    es distinto al anterior *URL*.
++ **URL principal:** URL de la página principal del sitio. Este campo es distinto al anterior _URL_.
 
--   **Puerto:** puerto o *socket* por donde el servidor establece la
-    comunicación con el sistema Janium. Si cuenta con un *firewall* es
-    importante permitir en él el paso de información de este *socket*
-    para poder comunicarse con el servidor.
++ **Puerto:** puerto o _socket_ por donde el servidor establece la comunicación con el sistema Janium. Si cuenta con un _firewall_ es importante permitir en él el paso de información de este _socket_ para poder comunicarse con el servidor.
 
--   **Base de datos:** nombre de la base de datos con la que se va a
-    efectuar la conexión.
++ **Base de datos:** nombre de la base de datos con la que se va a efectuar la conexión.
 
--   **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la
-    lista desplegable de selección del catálogo al público.
++ **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la lista desplegable de selección del catálogo al público.
 
-![\*\*Definición de URL´S para búsquedas en otros catálogos
-3\*\*](wpid-Definicion_urls_busquedas3.png)
+![](Definicion_urls_busquedas3.png)
 
 #### Portales web
 
-Para definir un portal web deben completarse los siguientes campos de la
-forma indicada:
+Para definir un portal web deben completarse los siguientes campos de la forma indicada:
 
--   **Identificador:** código alfanumérico que identifica al portal
-    dentro del sistema. Este código es único y no se puede repetir.
++ **Identificador:** código alfanumérico que identifica al portal dentro del sistema. <u>Este código es único y no se puede repetir</u>.
 
--   **Descripción:** nombre completo del portal.
++ **Descripción:** nombre completo del portal.
 
--   **Código biblioteca:** código o nombre abreviado del portal que se
-    va a desplegar en los resultados.
++ **Código biblioteca:** código o nombre abreviado del portal que se va a desplegar en los resultados.
 
--   **URL:** el enlace del portal con el *cgi* de búsqueda.
++ **URL:** el enlace del portal con el _cgi_ de búsqueda.
 
--   **Clave Usuario:** para el caso de los portales web, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Clave Usuario:** para el caso de los portales web, este campo debe dejarse en blanco ya que no se usa.
 
--   **Contraseña:** para el caso de los portales web, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Contraseña:** para el caso de los portales web, este campo debe dejarse en blanco ya que no se usa.
 
--   **Sistema:** tipo de sistema al que se va a conectar. Para portales
-    web se debe ingresar aquí: *referenciabib*.
++ **Sistema:** tipo de sistema al que se va a conectar. Para portales web se debe ingresar aquí: _referenciabib_.
 
--   **Instrucciones:** para el caso de los portales web, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Instrucciones:** para el caso de los portales web, este campo debe dejarse en blanco ya que no se usa.
 
--   **URL principal:** URL de la página principal del portal. Este campo
-    es distinto al anterior *URL*.
++ **URL principal:** URL de la página principal del portal. Este campo es distinto al anterior _URL_.
 
--   **Puerto:** para el caso de los portales web, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Puerto:** para el caso de los portales web, este campo debe dejarse en blanco ya que no se usa.
 
--   **Base de datos:** para el caso de los portales web, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Base de datos:** para el caso de los portales web, este campo debe dejarse en blanco ya que no se usa.
 
--   **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la
-    lista desplegable de selección del catálogo al público.
++ **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la lista desplegable de selección del catálogo al público.
 
-![\*\*Definición de URL´S para búsquedas en otros catálogos
-4\*\*](wpid-Definicion_urls_busquedas4.png)
+![](Definicion_urls_busquedas4.png)
 
 #### Buscadores
 
-Para definir un buscador deben completarse los siguientes campos de la
-forma indicada:
+Para definir un buscador deben completarse los siguientes campos de la forma indicada:
 
--   **Identificador:** código alfanumérico que identifica al buscador
-    dentro del sistema. Este código es único y no se puede repetir.
++ **Identificador:** código alfanumérico que identifica al buscador dentro del sistema. <u>Este código es único y no se puede repetir</u>.
 
--   **Descripción:** nombre completo del buscador.
++ **Descripción:** nombre completo del buscador.
 
--   **Código biblioteca:** código o nombre abreviado del buscador que se
-    va a desplegar en los resultados.
++ **Código biblioteca:** código o nombre abreviado del buscador que se va a desplegar en los resultados.
 
--   **URL:** el enlace del buscador con el *cgi* de búsqueda. Por
-    ejemplo: http://www.google.com/search?hl=es&safe=off&lr=lang\_es&q=
++ **URL:** el enlace del buscador con el _cgi_ de búsqueda. Por ejemplo: http://www.google.com/search?hl=es&safe=off&lr=lang\_es&q=
 
--   **Clave Usuario:** para el caso de los buscadores, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Clave Usuario:** para el caso de los buscadores, este campo debe dejarse en blanco ya que no se usa.
 
--   **Contraseña:** para el caso de los buscadores, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Contraseña:** para el caso de los buscadores, este campo debe dejarse en blanco ya que no se usa.
 
--   **Sistema:** tipo de sistema al que se va a conectar. Para
-    buscadores se debe ingresar aquí: *buscador*.
++ **Sistema:** tipo de sistema al que se va a conectar. Para buscadores se debe ingresar aquí: _buscador_.
 
--   **Instrucciones:** para el caso de los buscadores, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Instrucciones:** para el caso de los buscadores, este campo debe dejarse en blanco ya que no se usa.
 
--   **URL principal:** URL de la página principal del buscador. Este
-    campo es distinto al anterior *URL*.
++ **URL principal:** URL de la página principal del buscador. Este campo es distinto al anterior _URL_.
 
--   **Puerto:** para el caso de los buscadores, este campo debe dejarse
-    en blanco ya que no se usa.
++ **Puerto:** para el caso de los buscadores, este campo debe dejarse en blanco ya que no se usa.
 
--   **Base de datos:** para el caso de los buscadores, este campo debe
-    dejarse en blanco ya que no se usa.
++ **Base de datos:** para el caso de los buscadores, este campo debe dejarse en blanco ya que no se usa.
 
--   **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la
-    lista desplegable de selección del catálogo al público.
++ **Activo (1 = Sí, 0 = No):** indica si esta entrada aparecerá en la lista desplegable de selección del catálogo al público.
 
-![\*\*Definición de URL´S para búsquedas en otros catálogos
-5\*\*](wpid-Definicion_urls_busquedas5.png)
+![](Definicion_urls_busquedas5.png)
 
 ### Administración de Referencista electrónico
 
-NOTA: la información recogida aquí sobre esta sección del módulo de
-Administración debe complementarse con la que se encuentra en el manual
-concreto de la función **Referencista**.
+**NOTA**: la información recogida aquí sobre esta sección del módulo de Administración debe complementarse con la que se encuentra en el manual concreto de la función **Referencista**.
 
 #### Columnas del Referencista
 
-El número de columnas que aparecen en el Referencista se puede modificar
-accediendo a la sección *Configuración general*, a continuación a
-*Parámetros generales*, y ahí, seleccionando la opción **num col busq
-pred**.
+El número de columnas que aparecen en el Referencista se puede modificar accediendo a la sección _Configuración general_, a continuación a _Parámetros generales_, y ahí, seleccionando la opción **num col busq pred**.
 
-![\*\*Modificación de número de columnas del
-Referencista\*\*](wpid-Columnas_referencista.png)
+![](Columnas_referencista.png)
 
-Una vez dentro de la pantalla de edición del parámetro, cambiar el valor
-del campo **valor1** por el número de elementos que se desea desplegar
-por columna.
+Una vez dentro de la pantalla de edición del parámetro, cambiar el valor del campo **valor1** por el número de elementos que se desea desplegar por columna.
 
-![\*\*Modificación de número de columnas del Referencista
-2\*\*](wpid-Columnas_referencista2.png)
+![](Columnas_referencista2.png)
 
 #### Creación de registros del Referencista
 
-Para crear un elemento del Referencista, el sistema Janium solicita tres
-parámetros básicos:
+Para crear un elemento del Referencista, el sistema Janium solicita tres parámetros básicos:
 
--   **Id grupo:** representado por un número entero que sirve para
-    identificar a un grupo.
++ **Id grupo:** representado por un número entero que sirve para identificar a un grupo.
 
--   **Grupo:** es el nombre con el que se reconocerá al grupo. Es
-    sensible a mayúsculas y minúsculas y no debe contener espacios en
-    blanco.
++ **Grupo:** es el nombre con el que se reconocerá al grupo. Es sensible a mayúsculas y minúsculas y no debe contener espacios en blanco.
 
--   **Orden de despliegue:** se refiere a la posición en que aparecerá
-    el elemento dentro del Referencista. No debe haber dos o más
-    elementos de un mismo grupo que tengan igual orden de despliegue.
++ **Orden de despliegue:** se refiere a la posición en que aparecerá el elemento dentro del Referencista. No debe haber dos o más elementos de un mismo grupo que tengan igual orden de despliegue.
 
-![\*\*Creación de registros del
-Referencista\*\*](wpid-Registros_referencista.png)
+![](Registros_referencista.png)
 
-Después de completar los campos anteriores y hacer clic en el botón
-*Crear*, se desplegará el registro para crear el nuevo elemento del
-Referencista, cuyos campos restantes son los siguientes:
+Después de completar los campos anteriores y hacer clic en el botón _Crear_, se desplegará el registro para crear el nuevo elemento del Referencista, cuyos campos restantes son los siguientes:
 
--   **URL Imagen:** se debe ingresar la dirección donde se encuentra la
-    imagen que va a aparecer como representación visual del elemento
-    dentro del Referencista. El sistema Janium acepta cualquier tipo de
-    imagen que pueda ser visible en web.
++ **URL Imagen:** se debe ingresar la dirección donde se encuentra la imagen que va a aparecer como representación visual del elemento dentro del Referencista. El sistema Janium acepta cualquier tipo de imagen que pueda ser visible en web.
 
-![\*\*Creación de registros del Referencista
-2\*\*](wpid-Registros_referencista2.png)
+![](Registros_referencista2.png)
 
--   **Descripción:** texto breve que sirve para indicar al usuario
-    (además de la representación gráfica) cuál es el tema, proyecto,
-    perfil o acción al que está ligado el elemento del Referencista.
++ **Descripción:** texto breve que sirve para indicar al usuario (además de la representación gráfica) cuál es el tema, proyecto, perfil o acción al que está ligado el elemento del Referencista.
 
-![\*\*Creación de registros del Referencista
-3\*\*](wpid-Registros_referencista3.png)
+![](Registros_referencista3.png)
 
--   **Código del estado:** indica si el elemento recién creado estará
-    visible o no desde el catálogo al público. Las opciones son:
++ **Código del estado:** indica si el elemento recién creado estará visible o no desde el catálogo al público. Las opciones son:
 
-    -   1 = despliega el elemento en el catálogo.
+	+ 1 = despliega el elemento en el catálogo.
 
-    -   0 = no despliega el elemento en el catálogo.
+	+ 0 = no despliega el elemento en el catálogo.
 
-![\*\*Creación de registros del Referencista
-4\*\*](wpid-Registros_referencista4.png)
+![](Registros_referencista4.png)
 
--   **Acción:** indica cuál va a ser la función que realizará el
-    elemento del Referencista. Las opciones son:
++ **Acción:** indica cuál va a ser la función que realizará el elemento del Referencista. Las opciones son:
 
-    -   1 = realiza búsquedas en el catálogo, por *palabra clave* o
-        *alfabética*.
+	+ 1 = realiza búsquedas en el catálogo, por _palabra clave_ o _alfabética_.
 
-    -   2 = crea un enlace a un grupo dentro del Referencista.
+	+ 2 = crea un enlace a un grupo dentro del Referencista.
 
-    -   3 = crea un enlace a una página, sitio o documento que se
-        encuentre en internet.
+	+ 3 = crea un enlace a una página, sitio o documento que se encuentre en internet.
 
-![\*\*Creación de registros del Referencista
-5\*\*](wpid-Registros_referencista5.png)
+![](Registros_referencista5.png)
 
--   **Tipo:** indica el modo de búsqueda que se desea realizar. Las
-    opciones son:
++ **Tipo:** indica el modo de búsqueda que se desea realizar. Las opciones son:
 
-    -   Si el código de acción es 1:
+	+ <u>Si el código de acción es 1</u>:
+		+ A = búsqueda alfabética. 
+		+ P = búsqueda por palabra clave.
+		+ C = búsqueda combinada.
+		+ T = búsqueda por tags.
 
-        -   A = búsqueda alfabética.
-        -   P = búsqueda por palabra clave.
-        -   C = búsqueda combinada.
-        -   T = búsqueda por tags.
+	+ <u>Si el código de acción es 2</u>:
+		+ G = acceso a un grupo del Referencista.
+	+ <u>Si el código de acción es 3</u>:
+		 - I = acceso a un recurso externo.
 
-    -   Si el código de acción es 2:
+![](Registros_referencista6.png)
 
-        -   G = acceso a un grupo del Referencista.
++ **Instrucciones:** indica al Referencista los valores que va a buscar de acuerdo a lo que se configuró en los campos <u>acción</u> y <u>tipo</u>. Si el tipo es de _palabra clave_, los valores deben ingresarse con mayúsculas.
 
-    -   Si el código de acción es 3:
-        -   I = acceso a un recurso externo.
+	Varios comentarios en este contexto:
+	 
+	+ La instrucción LITERATURA NOT KING va a hacer que se busque el término "literatura" por _palabra clave_, pero que no se incluyan los registros que contengan el término "king".
+	+ Si la acción es **1** (búsqueda en el catálogo) y el tipo es **A** (alfabética), se debe ingresar el término o términos separados por espacios, sin acentos. Ejemplo: historia universal.
+	+ Si la acción es **1** (búsqueda en el catálogo) y el tipo es **P** (palabra clave), se debe ingresar el término o términos separados por espacios, sin acentos y en mayúsculas. Ejemplo: MEXICO CONSTITUCION POLITICA.
+	+ Si la acción es **2**, se debe colocar el nombre del grupo al que se desea ir. Debe ser escrito igual que el que está indicado en el campo _Grupo_. Ejemplos: BIBLIOTECA, grupo1, Principal, etc.
+	+ Si la acción es **3**, cuando se trata de un enlace a una página web se debe colocar la dirección electrónica completa, incluyendo el indicador _http://_. Ejemplo: http://www.google.com.
 
-![\*\*Creación de registros del Referencista
-6\*\*](wpid-Registros_referencista6.png)
+![](Registros_referencista7.png)
 
--   **Instrucciones:** indica al Referencista los valores que va a
-    buscar de acuerdo a lo que se configuró en los campos acción y tipo.
-    Si el tipo es de *palabra clave*, los valores deben ingresarse con
-    mayúsculas.
++ **No. Índice:** este parámetro es importante cuando el valor en el campo de acción es **1** (búsqueda en el catálogo) y el tipo es **A** o **P**, ya que el sistema Janium identifica el índice en el que deberá realizar la búsqueda. Es necesario que se seleccione correctamente, debido a que, si se indicó que va a realizar una búsqueda por palabra clave y se selecciona un índice alfabético, o viceversa, el sistema no encontrará registros en el sistema.
 
-    Varios comentarios en este contexto:
++ **Nivel de seguridad:** indica el nivel asignado que debe tener el usuario para poder ver este elemento del Referencista. Debe ser menor o igual, de lo contrario no se le mostrará.
 
-    -   La instrucción LITERATURA NOT KING va a hacer que se busque el
-        término “literatura” por *palabra clave*, pero que no se
-        incluyan los registros que contengan el término “king”.
-    -   Si la acción es **1** (búsqueda en el catálogo) y el tipo es
-        **A** (alfabética), se debe ingresar el término o términos
-        separados por espacios, sin acentos. Ejemplo: historia
-        universal.
-    -   Si la acción es **1** (búsqueda en el catálogo) y el tipo es
-        **P** (palabra clave), se debe ingresar el término o términos
-        separados por espacios, sin acentos y en mayúsculas. Ejemplo:
-        MEXICO CONSTITUCION POLITICA.
-    -   Si la acción es **2**, se debe colocar el nombre del grupo al
-        que se desea ir. Debe ser escrito igual que el que está indicado
-        en el campo *Grupo*. Ejemplos: BIBLIOTECA, grupo1, Principal,
-        etc.
-    -   Si la acción es **3**, cuando se trata de un enlace a una página
-        web se debe colocar la dirección electrónica completa,
-        incluyendo el indicador *http://*. Ejemplo:
-        http://www.google.com.
++ **Biblioteca:** en un entorno "multibiblioteca", el sistema Janium permite seleccionar la biblioteca en la que debe realizar la búsqueda. Si no se selecciona ninguna, se realizará la búsqueda en todas las bibliotecas.
 
-![\*\*Creación de registros del Referencista
-7\*\*](wpid-Registros_referencista7.png)
++ **Ubicación:** este parámetro indica en qué colección o ubicación se desea realizar la búsqueda. Si no se selecciona ninguna, se realizará la búsqueda en toda la colección.
 
--   **No. Índice:** este parámetro es importante cuando el valor en el
-    campo de acción es **1** (búsqueda en el catálogo) y el tipo es
-    **A** o **P**, ya que el sistema Janium identifica el índice en el
-    que deberá realizar la búsqueda. Es necesario que se seleccione
-    correctamente, debido a que, si se indicó que va a realizar una
-    búsqueda por palabra clave y se selecciona un índice alfabético, o
-    viceversa, el sistema no encontrará registros en el sistema.
-
--   **Nivel de seguridad:** indica el nivel asignado que debe tener el
-    usuario para poder ver este elemento del Referencista. Debe ser
-    menor o igual, de lo contrario no se le mostrará.
-
--   **Biblioteca:** en un entorno “multibiblioteca”, el sistema Janium
-    permite seleccionar la biblioteca en la que debe realizar la
-    búsqueda. Si no se selecciona ninguna, se realizará la búsqueda en
-    todas las bibliotecas.
-
--   **Ubicación:** este parámetro indica en qué colección o ubicación se
-    desea realizar la búsqueda. Si no se selecciona ninguna, se
-    realizará la búsqueda en toda la colección.
-
--   **Formato:** este parámetro permite seleccionar el formato de los
-    materiales que se desean localizar. Si no se selecciona ningún
-    formato, se realizará la búsqueda en todos los formatos existentes
-    en la biblioteca.
++ **Formato:** este parámetro permite seleccionar el formato de los materiales que se desean localizar. Si no se selecciona ningún formato, se realizará la búsqueda en todos los formatos existentes en la biblioteca.
 
 ### Comandos del sistema operativo
 
-Esta sección regula el direccionamiento a los programas del sistema
-Janium que se utilizan para obtener los textos de los documentos
-asociados como objetos digitales a registros. Dicho de otra forma, está
-relacionada con el proceso de indización de texto completo y los
-comandos que intervienen en él.
+Esta sección regula el direccionamiento a los programas del sistema Janium que se utilizan para obtener los textos de los documentos asociados como objetos digitales a registros. Dicho de otra forma, está relacionada con el proceso de indización de texto completo y los comandos que intervienen en él.
 
-![\*\*Comandos del sistema operativo\*\*](wpid-Comandos_so.png)
+![](Comandos_so.png)
 
-![\*\*Comandos del sistema operativo 2\*\*](wpid-Comandos_so2.png)
+![](Comandos_so2.png)
 
-Los campos necesarios para definir un comando del sistema operativo son
-los siguientes:
+Los campos necesarios para definir un comando del sistema operativo son los siguientes:
 
--   **Código:** nombre o identificador del comando dentro del sistema.
++ **Código:** nombre o identificador del comando dentro del sistema.
 
--   **Tipo de sistema:** 1 = Unix/Linux, o bien 2 = Windows.
++ **Tipo de sistema:** 1 = Unix/Linux, o bien 2 = Windows.
 
--   **Descripción:** texto breve para describir el propósito del
-    comando.
++ **Descripción:** texto breve para describir el propósito del comando.
 
--   **Comando:** instrucción específica que sirve para ejecutar la
-    acción en cuestión.
++ **Comando:** instrucción específica que sirve para ejecutar la acción en cuestión.
 
--   **Extensión del archivo:** indicación del tipo de documento a
-    tratar.
++ **Extensión del archivo:** indicación del tipo de documento a tratar.
 
--   **Comando recursivo (1 = Sí, 0 = No):** campo que permite al comando
-    repetir su ejecución al encontrar varios ficheros dentro de una
-    misma carpeta o archivo. Por ejemplo, indizando sucesivamente tres
-    documentos en formato *pdf* contenidos dentro de un fichero
-    comprimido.
++ **Comando recursivo (1 = Sí, 0 = No):** campo que permite al comando repetir su ejecución al encontrar varios ficheros dentro de una misma carpeta o archivo. Por ejemplo, indizando sucesivamente tres documentos en formato _pdf_ contenidos dentro de un fichero comprimido.
 
-![\*\*Comandos del sistema operativo 3\*\*](wpid-Comandos_so3.png)
+![](Comandos_so3.png)
 
 ### Conexiones al sistema
 
-Controla de manera detallada las conexiones que se han realizado al
-sistema Janium.
+Controla de manera detallada las conexiones que se han realizado al sistema Janium.
 
-![\*\*Conexiones al sistema\*\*](wpid-Conexiones_sistema.png)
+![](Conexiones_sistema.png)
 
-![\*\*Conexiones al sistema 2\*\*](wpid-Conexiones_sistema2.png)
+![](Conexiones_sistema2.png)
 
-Los campos que se presentan en un registro de conexión al sistema son
-los siguientes:
+Los campos que se presentan en un registro de conexión al sistema son los siguientes:
 
--   **Fecha:** año, mes y día concretos en que se realizó la conexión,
-    en formato AAAA-MM-DD.
++ **Fecha:** año, mes y día concretos en que se realizó la conexión, en formato AAAA-MM-DD.
 
--   **Hora de inicio de sesión**: hora, minutos y segundos concretos en
-    los que comenzó la conexión, en formato HH:MM:SS.
++ **Hora de inicio de sesión**: hora, minutos y segundos concretos en los que comenzó la conexión, en formato HH:MM:SS.
 
--   **Número de cuenta:** cuenta de usuario del sistema Janium que se
-    usó para realizar la conexión.
++ **Número de cuenta:** cuenta de usuario del sistema Janium que se usó para realizar la conexión.
 
--   **ID. Sesión:** identificador único y no repetible de la sesión de
-    conexión asignado automáticamente por el sistema.
++ **ID. Sesión:** identificador único y no repetible de la sesión de conexión asignado automáticamente por el sistema.
 
--   **Código del estado:** indica si la conexión aún está activa (1) o
-    no (0).
++ **Código del estado:** indica si la conexión aún está activa (1) o no (0).
 
--   **Dirección IP de la máquina:** dirección que identifica al
-    dispositivo que ha llevado a cabo la conexión.
++ **Dirección IP de la máquina:** dirección que identifica al dispositivo que ha llevado a cabo la conexión.
 
--   **Tiempo que ha durado la sesión:** cifra en segundos totales que
-    muestra el tiempo que ha durado la conexión.
++ **Tiempo que ha durado la sesión:** cifra en segundos totales que muestra el tiempo que ha durado la conexión.
 
-![\*\*Conexiones al sistema 3\*\*](wpid-Conexiones_sistema3.jpg)
+![](Conexiones_sistema3.jpg)
 
 ### Restricción de número de resultados en el OPAC
 
-Permite limitar la cantidad de resultados que se le van a mostrar al
-usuario en los sumarios del catálogo al público al realizar búsquedas.
+Permite limitar la cantidad de resultados que se le van a mostrar al usuario en los sumarios del catálogo al público al realizar búsquedas.
 
-![\*\*Restricción de número de resultados en el
-opac\*\*](wpid-Restriccion_resultados_opac.png)
+![](Restriccion_resultados_opac.png)
 
-![\*\*Restricción de número de resultados en el opac
-2\*\*](wpid-Restriccion_resultados_opac2.png)
+![](Restriccion_resultados_opac2.png)
 
-Los campos que se presentan en un registro de restricción de número de
-resultados en el catálogo al público son los siguientes:
+Los campos que se presentan en un registro de restricción de número de resultados en el catálogo al público son los siguientes:
 
--   **Número de cuenta:** cuenta del usuario del sistema para el que se
-    va a aplicar la restricción.
++ **Número de cuenta:** cuenta del usuario del sistema para el que se va a aplicar la restricción.
 
--   **Limite:** valor numérico que representa la restricción a aplicar.
++ **Limite:** valor numérico que representa la restricción a aplicar.
 
-![\*\*Restricción de número de resultados en el opac
-3\*\*](wpid-Restriccion_resultados_opac3.png)
+![](Restriccion_resultados_opac3.png)
 
 ### Configuración de raíces de recursos vinculados
 
-Se usa para establecer los directorios del sistema Janium en los que se
-van a almacenar los distintos objetos digitales asociados a los
-registros de la base de datos.
+Se usa para establecer los directorios del sistema Janium en los que se van a almacenar los distintos objetos digitales asociados a los registros de la base de datos.
 
-![\*\*Configuración de raíces de recursos
-vinculados\*\*](wpid-Raices_recursos.png)
+![](Raices_recursos.png)
 
-![\*\*Configuración de raíces de recursos vinculados
-2\*\*](wpid-Raices_recursos2.png)
+![](Raices_recursos2.png)
 
-Los campos que se presentan en un registro de configuración de raíces de
-recursos vinculados son los siguientes:
+Los campos que se presentan en un registro de configuración de raíces de recursos vinculados son los siguientes:
 
--   **Raíz:** es la ruta completa que se define para poder almacenar y
-    buscar los recursos vinculados.
++ **Raíz:** es la ruta completa que se define para poder almacenar y buscar los recursos vinculados.
 
--   **Directorio virtual:** es una ruta más breve derivada de la
-    anterior cuyo propósito es, por un lado, mantener una estructura
-    segura del sistema no permitiendo visualizar de manera pública
-    niveles de directorios superiores y, por otro, simplificar las
-    acciones de los usuarios a la hora de crear objetos digitales.
++ **Directorio virtual:** es una ruta más breve derivada de la anterior cuyo propósito es, por un lado, mantener una estructura segura del sistema no permitiendo visualizar de manera pública niveles de directorios superiores y, por otro, simplificar las acciones de los usuarios a la hora de crear objetos digitales.
 
-![\*\*Configuración de raíces de recursos vinculados
-3\*\*](wpid-Raices_recursos3.png)
+![](Raices_recursos3.png)
 
 ### Impresión de etiquetas
 
-Este parámetro controla todos los elementos que intervienen en el
-proceso de impresión de las etiquetas que se colocan en los materiales
-para que queden identificados.
+Este parámetro controla todos los elementos que intervienen en el proceso de impresión de las etiquetas que se colocan en los materiales para que queden identificados.
 
 #### Tipos de papel
 
-Establece los formatos de papel admitidos para la impresión, así como
-sus dimensiones.
+Establece los formatos de papel admitidos para la impresión, así como sus dimensiones.
 
-![\*\*Tipos de papel\*\*](wpid-Tipos_papel.png)
+![](Tipos_papel.png)
 
-![\*\*Tipos de papel 2\*\*](wpid-Tipos_papel2.png)
+![](Tipos_papel2.png)
 
-Los campos que se presentan en un registro de tipos de papel son los
-siguientes:
+Los campos que se presentan en un registro de tipos de papel son los siguientes:
 
--   **Identificador:** valor numérico único y no repetible que
-    identifica al tipo de papel dentro del sistema.
++ **Identificador:** valor numérico único y no repetible que identifica al tipo de papel dentro del sistema.
 
--   **Nombre:** nombre con el que se conoce al formato de papel.
++ **Nombre:** nombre con el que se conoce al formato de papel.
 
--   **Altura en 72os. de pulgada:** valor numérico para este concepto
-    tomando como referencia la fracción de pulgada indicada.
++ **Altura en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Anchura en 72os. de pulgada:** valor numérico para este concepto
-    tomando como referencia la fracción de pulgada indicada.
++ **Anchura en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
-![\*\*Tipos de papel 3\*\*](wpid-Tipos_papel3.png)
+![](Tipos_papel3.png)
 
 #### Modelos de etiquetas
 
-Establece los estándares de formatos de etiquetas admitidos para la
-impresión.
+Establece los estándares de formatos de etiquetas admitidos para la impresión.
 
-![\*\*Modelos de etiquetas\*\*](wpid-Modelos_etiquetas.png)
+![](Modelos_etiquetas.png)
 
-![\*\*Modelos de etiquetas 2\*\*](wpid-Modelos_etiquetas2.png)
+![](Modelos_etiquetas2.png)
 
-Los campos que se presentan en un registro de modelos de etiquetas son
-los siguientes:
+Los campos que se presentan en un registro de modelos de etiquetas son los siguientes:
 
--   **Identificador:** valor que identifica de forma única e irrepetible
-    al modelo de etiqueta dentro del sistema.
++ **Identificador:** valor que identifica de forma única e irrepetible al modelo de etiqueta dentro del sistema.
 
--   **Nombre:** nombre descriptivo sobre el modelo de etiqueta.
++ **Nombre:** nombre descriptivo sobre el modelo de etiqueta.
 
--   **Tipo de papel:** relacionado con la sección explicada antes.
++ **Tipo de papel:** relacionado con la sección explicada antes.
 
--   **Número de etiquetas por página:** cantidad de etiquetas que van a
-    imprimirse por cada página introducida.
++ **Número de etiquetas por página:** cantidad de etiquetas que van a imprimirse por cada página introducida.
 
--   **Número de columnas por etiquetas:** cantidad de columnas, dentro
-    de cada etiqueta, en que va a distribuirse la información a
-    imprimir.
++ **Número de columnas por etiquetas:** cantidad de columnas, dentro de cada etiqueta, en que va a distribuirse la información a imprimir.
 
--   **Distancia del borde izquierdo de la página a la primera etiqueta
-    en 72os. de pulgada:** valor numérico para este concepto tomando
-    como referencia la fracción de pulgada indicada.
++ **Distancia del borde izquierdo de la página a la primera etiqueta en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Distancia del borde superior de la página a la primera etiqueta en
-    72os. de pulgada:** valor numérico para este concepto tomando como
-    referencia la fracción de pulgada indicada.
++ **Distancia del borde superior de la página a la primera etiqueta en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Altura en 72 os. de pulgada:** valor numérico para este concepto
-    tomando como referencia la fracción de pulgada indicada.
++ **Altura en 72 os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Anchura en 72os. de pulgada:** valor numérico para este concepto
-    tomando como referencia la fracción de pulgada indicada.
++ **Anchura en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Distancia horizontal entre etiquetas en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Distancia horizontal entre etiquetas en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Distancia vertical entre etiquetas en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Distancia vertical entre etiquetas en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
-![\*\*Modelos de etiquetas 3\*\*](wpid-Modelos_etiquetas3.png)
+![](Modelos_etiquetas3.png)
 
 #### Impresoras de etiquetas
 
-Establece los dispositivos que van a usarse de forma predeterminada para
-la impresión de etiquetas.
+Establece los dispositivos que van a usarse de forma predeterminada para la impresión de etiquetas.
 
-![\*\*Impresoras de etiquetas\*\*](wpid-Impresoras_etiquetas.png)
+![](Impresoras_etiquetas.png)
 
-![\*\*Impresoras de etiquetas 2\*\*](wpid-Impresoras_etiquetas2.png)
+![](Impresoras_etiquetas2.png)
 
-Los campos que se presentan en un registro de impresoras de etiquetas
-son los siguientes:
+Los campos que se presentan en un registro de impresoras de etiquetas son los siguientes:
 
--   **Identificador:** valor que identifica de forma única e irrepetible
-    a la impresora dentro del sistema.
++ **Identificador:** valor que identifica de forma única e irrepetible a la impresora dentro del sistema.
 
--   **Nombre:** nombre descriptivo sobre el tipo de impresora.
++ **Nombre:** nombre descriptivo sobre el tipo de impresora.
 
--   **Distancia extra desde el borde izquierdo de la página a la primera
-    etiqueta (puede ser negativa) en 72os. de pulgada:** valor numérico
-    para este concepto tomando como referencia la fracción de pulgada
-    indicada.
++ **Distancia extra desde el borde izquierdo de la página a la primera etiqueta (puede ser negativa) en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Distancia extra desde el borde superior de la página a la primera
-    etiqueta (puede ser negativa) en 72os. de pulgada:** valor numérico
-    para este concepto tomando como referencia la fracción de pulgada
-    indicada.
++ **Distancia extra desde el borde superior de la página a la primera etiqueta (puede ser negativa) en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Margen izquierdo de área imprimible en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Margen izquierdo de área imprimible en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Margen derecho de área imprimible en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Margen derecho de área imprimible en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Margen superior de área imprimible en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Margen superior de área imprimible en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
--   **Margen inferior de área imprimible en 72os. de pulgada:** valor
-    numérico para este concepto tomando como referencia la fracción de
-    pulgada indicada.
++ **Margen inferior de área imprimible en 72os. de pulgada:** valor numérico para este concepto tomando como referencia la fracción de pulgada indicada.
 
-![\*\*Impresoras de etiquetas 3\*\*](wpid-Impresoras_etiquetas3.png)
+![](Impresoras_etiquetas3.png)
 
 #### Formatos de etiquetas
 
-Este parámetro relaciona y une los datos introducidos en las secciones
-*Modelos de etiquetas* e *Impresoras de etiquetas*, explicadas
-anteriormente.
+Este parámetro relaciona y une los datos introducidos en las secciones _Modelos de etiquetas_ e _Impresoras de etiquetas_, explicadas anteriormente.
 
-![\*\*Formatos de etiquetas\*\*](wpid-Formatos_etiquetas.png)
+![](Formatos_etiquetas.png)
 
-![\*\*Formatos de etiquetas 2\*\*](wpid-Formatos_etiquetas2.png)
+![](Formatos_etiquetas2.png)
 
-Los campos que se presentan en un registro de formatos de etiquetas son
-los siguientes:
+Los campos que se presentan en un registro de formatos de etiquetas son los siguientes:
 
--   **Nombre:** nombre descriptivo sobre el formato de etiquetas.
++ **Nombre:** nombre descriptivo sobre el formato de etiquetas.
 
--   **Modelo de etiquetas:** el contenido de este campo debe coincidir
-    con uno de los registros de la sección *modelos de etiquetas*.
++ **Modelo de etiquetas:** el contenido de este campo debe coincidir con uno de los registros de la sección _modelos de etiquetas_.
 
--   **Impresora:** el contenido de este campo debe coincidir con uno de
-    los registros de la sección *impresoras de etiquetas*.
++ **Impresora:** el contenido de este campo debe coincidir con uno de los registros de la sección _impresoras de etiquetas_.
 
-![\*\*Formatos de etiquetas 3\*\*](wpid-Formatos_etiquetas3.png)
+![](Formatos_etiquetas3.png)
 
 #### Lomos / Tejuelos
 
 ##### Campos a imprimir en los lomos / tejuelos
 
-En este parámetro se determinan los campos que van a ser impresos en las
-etiquetas de lomos / tejuelos, teniendo en cuenta los datos existentes
-en los registros de ejemplar: número de clasificación, volumen, número,
-tomo, copia, parte e información adicional. No obstante, de forma previa
-a la configuración se debe conocer el **número de campos** de que se
-compondrá la clasificación.
+En este parámetro se determinan los campos que van a ser impresos en las etiquetas de lomos / tejuelos, teniendo en cuenta los datos existentes en los registros de ejemplar: <u>número de clasificación</u>, <u>volumen</u>, <u>número</u>, <u>tomo</u>, <u>copia</u>, <u>parte</u> e <u>información adicional</u>. No obstante, de forma previa a la configuración se debe conocer el **número de campos** de que se compondrá la clasificación.
 
-A continuación, se muestran tres ejemplos de posibles distribuciones
-para una misma clasificación:
+A continuación, se muestran tres ejemplos de posibles distribuciones para una misma clasificación:
 
--   **T151.G518 2008**
++ **T151.G518 2008**
+	campo 1: T151
+	campo 2: .G518
+	campo 3: 2008
 
-campo 1: T151 campo 2: .G518 campo 3: 2008
++ campo 1: T151.G518
+	campo 2: 2008
 
-campo 1: T151.G518 campo 2: 2008
++ campo 1: T
+	campo 2: 151
+	campo 3: .G518
+	campo 4: 2008
 
-campo 1: T campo 2: 151 campo 3: .G518 campo 4: 2008
+En estos casos, el elemento que se utiliza como **separador de campos** es el <u>espacio</u>, pero también puede usarse el <u>punto</u>. De esta manera, y dependiendo de las necesidades de impresión de la institución, se puede realizar la configuración requerida. Aunque cabe mencionar que este proceso dependerá también de la forma en que la información es capturada en los registros.
 
-En estos casos, el elemento que se utiliza como **separador de campos**
-es el espacio, pero también puede usarse el punto. De esta manera, y
-dependiendo de las necesidades de impresión de la institución, se puede
-realizar la configuración requerida. Aunque cabe mencionar que este
-proceso dependerá también de la forma en que la información es capturada
-en los registros.
+A cada campo se le debe asignar un valor numérico, como parte del proceso de configuración y este número debe ser colocado entre corchetes ([]). Dicho esto, si es colocado únicamente el número (ejemplo: [1]) significa que el separador de campos puede ser, indistintamente, el <u>punto</u> o el <u>espacio</u>. Por otro lado, si es colocado el número con la letra _b_ como prefijo (ejemplo: [b1]) significa que sólo será considerado como separador de campos el <u>espacio</u>.
 
-A cada campo se le debe asignar un valor numérico, como parte del
-proceso de configuración y este número debe ser colocado entre corchetes
-(\[\]). Dicho esto, si es colocado únicamente el número (ejemplo:
-[1](index.html?p=1317#enlace1)) significa que el separador de campos
-puede ser, indistintamente, el punto o el espacio. Por otro lado, si es
-colocado el número con la letra *b* como prefijo (ejemplo: \[b1\])
-significa que sólo será considerado como separador de campos el espacio.
+![](Campos_lomos.png)
 
-![\*\*Campos a imprimir en los lomos /
-tejuelos\*\*](wpid-Campos_lomos.png)
+![](Campos_lomos2.png)
 
-![\*\*Campos a imprimir en los lomos / tejuelos
-2\*\*](wpid-Campos_lomos2.png)
+Los campos que se presentan en un registro de campos a imprimir en los lomos / tejuelos son los siguientes:
 
-Los campos que se presentan en un registro de campos a imprimir en los
-lomos / tejuelos son los siguientes:
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de configuración dentro del sistema.
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de configuración dentro del sistema.
++ **Orden de despliegue:** valor numérico que tendrá el campo dentro del grupo. Este número determina el orden de impresión que le corresponde.
 
--   **Orden de despliegue:** valor numérico que tendrá el campo dentro
-    del grupo. Este número determina el orden de impresión que le
-    corresponde.
++ **Campo:** clave relacionada con el campo que se desea crear (<u>ver lista de configuración autorizada para campos</u>).
 
--   **Campo:** clave relacionada con el campo que se desea crear (esta
-    información se amplia en la siguiente sección del manual relativa a
-    la configuración).
++ **Alineación:** aquí se debe escribir uno de los siguientes valores:
 
--   **Alineación:** aquí se debe escribir uno de los siguientes valores:
+	+ **\>** si la alineación debe ser a la derecha.
+	+ **\<** si la alineación debe ser a la izquierda.
+	+ **|** si la alineación debe ser al centro.
 
-    -   **&gt;** si la alineación debe ser a la derecha.
-    -   **&lt;** si la alineación debe ser a la izquierda.
-    -   **|** si la alineación debe ser al centro.
+![](Campos_lomos3.png)
 
-![\*\*Campos a imprimir en los lomos / tejuelos
-3\*\*](wpid-Campos_lomos3.png)
+Además, la codificación que se debe usar para agregar la información complementaria es la siguiente:
 
-Además, la codificación que se debe usar para agregar la información
-complementaria es la siguiente:
++ [v] : Volumen.
 
--   \[v\] : Volumen.
--   \[n\] : Número.
--   \[t\] : Tomo.
--   \[c\] : Ejemplar o copia (incluso para la copia 1).
--   \[C\] : Ejemplar o copia (excepto para la copia 1).
--   \[p\] : Parte.
--   \[i\] : Información adicional del ítem.
--   \[cb\] : Código de biblioteca.
--   \[nb\] : Número de biblioteca.
--   \[na\] : Número de adquisición.
--   \[nu\]: Número de ubicación.
--   \[cu\]: Código de ubicación.
--   \[B\]: Código de barras.
--   \[K\]: Clasificación completa.
--   \[BLANCO\]: Línea en blanco.
++ [n] : Número.
+
++ [t] : Tomo.
+
++ [c] : Ejemplar o copia (incluso para la copia 1).
+
++ [C] : Ejemplar o copia (excepto para la copia 1).
+
++ [p] : Parte.
+
++ [i] : Información adicional del ítem.
+
++ [cb] : Código de biblioteca.
+
++ [nb] : Número de biblioteca.
+
++ [na] : Número de adquisición.
+
++ [nu]: Número de ubicación.
+
++ [cu]: Código de ubicación.
+
++ [B]: Código de barras.
+
++ [K]: Clasificación completa.
+
++ [BLANCO]: Línea en blanco.
 
 ##### Configuración de lomos / tejuelos
 
-En relación con la sección anterior, para los ejemplos mencionados se
-utilizaría la siguiente configuración:
+En relación con la sección anterior, para los ejemplos mencionados se utilizaría la siguiente configuración:
 
 **T151.G518 2008**
 
 Ejemplo 1
 
-Campo | Configuración | Información | :————: | :————: | :————: |  
-1 | [1](index.html?p=1317#enlace1) | T151 | 2 |
-[2](index.html?p=1317#enlace2) | .G518 | 3 |
-[3](index.html?p=1317#enlace3) | 2008 |
+![](Tabla4.png)
 
 Ejemplo 2
 
-Campo | Configuración | Información | :————: | :————: | :————: |  
-1 | \[b1\] | T151.G518 | 2 | \[b2\] | 2008 |
+![](Tabla5.png)
 
 Ejemplo 3
 
-Campo | Configuración | Información | :————: | :————: | :————: |  
-1 | [1](index.html?p=1317#enlace1) | T | 2 | \[b2\] | 151 | 3 | \[b3\] |
-.G518 | 4 | [4](index.html?p=1317#enlace4) | 2008 |
+![](Tabla6.png)
 
-![\*\*Configuración de lomos /
-tejuelos\*\*](wpid-Configuracion_lomos.png)
+![](Configuracion_lomos.png)
 
-![\*\*Configuración de lomos / tejuelos
-2\*\*](wpid-Configuracion_lomos2.png)
+![](Configuracion_lomos2.png)
 
-Los campos que se presentan en un registro de configuración de lomos /
-tejuelos son los siguientes:
+Los campos que se presentan en un registro de configuración de lomos / tejuelos son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de configuración dentro del sistema.
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de configuración dentro del sistema.
 
--   **Conjunto de campos a imprimir:** grupo de campos que va a ser
-    utilizado para la impresión de las etiquetas de lomos / tejuelos.
++ **Conjunto de campos a imprimir:** grupo de campos que va a ser utilizado para la impresión de las etiquetas de lomos / tejuelos.
 
--   **Fuente:** tipo y tamaño de letra que se va a aplicar en la
-    impresión.
++ **Fuente:** tipo y tamaño de letra que se va a aplicar en la impresión.
 
--   **Agregar prefijo de ubicación en 1a. línea:** se debe elegir uno de
-    los siguientes valores:
++ **Agregar prefijo de ubicación en 1a. línea:** se debe elegir uno de los siguientes valores:
 
-    -   **0** si no desea imprimir el prefijo de ubicación.
-    -   **&lt;** el prefijo será impreso y alineado al lado izquierdo.
-    -   **|** el prefijo será impreso y alineado al centro.
-    -   **&gt;** el prefijo será impreso y alineado al lado derecho.
+	+ **0** si no desea imprimir el prefijo de ubicación.
+	+ **\<** el prefijo será impreso y alineado al lado izquierdo.
+	+ **|** el prefijo será impreso y alineado al centro.
+	+ **\>** el prefijo será impreso y alineado al lado derecho.
 
--   **Agregar código de barras a la etiqueta:** se debe elegir uno de
-    los siguientes valores:
++ **Agregar código de barras a la etiqueta:** se debe elegir uno de los siguientes valores:
 
-    -   **1** sí se agregará el código de barras a la etiqueta.
-    -   **0** no se agregará el código de barras a la etiqueta.
+	+ **1** sí se agregará el código de barras a la etiqueta.
+	+ **0** no se agregará el código de barras a la etiqueta.
 
-![\*\*Configuración de lomos / tejuelos
-3\*\*](wpid-Configuracion_lomos3.png)
+![](Configuracion_lomos3.png)
 
 #### Bolsillos
 
 ##### Campos a imprimir en los bolsillos
 
-En este parámetro se definen los campos que van a ser impresos en las
-etiquetas de bolsillos, pudiendo ser estos: autor, título, código de
-barras, código de ubicación y clasificación del ítem.
+En este parámetro se definen los campos que van a ser impresos en las etiquetas de bolsillos, pudiendo ser estos: <u>autor</u>, <u>título</u>, <u>código de barras</u>, <u>código de ubicación</u> y <u> clasificación del ítem. </u>
 
-![\*\*Campos a imprimir en los bolsillos\*\*](wpid-Campos_bolsillos.png)
+![](Campos_bolsillos.png)
 
-![\*\*Campos a imprimir en los bolsillos
-2\*\*](wpid-Campos_bolsillos2.png)
+![](Campos_bolsillos2.png)
 
-Los campos que se presentan en un registro de campos a imprimir en los
-bolsillos son los siguientes:
+Los campos que se presentan en un registro de campos a imprimir en los bolsillos son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al grupo de campos que se va a crear. Los campos a
-    imprimir en los bolsillos deben permanecer bajo el mismo
-    identificador.
++ **Identificador:** nombre que identifica de forma única e irrepetible al grupo de campos que se va a crear. Los campos a imprimir en los bolsillos deben permanecer bajo el mismo identificador.
 
--   **Orden de despliegue:** valor numérico que tendrá el campo dentro
-    del grupo. Este número determina el orden de impresión que le
-    corresponde.
++ **Orden de despliegue:** valor numérico que tendrá el campo dentro del grupo. Este número determina el orden de impresión que le corresponde.
 
--   **Campo:** se debe elegir uno de los siguientes valores:
++ **Campo:** se debe elegir uno de los siguientes valores:
 
-    -   \[autor\] : si el campo a crear es *Autor*.
-    -   \[titulo\] : si el campo a crear es *Título*.
-    -   \[codbarras\] : si el campo a crear es *Código de barras*.
-    -   \[ubicacion\]: si el campo a crear es *Código de ubicación*.
-    -   \[clasificacion\]: si el campo a crear es *Clasificación del
-        ítem*.
-    -   \[BLANCO\]: si se quiere introducir una línea en blanco.
+	+ [autor] : si el campo a crear es _Autor_.
+	+ [titulo] : si el campo a crear es _Título_.
+	+ [codbarras] : si el campo a crear es _Código de barras_.
+	+ [ubicacion]: si el campo a crear es _Código de ubicación_.
+	+  [clasificacion]: si el campo a crear es _Clasificación del ítem_.
+	+ [BLANCO]: si se quiere introducir una línea en blanco.
 
--   **Alineación:** se debe elegir uno de los siguientes valores:
++ **Alineación:** se debe elegir uno de los siguientes valores:
 
-    -   **&lt;** si será alineado el campo a la izquierda.
-    -   **|** si será alineado el campo al centro.
-    -   **&gt;** si será alineado el campo a la derecha.
+	+ **\<** si será alineado el campo a la izquierda.
+	+ **|** si será alineado el campo al centro.
+	+ **\>** si será alineado el campo a la derecha.
 
--   **Fuente:** tipo y tamaño de letra que se va a aplicar en la
-    impresión.
++ **Fuente:** tipo y tamaño de letra que se va a aplicar en la impresión.
 
--   **Ancho máximo (caracteres):** número de caracteres que tendrá cada
-    línea donde se imprima este campo.
++ **Ancho máximo (caracteres):** número de caracteres que tendrá cada línea donde se imprima este campo.
 
--   **Número blancos al inicio de la primera línea:** número de
-    caracteres que se dejarán en blanco antes de iniciar la impresión de
-    la información en la primera línea. Funciona como *sangría* hacía la
-    derecha.
++ **Número blancos al inicio de la primera línea:** número de caracteres que se dejarán en blanco antes de iniciar la impresión de la información en la primera línea. Funciona como _sangría_ hacía la derecha.
 
--   **Número blancos al inicio de las segundas líneas:** número de
-    caracteres que se dejarán en blanco antes de iniciar la impresión de
-    la información en la segunda línea. Funciona como *sangría* hacia la
-    derecha.
++ **Número blancos al inicio de las segundas líneas:** número de caracteres que se dejarán en blanco antes de iniciar la impresión de la información en la segunda línea. Funciona como _sangría_ hacia la derecha.
 
--   **Número blancos al inicio de la primera línea después de línea
-    blanca o con distinta alineación:** número de caracteres que se
-    dejarán en blanco antes de iniciar la impresión de la información en
-    la primera línea después de la colocación de una línea en blanco o
-    con distinta alineación.
++ **Número blancos al inicio de la primera línea después de línea blanca o con distinta alineación:** número de caracteres que se dejarán en blanco antes de iniciar la impresión de la información en la primera línea después de la colocación de una línea en blanco o con distinta alineación.
 
--   **Número blancos al inicio de las segundas líneas después de línea
-    blanca o con distinta alineación:** número de caracteres que se
-    dejarán en blanco antes de iniciar la impresión de la información en
-    la segunda línea después de la colocación de una línea en blanco o
-    con distinta alineación.
++ **Número blancos al inicio de las segundas líneas después de línea blanca o con distinta alineación:** número de caracteres que se dejarán en blanco antes de iniciar la impresión de la información en la segunda línea después de la colocación de una línea en blanco o con distinta alineación.
 
--   **Truncar en la 1a. línea:** se debe elegir uno de los siguientes
-    valores:
++ **Truncar en la 1a. línea:** se debe elegir uno de los siguientes valores:
 
-    -   **0** si la información no será truncada en la primera línea.
-    -   **1** si la información será truncada en la primera línea.
+	+ **0** si la información no será truncada en la primera línea.
+	+ **1** si la información será truncada en la primera línea.
 
-![\*\*Campos a imprimir en los bolsillos
-3\*\*](wpid-Campos_bolsillos3.png)
+![](Campos_bolsillos3.png)
 
 ##### Configuración de bolsillos
 
-Aquí se define el grupo de campos que van a ser considerados para la
-impresión de los bolsillos, así como la posibilidad de agregar a esta
-impresión las de las etiquetas de lomos / tejuelos y código de barras.
+Aquí se define el grupo de campos que van a ser considerados para la impresión de los bolsillos, así como la posibilidad de agregar a esta impresión las de las etiquetas de lomos / tejuelos y código de barras.
 
-![\*\*Configuración de bolsillos\*\*](wpid-Configuracion_bolsillos.png)
+![](Configuracion_bolsillos.png)
 
-![\*\*Configuración de bolsillos
-2\*\*](wpid-Configuracion_bolsillos2.png)
+![](Configuracion_bolsillos2.png)
 
-Los campos que se presentan en un registro de configuración de bolsillos
-son los siguientes:
+Los campos que se presentan en un registro de configuración de bolsillos son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de configuración dentro del sistema.
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de configuración dentro del sistema.
 
--   **Conjunto de campos a imprimir:** grupo de campos que va a ser
-    utilizado para la impresión de las etiquetas.
++ **Conjunto de campos a imprimir:** grupo de campos que va a ser utilizado para la impresión de las etiquetas.
 
--   **Agregar lomo a la etiqueta:** se debe elegir uno de los siguientes
-    valores:
++ **Agregar lomo a la etiqueta:** se debe elegir uno de los siguientes valores:
 
-    -   **0**, no será impresa la etiqueta de lomo / tejuelo junto con
-        la etiqueta de bolsillo.
-    -   **1**, sí será impresa la etiqueta de lomo / tejuelo junto con
-        la etiqueta de bolsillo.
+	+ **0**, no será impresa la etiqueta de lomo / tejuelo junto con la etiqueta de bolsillo.
+	+ **1**, sí será impresa la etiqueta de lomo / tejuelo junto con la etiqueta de bolsillo.
 
--   **Agregar código de barras a la etiqueta:** se debe elegir uno de
-    los siguientes valores:
++ **Agregar código de barras a la etiqueta:** se debe elegir uno de los siguientes valores:
 
-    -   **0**, no será impreso el código de barras junto con la etiqueta
-        de bolsillo.
-    -   **1**, sí será impreso el código de barras junto con la etiqueta
-        de bolsillo.
+	+ **0**, no será impreso el código de barras junto con la etiqueta de bolsillo.
+	+ **1**, sí será impreso el código de barras junto con la etiqueta de bolsillo.
 
-![\*\*Configuración de bolsillos
-3\*\*](wpid-Configuracion_bolsillos3.png)
+![](Configuracion_bolsillos3.png)
 
 #### Códigos de barras
 
 ##### Esquemas
 
-En este parámetro están configurados los esquemas utilizados para la
-generación de los códigos de barras. Son los siguientes:
+En este parámetro están configurados los esquemas utilizados para la generación de los códigos de barras. Son los siguientes:
 
--   **Codabar:** código de barras numérico de alta densidad. Incluye 16
-    caracteres: números 0-9, “-”, “.”, “:”, “$”, “/” y “+”. Además,
-    incluye cuatro caracteres especiales (A, B, C, D) que se utilizan
-    como elementos de *start* y *stop*, y que no aparecen en la
-    interpretación del código.
++ **Codabar:** código de barras numérico de alta densidad. Incluye 16 caracteres: números 0-9, “-”, “.”, “:”, “$”, “/” y “+”. Además, incluye cuatro caracteres especiales (A, B, C, D) que se utilizan como elementos de _start_ y _stop_, y que no aparecen en la interpretación del código.
 
--   **Código 128:** código alfanumérico de alta densidad. Puede
-    codificar 106 caracteres diferentes y se compone de tres subgrupos
-    (A, B y C), que equivalen a distintas formas de interpretar la
-    información codificada.
++ **Código 128:** código alfanumérico de alta densidad. Puede codificar 106 caracteres diferentes y se compone de tres subgrupos (A, B y C), que equivalen a distintas formas de interpretar la información codificada.
 
--   **Código 39:** fue el primer código alfanumérico y es el código de
-    barras más empleado para uso no comercial. En su versión estándar se
-    codifican 43 caracteres: A-Z, 0-9, espacio y “-”, “.”, “ ”, “$”,
-    “/”, “+”, “%”. Este es el esquema utilizado por omisión en el
-    sistema Janium.
++ **Código 39:** fue el primer código alfanumérico y es el código de barras más empleado para uso no comercial. En su versión estándar se codifican 43 caracteres: A-Z, 0-9, espacio y “-”, “.”, “ ”, “$”, “/”, “+”, “%”. <u>Este es el esquema utilizado por omisión en el sistema Janium</u>.
 
-![\*\*Esquemas de códigos de
-barras\*\*](wpid-Esquemas_codigos_barras.png)
+![](Esquemas_codigos_barras.png)
 
-![\*\*Esquemas de códigos de barras
-2\*\*](wpid-Esquemas_codigos_barras2.png)
+![](Esquemas_codigos_barras2.png)
 
-Los campos que se presentan en un registro de esquemas de códigos de
-barras son los siguientes:
+Los campos que se presentan en un registro de esquemas de códigos de barras son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de esquema dentro del sistema.
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de esquema dentro del sistema.
 
--   **Descripción:** texto breve para explicar en qué consiste el
-    esquema elegido.
++ **Descripción:** texto breve para explicar en qué consiste el esquema elegido.
 
-![\*\*Esquemas de códigos de barras
-3\*\*](wpid-Esquemas_codigos_barras3.png)
+![](Esquemas_codigos_barras3.png)
 
 ##### Configuración de códigos de barras
 
-Aquí se configura el esquema de códigos de barras que va a ser
-utilizado, así como los tipos de letra a aplicar para la interpretación
-y encabezado de dichos códigos.
+Aquí se configura el esquema de códigos de barras que va a ser utilizado, así como los tipos de letra a aplicar para la interpretación y encabezado de dichos códigos.
 
-![\*\*Configuración de códigos de
-barras\*\*](wpid-Configuracion_codigos_barras.png)
+![](Configuracion_codigos_barras.png)
 
-![\*\*Configuración de códigos de barras
-2\*\*](wpid-Configuracion_codigos_barras2.png)
+![](Configuracion_codigos_barras2.png)
 
-Los campos que se presentan en un registro de configuración de códigos
-de barras son los siguientes:
+Los campos que se presentan en un registro de configuración de códigos de barras son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de configuración dentro del sistema.
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de configuración dentro del sistema.
 
--   **Esquema de códigos de barras:** el valor de este campo debe ser
-    tomado del parámetro explicado anteriormente.
++ **Esquema de códigos de barras:** el valor de este campo debe ser tomado del parámetro explicado anteriormente.
 
--   **Agregar interpretación del código de barras:** se debe elegir uno
-    de los siguientes valores:
++ **Agregar interpretación del código de barras:** se debe elegir uno de los siguientes valores:
 
-    -   **1**, sí será agregada la interpretación numérica del código de
-        barras.
-    -   **0**, no será agregada la interpretación numérica del código de
-        barras.
+	+ **1**, sí será agregada la interpretación numérica del código de barras.
+	+ **0**, no será agregada la interpretación numérica del código de barras.
 
--   **Fuente para la interpretación:** tipo y tamaño de la letra
-    utilizado para imprimir la interpretación del código de barras.
++ **Fuente para la interpretación:** tipo y tamaño de la letra utilizado para imprimir la interpretación del código de barras.
 
--   **Encabezado del código de barras:** encabezado que será utilizado
-    en la impresión de códigos de barras.
++ **Encabezado del código de barras:** encabezado que será utilizado en la impresión de códigos de barras.
 
--   **Fuente para el encabezado:** tipo y tamaño de la letra utilizado
-    para imprimir el encabezado del código de barras.
++ **Fuente para el encabezado:** tipo y tamaño de la letra utilizado para imprimir el encabezado del código de barras.
 
-![\*\*Configuración de códigos de barras
-3\*\*](wpid-Configuracion_codigos_barras3.png)
+![](Configuracion_codigos_barras3.png)
 
 #### Colocación de información en las etiquetas
 
-Sirve para configurar la posición donde se iniciará la impresión de la
-información en la etiqueta. Esto se aplica para los tres tipos de
-etiquetas: lomo / tejuelo, bolsillo y código de barras.
+Sirve para configurar la posición donde se iniciará la impresión de la información en la etiqueta. Esto se aplica para los tres tipos de etiquetas: <u>lomo / tejuelo</u>, <u>bolsillo</u> y <u>código de barras</u>.
 
-Además, se debe considerar el **tamaño de la etiqueta** configurada
-previamente, para determinar la posición de la información y evitar
-errores de configuración, ya que dicha información podría exceder del
-espacio físico de la etiqueta.
+Además, se debe considerar el **tamaño de la etiqueta** configurada previamente, para determinar la posición de la información y evitar errores de configuración, ya que dicha información podría exceder del <u>espacio físico</u> de la etiqueta.
 
-![\*\*Colocación de información en las
-etiquetas\*\*](wpid-Colocacion_info_etiquetas.png)
+![](Colocacion_info_etiquetas.png)
 
-![\*\*Colocación de información en las etiquetas
-2\*\*](wpid-Colocacion_info_etiquetas2.png)
+![](Colocacion_info_etiquetas2.png)
 
-Los campos que se presentan en un registro de colocación de información
-en las etiquetas son los siguientes:
+Los campos que se presentan en un registro de colocación de información en las etiquetas son los siguientes:
 
--   **Identificador:** nombre que identifica de forma única e
-    irrepetible al tipo de configuración dentro del sistema.
++ **Identificador:** nombre que identifica de forma única e irrepetible al tipo de configuración dentro del sistema.
 
--   **Distancia del borde izquierdo de la etiqueta a la primera línea
-    del lomo en 72os. de pulgada:** distancia izquierda que se debe
-    considerar antes de la impresión de la información del lomo /
-    tejuelo.
++ **Distancia del borde izquierdo de la etiqueta a la primera línea del lomo en 72os. de pulgada:** distancia izquierda que se debe considerar antes de la impresión de la información del lomo / tejuelo.
 
--   **Distancia del borde superior de la etiqueta a la primera línea del
-    lomo en 72os. de pulgada:** distancia superior que se debe
-    considerar antes de la impresión de la información del lomo /
-    tejuelo.
++ **Distancia del borde superior de la etiqueta a la primera línea del lomo en 72os. de pulgada:** distancia superior que se debe considerar antes de la impresión de la información del lomo / tejuelo.
 
--   **Distancia del borde izquierdo de la etiqueta a la primera línea
-    del bolsillo en 72os. de pulgada:** distancia izquierda que se debe
-    considerar antes de la impresión de la información del bolsillo.
++ **Distancia del borde izquierdo de la etiqueta a la primera línea del bolsillo en 72os. de pulgada:** distancia izquierda que se debe considerar antes de la impresión de la información del bolsillo.
 
--   **Distancia del borde superior de la etiqueta a la primera línea del
-    bolsillo en 72os. de pulgada:** distancia superior que se debe
-    considerar antes de la impresión de la información del bolsillo.
++ **Distancia del borde superior de la etiqueta a la primera línea del bolsillo en 72os. de pulgada:** distancia superior que se debe considerar antes de la impresión de la información del bolsillo.
 
--   **Distancia del borde izquierdo de la etiqueta al borde izquierdo
-    del código de barras en 72os. de pulgada:** distancia izquierda que
-    se debe considerar antes de la impresión del código de barras.
++ **Distancia del borde izquierdo de la etiqueta al borde izquierdo del código de barras en 72os. de pulgada:** distancia izquierda que se debe considerar antes de la impresión del código de barras.
 
--   **Distancia del borde superior de la etiqueta al borde superior del
-    código de barras en 72os. de pulgada:** distancia superior que se
-    debe considerar antes de la impresión del código de barras.
++ **Distancia del borde superior de la etiqueta al borde superior del código de barras en 72os. de pulgada:** distancia superior que se debe considerar antes de la impresión del código de barras.
 
--   **Ángulo de rotación del código de barras:** grado de rotación del
-    código de barras. Si no existe este dato, se debe escribir 0.
++ **Ángulo de rotación del código de barras:** grado de rotación del código de barras. Si no existe este dato, se debe escribir 0.
 
--   **Ancho del código de barras en 72os. de pulgada:** ancho que tendrá
-    el código de barras.
++ **Ancho del código de barras en 72os. de pulgada:** ancho que tendrá el código de barras.
 
--   **Alto del código de barras en 72os. de pulgada:** altura que tendrá
-    el código de barras.
++ **Alto del código de barras en 72os. de pulgada:** altura que tendrá el código de barras.
 
-![\*\*Colocación de información en las etiquetas
-3\*\*](wpid-Colocacion_info_etiquetas3.png)
+![](Colocacion_info_etiquetas3.png)
 
 #### Calibración de impresión de etiquetas
 
-Esta función permite ajustar diferentes elementos estructurales que
-intervienen en el proceso de impresión de etiquetas de lomo / tejuelo,
-bolsillo y código de barras, para tratar de conseguir el mejor resultado
-posible en la impresión definitiva y evitando así posibles errores de
-configuración que se podrían traducir, por ejemplo, en información mal
-encuadrada dentro de las etiquetas o en un exceso de tamaño de esta, que
-sobrepasase los límites fijados para dichas etiquetas.
+Esta función permite ajustar diferentes elementos estructurales que intervienen en el proceso de impresión de etiquetas de lomo / tejuelo, bolsillo y código de barras, para tratar de conseguir el mejor resultado posible en la impresión definitiva y evitando así posibles errores de configuración que se podrían traducir, por ejemplo, en <u>información mal encuadrada</u> dentro de las etiquetas o en un <u>exceso de tamaño</u> de esta, que sobrepasase los límites fijados para dichas etiquetas.
 
-La pantalla de calibración de impresión de etiquetas presenta tres
-categorías principales, en las que se podrán regular aspectos como el
-**formato** y las **distancias extras**, además de poder verificar el
-resultado final de los parámetros elegidos anteriormente (esquema de
-colocación, configuración de impresión) mediante el uso de **hojas de
-calibración** y **hojas de prueba**.
+La pantalla de calibración de impresión de etiquetas presenta tres categorías principales, en las que se podrán regular aspectos como el **formato** y las **distancias extras**, además de poder verificar el resultado final de los parámetros elegidos anteriormente (esquema de colocación, configuración de impresión) mediante el uso de **hojas de calibración** y **hojas de prueba**.
 
-![\*\*Calibración de impresión de etiquetas\*\*](wpid-Calibracion.png)
+![](Calibracion.png)
 
 En este contexto, conviene explicar algunos conceptos y definiciones:
 
--   **Distancia extra izquierda:** espacio adicional que, si se indica,
-    se añadirá en la parte izquierda de las etiquetas, sumándolo al ya
-    definido.
++ **Distancia extra izquierda:** espacio adicional que, si se indica, se añadirá en la parte izquierda de las etiquetas, sumándolo al ya definido.
 
--   **Distancia extra superior:** espacio adicional que, si se indica,
-    se añadirá en la parte superior de las etiquetas, sumándolo al ya
-    definido.
++ **Distancia extra superior:** espacio adicional que, si se indica, se añadirá en la parte superior de las etiquetas, sumándolo al ya definido.
 
--   **Hojas de calibración:**
++ **Hojas de calibración:**
 
-    -   Producir hoja de reglas: al hacer clic sobre esta opción, se
-        genera un fichero en formato ***pdf*** que muestra una regla
-        horizontal y otra vertical, que se puede usar para revisar las
-        dimensiones configuradas en comparación con la hoja física.
+	+ <u>Producir hoja de reglas:</u> al hacer clic sobre esta opción, se genera un fichero en formato _**pdf**_ que muestra una regla horizontal y otra vertical, que se puede usar para revisar las dimensiones configuradas en comparación con la hoja física.
 
-    -   Producir hoja de cajas: al hacer clic sobre esta opción, se
-        genera un fichero en formato ***pdf*** que muestra una
-        estructura de rectángulos e indicaciones, que se puede usar para
-        revisar la configuración establecida para los márgenes.
+	+ <u>Producir hoja de cajas:</u> al hacer clic sobre esta opción, se genera un fichero en formato _**pdf**_ que muestra una estructura de rectángulos e indicaciones, que se puede usar para revisar la configuración establecida para los márgenes.
 
-![\*\*Hoja de reglas\*\*](wpid-Hoja_reglas.png)
+![](Hoja_reglas.png)
 
-![\*\*Hoja de cajas\*\*](wpid-Hoja_cajas.png)
+![](Hoja_cajas.png)
 
 ### Tags
 
-NOTA: la información recogida sobre esta sección del módulo de
-Administración debe complementarse con la que se encuentra en el manual
-de **catálogo al público**.
+**NOTA**: la información recogida sobre esta sección del módulo de Administración debe complementarse con la que se encuentra en el manual de **catálogo al público**.
 
 #### Usuarios que pueden crear tags públicas
 
-En primer lugar, es importante mencionar que no todos los usuarios
-registrados en el sistema Janium tienen la posibilidad de crear *tags*
-de tipo público, es decir, que puedan ser vistas por todas las personas
-que accedan al catálogo al público, o de asociar registros
-bibliográficos a estas categorías. Por lo tanto, para que un usuario
-pueda utilizar esta función es necesario registrarlo en este parámetro.
+En primer lugar, es importante mencionar que no todos los usuarios registrados en el sistema Janium tienen la posibilidad de crear _tags_ de tipo público, es decir, que puedan ser vistas por todas las personas que accedan al catálogo al público, o de asociar registros bibliográficos a estas categorías. Por lo tanto, para que un usuario pueda utilizar esta función es necesario registrarlo en este parámetro.
 
-![\*\*Usuarios que pueden crear tags
-públicas\*\*](wpid-Usuarios_tags.png)
+![](Usuarios_tags.png)
 
-![\*\*Usuarios que pueden crear tags públicas
-2\*\*](wpid-Usuarios_tags2.png)
+![](Usuarios_tags2.png)
 
-Los campos que se presentan en un registro de usuarios que pueden crear
-*tags* públicas son los siguientes:
+Los campos que se presentan en un registro de usuarios que pueden crear _tags_ públicas son los siguientes:
 
--   **Número de cuenta:** número de cuenta asignado al usuario al que se
-    le ha concedido permiso para poder crear *tags* públicas.
++ **Número de cuenta:** número de cuenta asignado al usuario al que se le ha concedido permiso para poder crear _tags_ públicas.
 
-![\*\*Usuarios que pueden crear tags públicas
-3\*\*](wpid-Usuarios_tags3.png)
+![](Usuarios_tags3.png)
 
 #### Tags públicas y usuarios que las crearon
 
-A través de esta sección se establece la relación entre las \_tags\_
-públicas ya creadas y los usuarios responsables de haberlas creado.
+A través de esta sección se establece la relación entre las <u>_tags_ públicas</u> ya creadas y los <u>usuarios</u> responsables de haberlas creado.
 
-![\*\*Tags públicas y usuarios que las
-crearon\*\*](wpid-Tags_usuarios.png)
+![](Tags_usuarios.png)
 
-![\*\*Tags públicas y usuarios que las crearon
-2\*\*](wpid-Tags_usuarios2.png)
+![](Tags_usuarios2.png)
 
-Los campos que se presentan en un registro de *tags* públicas y usuarios
-que las crearon son los siguientes:
+Los campos que se presentan en un registro de _tags_ públicas y usuarios que las crearon son los siguientes:
 
--   **Id de etiqueta:** identificador único e irrepetible de la *tag*
-    dentro del sistema. Equivale al nombre que aparece en el catálogo al
-    público.
++ **Id de etiqueta:** identificador único e irrepetible de la _tag_ dentro del sistema. Equivale al nombre que aparece en el catálogo al público.
 
--   **Número de cuenta:** número de cuenta asignado al usuario que llevó
-    a cabo la creación de la *tag*.
++ **Número de cuenta:** número de cuenta asignado al usuario que llevó a cabo la creación de la _tag_.
 
-![\*\*Tags públicas y usuarios que las crearon
-3\*\*](wpid-Tags_usuarios3.png)
+![](Tags_usuarios3.png)
 
 #### Lista de todas las tags
 
-Listado completo de las *tags* creadas en el sistema, tanto públicas
-como privadas.
+Listado completo de las _tags_ creadas en el sistema, <u>tanto públicas como privadas</u>.
 
-![\*\*Lista de todas las tags\*\*](wpid-Lista_tags.png)
+![](Lista_tags.png)
 
-![\*\*Lista de todas las tags 2\*\*](wpid-Lista_tags2.png)
+![](Lista_tags2.png)
 
 Los campos que presenta un registro de esta sección son los siguientes:
 
--   **Identificador:** valor numérico único e irrepetible que identifica
-    a la *tag* dentro del sistema.
++ **Identificador:** valor numérico único e irrepetible que identifica a la _tag_ dentro del sistema.
 
--   **Etiqueta:** nombre descriptivo de la *tag*.
++ **Etiqueta:** nombre descriptivo de la _tag_.
 
--   **Número de cuenta:** número de cuenta asignado al usuario que llevó
-    a cabo la creación de la *tag*.
++ **Número de cuenta:** número de cuenta asignado al usuario que llevó a cabo la creación de la _tag_.
 
-![\*\*Lista de todas las tags 3\*\*](wpid-Lista_tags3.png)
+![](Lista_tags3.png)
 
 ### Ayuda
 
-El sistema Janium cuenta con un conjunto de **ayudas contextuales**
-integrado con las distintas interfaces que utiliza el usuario y asociado
-a documentación e información técnica. Estas ayudas pueden consistir en
-ejemplos, instrucciones, observaciones o directrices que tienen como
-objetivo orientar al usuario en los variados procesos a realizar.
+El sistema Janium cuenta con un conjunto de **ayudas contextuales** integrado con las distintas interfaces que utiliza el usuario y asociado a documentación e información técnica. Estas ayudas pueden consistir en ejemplos, instrucciones, observaciones o directrices que tienen como objetivo orientar al usuario en los variados procesos a realizar.
 
-![\*\*Ayuda del sistema\*\*](wpid-Ayuda_sistema.png)
+![](Ayuda_sistema.png)
 
-![\*\*Ayuda del sistema 2\*\*](wpid-Ayuda_sistema2.png)
+![](Ayuda_sistema2.png)
 
 Los campos que se presentan en un registro de ayuda son los siguientes:
 
--   **Nombre programa:** nombre identificador del programa del sistema
-    (*.pl*) que ejecuta la carga del sitio de ayuda correspondiente a la
-    sección en que se esté. Este programa, a su vez, requiere de un
-    fichero *html* asociado, que es el que contiene toda la información.
++ **Nombre programa:** nombre identificador del programa del sistema (_.pl_) que ejecuta la carga del sitio de ayuda correspondiente a la sección en que se esté. Este programa, a su vez, requiere de un fichero _html_ asociado, que es el que contiene toda la información.
 
--   **Contexto:** campo destinado para uso futuro del sistema.
++ **Contexto:** campo destinado para uso futuro del sistema.
 
--   **Programa o función:** descripción del área general a la que
-    pertenece la opción elegida en *nombre programa*.
++ **Programa o función:** descripción del área general a la que pertenece la opción elegida en _nombre programa_.
 
--   **URL:** enlace al recurso donde se encuentra alojado el contenido
-    de la ayuda.
++ **URL:** enlace al recurso donde se encuentra alojado el contenido de la ayuda.
 
-![\*\*Ayuda del sistema 3\*\*](wpid-Ayuda_sistema3.png)
+![](Ayuda_sistema3.png)
 
 ## Módulo de Catalogación [enlace5]
 
@@ -2349,9 +1556,9 @@ el sistema busca exactamente la entrada que fue introducida.
 Esta función permite definir qué índices mantiene el sistema, así como
 modificar la lista de ellos.
 
-![\*\*Índices del sistema\*\*](wpid-Indices_sistema.png)
+![Índices del sistema](Indices_sistema.png)
 
-![\*\*Índices del sistema 2\*\*](wpid-Indices_sistema2.png)
+![Índices del sistema 2](Indices_sistema2.png)
 
 Los campos que se presentan en un registro de índices del sistema son
 los siguientes:
@@ -2386,7 +1593,7 @@ los siguientes:
 -   **Índice alternativo:** valor numérico que identifica al mismo
     índice que se está definiendo, de forma alternativa.
 
-![\*\*Índices del sistema 3\*\*](wpid-Indices_sistema3.png)
+![Índices del sistema 3](Indices_sistema3.png)
 
 #### Mapas de etiquetas
 
@@ -2396,9 +1603,9 @@ MARC. No importa que las etiquetas o los subcampos sean repetibles, el
 sistema indizará todas las repeticiones de cada elemento con su
 información correspondiente.
 
-![\*\*Mapas de etiquetas\*\*](wpid-Mapas_etiquetas.png)
+![Mapas de etiquetas](Mapas_etiquetas.png)
 
-![\*\*Mapas de etiquetas 2\*\*](wpid-Mapas_etiquetas2.png)
+![Mapas de etiquetas 2](Mapas_etiquetas2.png)
 
 Los campos que se presentan en un registro de mapas de etiquetas son los
 siguientes:
@@ -2412,7 +1619,7 @@ siguientes:
 -   **Subcampos:** subcampos (asociados a la etiqueta elegida)
     relacionados con el formato MARC cuyo contenido se va a indizar.
 
-![\*\*Mapas de etiquetas 3\*\*](wpid-Mapas_etiquetas3.png)
+![Mapas de etiquetas 3](Mapas_etiquetas3.png)
 
 #### Palabras sin valor en índices (*Stopwords*)
 
@@ -2423,14 +1630,14 @@ en la base de datos, provocando un gran número de resultados y dando
 lugar, finalmente, a que las búsquedas pierdan precisión. Por ejemplo:
 artículos, preposiciones, etc.
 
-![\*\*\_Stopwords\_\*\*](wpid-Stopwords.png)
+![\_Stopwords\_](Stopwords.png)
 
-![\*\*\_Stopwords\_ 2\*\*](wpid-Stopwords2.png)
+![\_Stopwords\_ 2](Stopwords2.png)
 
 El único campo que se presenta en un registro de *stopwords* es el de
 **Palabra**, donde se introduce el término concreto que se va a añadir.
 
-![\*\*\_Stopwords\_ 3\*\*](wpid-Stopwords3.png)
+![\_Stopwords\_ 3](Stopwords3.png)
 
 #### Equivalencias de etiquetas
 
@@ -2445,10 +1652,10 @@ etiquetas van a contener cada tipo de dato. Por ejemplo:
 Es importante notar que se usa una construcción de **lenguaje SQL** para
 definir las mencionadas equivalencias.
 
-![\*\*Equivalencias de etiquetas\*\*](wpid-Equivalencias_etiquetas.png)
+![Equivalencias de etiquetas](Equivalencias_etiquetas.png)
 
-![\*\*Equivalencias de etiquetas
-2\*\*](wpid-Equivalencias_etiquetas2.png)
+![Equivalencias de etiquetas
+2](Equivalencias_etiquetas2.png)
 
 Los campos que se presentan en un registro de equivalencias de etiquetas
 son los siguientes:
@@ -2458,8 +1665,8 @@ son los siguientes:
 -   **Etiquetas:** lista de etiquetas que son equivalentes entre los
     distintos formatos.
 
-![\*\*Equivalencias de etiquetas
-3\*\*](wpid-Equivalencias_etiquetas3.png)
+![Equivalencias de etiquetas
+3](Equivalencias_etiquetas3.png)
 
 #### Definición de tesauros de autoridad
 
@@ -2468,9 +1675,9 @@ tabla base y otra tabla de autoridades. El control de autoridades
 requiere de estas definiciones para poder hacer las relaciones entre las
 tablas base y los registros de autoridad.
 
-![\*\*Definición de tesauros de autoridad\*\*](wpid-Tesauros.png)
+![Definición de tesauros de autoridad](Tesauros.png)
 
-![\*\*Definición de tesauros de autoridad 2\*\*](wpid-Tesauros2.png)
+![Definición de tesauros de autoridad 2](Tesauros2.png)
 
 Los campos que se presentan en un registro de definición de tesauros de
 autoridad son los siguientes:
@@ -2489,7 +1696,7 @@ autoridad son los siguientes:
 -   **nindice base:** número de índice de la tabla base. Por ejemplo,
     *materias*.
 
-![\*\*Definición de tesauros de autoridad 3\*\*](wpid-Tesauros3.png)
+![Definición de tesauros de autoridad 3](Tesauros3.png)
 
 #### Procesadores para esquemas de clasificación
 
@@ -2506,11 +1713,11 @@ Por ejemplo: la clasificación *QA76.73.C15 G68 2005* es modificada por
 el sistema a *QA0076.00730000 G68 2005*, asegurando que de esa manera
 aparecerá antes que las que comiencen por *QA760.*
 
-![\*\*Procesadores para esquemas de
-clasificación\*\*](wpid-Procesadores_clasificacion.png)
+![Procesadores para esquemas de
+clasificación](Procesadores_clasificacion.png)
 
-![\*\*Procesadores para esquemas de clasificación
-2\*\*](wpid-Procesadores_clasificacion2.png)
+![Procesadores para esquemas de clasificación
+2](Procesadores_clasificacion2.png)
 
 Los campos que se presentan en un registro de procesadores para esquemas
 de clasificación son los siguientes:
@@ -2536,8 +1743,8 @@ de clasificación son los siguientes:
     -   **2:** indica que el valor del campo *Cadena de texto a
         procesar* debe simplemente eliminarse de la clasificación.
 
-![\*\*Procesadores para esquemas de clasificación
-3\*\*](wpid-Procesadores_clasificacion3.png)
+![Procesadores para esquemas de clasificación
+3](Procesadores_clasificacion3.png)
 
 ### Códigos
 
@@ -2553,9 +1760,9 @@ Gracias a esta función, los códigos mencionados (u otro tipo de elemento
 a elección de la institución) pueden mostrarse en una lista donde el
 catalogador sólo tenga que seleccionar el valor correspondiente.
 
-![\*\*Códigos\*\*](wpid-Codigos.png)
+![Códigos](Codigos.png)
 
-![\*\*Códigos 2\*\*](wpid-Codigos2.png)
+![Códigos 2](Codigos2.png)
 
 Los campos que se presentan en un registro de códigos son los
 siguientes:
@@ -2572,7 +1779,7 @@ siguientes:
     cuyo valor sea uno de varios códigos, desplegará tanto el código
     como la descripción ingresada aquí.
 
-![\*\*Códigos 3\*\*](wpid-Codigos3.png)
+![Códigos 3](Codigos3.png)
 
 ### Definición de limitaciones en búsquedas
 
@@ -2611,11 +1818,11 @@ Los criterios de limitación se dividen en dos tipos:
     mostrará el término español e internamente hará la conversión para
     limitar por *spa*.
 
-![\*\*Definición de limitaciones en
-búsquedas\*\*](wpid-Definicion_limitaciones.png)
+![Definición de limitaciones en
+búsquedas](Definicion_limitaciones.png)
 
-![\*\*Definición de limitaciones en búsquedas
-2\*\*](wpid-Definicion_limitaciones2.png)
+![Definición de limitaciones en búsquedas
+2](Definicion_limitaciones2.png)
 
 Los campos que se presentan en un registro de definición de limitaciones
 de búsqueda son los siguientes:
@@ -2640,8 +1847,8 @@ de búsqueda son los siguientes:
 -   **Valores:** clave del grupo de códigos (de la tabla códigos) que
     pueden ser seleccionados como valor para limitar.
 
-![\*\*Definición de limitaciones en búsquedas
-3\*\*](wpid-Definicion_limitaciones3.png)
+![Definición de limitaciones en búsquedas
+3](Definicion_limitaciones3.png)
 
 ### Esquemas de clasificación
 
@@ -2649,9 +1856,9 @@ Esta sección regula los formatos de clasificación bibliográfica que van
 a utilizarse durante el proceso de catalogación de materiales por parte
 de los operadores del módulo de Control bibliográfico.
 
-![\*\*Esquemas de clasificación\*\*](wpid-Esquemas_clasificacion.png)
+![Esquemas de clasificación](Esquemas_clasificacion.png)
 
-![\*\*Esquemas de clasificación 2\*\*](wpid-Esquemas_clasificacion2.png)
+![Esquemas de clasificación 2](Esquemas_clasificacion2.png)
 
 Los campos que se presentan en un registro de esquemas de clasificación
 son los siguientes:
@@ -2662,7 +1869,7 @@ son los siguientes:
 -   **Descripción:** nombre o texto breve descriptivo acerca del esquema
     de clasificación.
 
-![\*\*Esquemas de clasificación 3\*\*](wpid-Esquemas_clasificacion3.png)
+![Esquemas de clasificación 3](Esquemas_clasificacion3.png)
 
 ### Ubicaciones o colecciones de los materiales
 
@@ -2670,11 +1877,11 @@ Las **ubicaciones** o **colecciones** sirven para indicar de qué forma
 está organizado y dividido el conjunto de los materiales de una
 institución.
 
-![\*\*Ubicaciones o colecciones de los
-materiales\*\*](wpid-Ubicaciones_colecciones.png)
+![Ubicaciones o colecciones de los
+materiales](Ubicaciones_colecciones.png)
 
-![\*\*Ubicaciones o colecciones de los materiales
-2\*\*](wpid-Ubicaciones_colecciones2.png)
+![Ubicaciones o colecciones de los materiales
+2](Ubicaciones_colecciones2.png)
 
 Los campos que se presentan en un registro de ubicaciones o colecciones
 de materiales son los siguientes:
@@ -2693,8 +1900,8 @@ de materiales son los siguientes:
 -   **Prefijo:** código abreviado que representa al valor seleccionado
     en el campo *Ubicación/Colección*.
 
-![\*\*Ubicaciones o colecciones de los materiales
-3\*\*](wpid-Ubicaciones_colecciones3.png)
+![Ubicaciones o colecciones de los materiales
+3](Ubicaciones_colecciones3.png)
 
 ### Estados de los ejemplares
 
@@ -2711,9 +1918,9 @@ estado que el sistema requiere van del **0** al **5**. No obstante,
 también pueden agregarse nuevos estados para reflejar situaciones reales
 de las colecciones: procesos de restauración, digitalización, etc.
 
-![\*\*Estados de los ejemplares\*\*](wpid-Estados_ejemplares.png)
+![Estados de los ejemplares](Estados_ejemplares.png)
 
-![\*\*Estados de los ejemplares 2\*\*](wpid-Estados_ejemplares2.png)
+![Estados de los ejemplares 2](Estados_ejemplares2.png)
 
 Los campos que se presentan en un registro de estados de ejemplares son
 los siguientes:
@@ -2723,7 +1930,7 @@ los siguientes:
 
 -   **Código del estado:** nombre o descripción breve acerca del estado.
 
-![\*\*Estados de los ejemplares 3\*\*](wpid-Estados_ejemplares3.png)
+![Estados de los ejemplares 3](Estados_ejemplares3.png)
 
 ### Tipos de material para los ejemplares
 
@@ -2732,11 +1939,11 @@ colección**. Explicado esto con un ejemplo, es posible tener un material
 como *libro impreso* y también como *libro electrónico*. El uso de este
 campo, por tanto, sirve para gestionar estas diferencias.
 
-![\*\*Tipos de material para los
-ejemplares\*\*](wpid-Tipos_material.png)
+![Tipos de material para los
+ejemplares](Tipos_material.png)
 
-![\*\*Tipos de material para los ejemplares
-2\*\*](wpid-Tipos_material2.png)
+![Tipos de material para los ejemplares
+2](Tipos_material2.png)
 
 Los campos que se presentan en un registro de tipos de material para
 ejemplares son los siguientes:
@@ -2755,8 +1962,8 @@ ejemplares son los siguientes:
     los ejemplares que tengan este tipo de material asociado podrán ser
     prestados a los usuarios del catálogo al público.
 
-![\*\*Tipos de material para los ejemplares
-3\*\*](wpid-Tipos_material3.png)
+![Tipos de material para los ejemplares
+3](Tipos_material3.png)
 
 ### Puntuación automática
 
@@ -2767,9 +1974,9 @@ generalmente se ingresa esta puntuación como parte de la información,
 salvo algunas excepciones. Sin embargo, en otras, la puntuación no es
 recogida como parte de dicha información.
 
-![\*\*Puntuación automática\*\*](wpid-Puntuacion_automatica.png)
+![Puntuación automática](Puntuacion_automatica.png)
 
-![\*\*Puntuación automática 2\*\*](wpid-Puntuacion_automatica2.png)
+![Puntuación automática 2](Puntuacion_automatica2.png)
 
 Los campos que se presentan en un registro de puntuación automática son
 los siguientes:
@@ -2798,7 +2005,7 @@ en el otro “**\]**”. En cada uno de esos registros, el campo
 *Puntuación* contendría el símbolo de paréntesis que abre “**(**“ y el
 de paréntesis que cierra “**)**” respectivamente.
 
-![\*\*Puntuación automática 3\*\*](wpid-Puntuacion_automatica3.png)
+![Puntuación automática 3](Puntuacion_automatica3.png)
 
 ### Tipos de formatos bibliográficos
 
@@ -2809,9 +2016,9 @@ ejemplo, se puede definir un formato MARC para libros y otro formato
 DUBLIN CORE también para libros. Los dos representan el mismo tipo de
 material pero tienen distintas etiquetas para definirlo.
 
-![\*\*Tipos de formatos bibliográficos\*\*](wpid-Tipos_formato.png)
+![Tipos de formatos bibliográficos](Tipos_formato.png)
 
-![\*\*Tipos de formatos bibliográficos 2\*\*](wpid-Tipos_formato2.png)
+![Tipos de formatos bibliográficos 2](Tipos_formato2.png)
 
 Los campos que se presentan en un registro de tipos de formatos
 bibliográficos son los siguientes:
@@ -2826,7 +2033,7 @@ bibliográficos son los siguientes:
 -   **Descripción:** nombre o descripción breve acerca del tipo de
     formato.
 
-![\*\*Tipos de formatos bibliográficos 3\*\*](wpid-Tipos_formato3.png)
+![Tipos de formatos bibliográficos 3](Tipos_formato3.png)
 
 ### Formatos o tipos de material bibliográfico
 
@@ -2842,11 +2049,11 @@ base de datos pueden coexistir formatos de diversos tipos. Entre otras
 funciones, este parámetro controla la estructura que va a servir de
 referencia para diseñar y utilizar las plantillas de los registros.
 
-![\*\*Formatos o tipos de material
-bibliográfico\*\*](wpid-Formatos_biblio.png)
+![Formatos o tipos de material
+bibliográfico](Formatos_biblio.png)
 
-![\*\*Formatos o tipos de material bibliográfico
-2\*\*](wpid-Formatos_biblio2.png)
+![Formatos o tipos de material bibliográfico
+2](Formatos_biblio2.png)
 
 Los campos que se presentan en un registro de esta sección son los
 siguientes:
@@ -2908,8 +2115,8 @@ siguientes:
     editor* se deja en blanco, el sistema asume que el valor es **1**,
     lo que indica que sí se utilizan.
 
-![\*\*Formatos o tipos de material bibliográfico
-3\*\*](wpid-Formatos_biblio3.png)
+![Formatos o tipos de material bibliográfico
+3](Formatos_biblio3.png)
 
 ### Listas para servicios de alerta
 
@@ -2920,9 +2127,9 @@ registros pueden utilizarse para reunir, por un tiempo específico,
 materiales sobre temas comunes y que puedan ser de interés para un grupo
 de usuarios de la institución.
 
-![\*\*Listas para servicios de alerta\*\*](wpid-Listas_alerta.png)
+![Listas para servicios de alerta](Listas_alerta.png)
 
-![\*\*Listas para servicios de alerta 2\*\*](wpid-Listas_alerta2.png)
+![Listas para servicios de alerta 2](Listas_alerta2.png)
 
 Los campos que se presentan en un registro de listas para servicios de
 alerta son los siguientes:
@@ -2946,7 +2153,7 @@ alerta son los siguientes:
     periodo* se utiliza el tipo **2**, esto indicará al sistema que debe
     mantener en la lista los registros por un periodo de 3 meses.
 
-![\*\*Listas para servicios de alerta 3\*\*](wpid-Listas_alerta3.png)
+![Listas para servicios de alerta 3](Listas_alerta3.png)
 
 **IMPORTANTE:** los códigos introducidos se deben colocar en la etiqueta
 *598* del formato MARC o bien en la que se determine en formatos no
@@ -2963,11 +2170,11 @@ necesidades de cada institución. Cada vez que se realiza un préstamo,
 por ejemplo, estas categorías son utilizadas para describir la nueva
 transacción.
 
-![\*\*Códigos para clases estadísticas 1 y 2 de
-existencias\*\*](wpid-Cat_estadisticas.png)
+![Códigos para clases estadísticas 1 y 2 de
+existencias](Cat_estadisticas.png)
 
-![\*\*Códigos para clases estadísticas 1 y 2 de existencias
-2\*\*](wpid-Cat_estadisticas2.png)
+![Códigos para clases estadísticas 1 y 2 de existencias
+2](Cat_estadisticas2.png)
 
 Los campos que se presentan en un registro de códigos para clases
 estadísticas de existencias son los siguientes:
@@ -2977,8 +2184,8 @@ estadísticas de existencias son los siguientes:
 
 -   **Descripción:** nombre o descripción breve acerca de la categoría.
 
-![\*\*Códigos para clases estadísticas 1 y 2 de existencias
-3\*\*](wpid-Cat_estadisticas3.png)
+![Códigos para clases estadísticas 1 y 2 de existencias
+3](Cat_estadisticas3.png)
 
 ### Descripciones de elementos de los formatos bibliográficos
 
@@ -2986,11 +2193,11 @@ En este parámetro se indican los términos concretos (los “textos”) que
 se van a mostrar en las plantillas para describir cada elemento de cada
 formato.
 
-![\*\*Descripciones de elementos de los formatos
-bibliográficos\*\*](wpid-Descripciones_elementos.png)
+![Descripciones de elementos de los formatos
+bibliográficos\*\*](Descripciones_elementos.png)
 
-![\*\*Descripciones de elementos de los formatos bibliográficos
-2\*\*](wpid-Descripciones_elementos2.png)
+![Descripciones de elementos de los formatos bibliográficos
+2\*\*](Descripciones_elementos2.png)
 
 Los campos que se presentan en un registro de descripciones de elementos
 de formatos son los siguientes:
@@ -3006,8 +2213,8 @@ de formatos son los siguientes:
 -   **Descripción:** texto descriptivo que se va a desplegar en la
     plantilla.
 
-![\*\*Descripciones de elementos de los formatos bibliográficos
-3\*\*](wpid-Descripciones_elementos3.png)
+![Descripciones de elementos de los formatos bibliográficos
+3\*\*](Descripciones_elementos3.png)
 
 ### Elementos de los formatos bibliográficos
 
@@ -3032,11 +2239,11 @@ adicionales al subcampo ***a***, éstos aparecerán en la plantilla sólo
 si en la tabla *formatos* dichas opciones de configuración están
 activadas.
 
-![\*\*Elementos de los formatos
-bibliográficos\*\*](wpid-Elementos_formatos.png)
+![Elementos de los formatos
+bibliográficos\*\*](Elementos_formatos.png)
 
-![\*\*Elementos de los formatos bibliográficos
-2\*\*](wpid-Elementos_formatos2.png)
+![Elementos de los formatos bibliográficos
+2\*\*](Elementos_formatos2.png)
 
 Los campos que se presentan en un registro de elementos de formatos para
 definir **indicadores** son los siguientes:
@@ -3118,8 +2325,8 @@ definir **indicadores** son los siguientes:
     control de autoridades se va a usar para vincular el subcampo con
     las autoridades.
 
-![\*\*Elementos de los formatos bibliográficos
-3\*\*](wpid-Elementos_formatos3.png)
+![Elementos de los formatos bibliográficos
+3\*\*](Elementos_formatos3.png)
 
 Los campos que se presentan en un registro de elementos de formatos para
 definir **subcampos** son los siguientes:
@@ -3199,8 +2406,8 @@ definir **subcampos** son los siguientes:
     control de autoridades se va a usar para vincular el subcampo con
     las autoridades.
 
-![\*\*Elementos de los formatos bibliográficos
-4\*\*](wpid-Elementos_formatos4.png)
+![Elementos de los formatos bibliográficos
+4\*\*](Elementos_formatos4.png)
 
 ### Formatos de captura de registros bibliográficos
 
@@ -3212,11 +2419,11 @@ su vez, puede estar formada por distintas etiquetas y valores por
 omisión para cada elemento, pero al final, el tipo de material será
 **libro**.
 
-![\*\*Formatos de captura de registros
-bibliográficos\*\*](wpid-Formatos_captura.png)
+![Formatos de captura de registros
+bibliográficos\*\*](Formatos_captura.png)
 
-![\*\*Formatos de captura de registros bibliográficos
-2\*\*](wpid-Formatos_captura2.png)
+![Formatos de captura de registros bibliográficos
+2\*\*](Formatos_captura2.png)
 
 Los campos que se presentan en un registro de formatos de captura son
 los siguientes:
@@ -3261,8 +2468,8 @@ los siguientes:
 -   **Orden de despliegue:** valor que indica en qué posición se va a
     desplegar el elemento dentro de la plantilla.
 
-![\*\*Formatos de captura de registros bibliográficos
-3\*\*](wpid-Formatos_captura3.png)
+![Formatos de captura de registros bibliográficos
+3\*\*](Formatos_captura3.png)
 
 ### Equivalencias para etiquetas bibliográficas con objetos
 
@@ -3282,11 +2489,11 @@ caso es necesario establecer una equivalencia entre las etiquetas de los
 formatos “no MARC” para definir qué etiqueta va a contener el
 hipervínculo y cuál la nota pública.
 
-![\*\*Equivalencias para etiquetas bibliográficas con
-objetos\*\*](wpid-Equivalencias_etiquetas_objetos.png)
+![Equivalencias para etiquetas bibliográficas con
+objetos\*\*](Equivalencias_etiquetas_objetos.png)
 
-![\*\*Equivalencias para etiquetas bibliográficas con objetos
-2\*\*](wpid-Equivalencias_etiquetas_objetos2.png)
+![Equivalencias para etiquetas bibliográficas con objetos
+2\*\*](Equivalencias_etiquetas_objetos2.png)
 
 Los campos que se presentan en un registro de esta sección para definir
 **hipervínculos** son los siguientes:
@@ -3316,8 +2523,8 @@ Los campos que se presentan en un registro de esta sección para definir
 -   **Subcampo para liga:** no ingresar ningún valor, ya que no se usa
     para definir etiquetas con hipervínculos.
 
-![\*\*Equivalencias para etiquetas bibliográficas con objetos
-3\*\*](wpid-Equivalencias_etiquetas_objetos3.png)
+![Equivalencias para etiquetas bibliográficas con objetos
+3\*\*](Equivalencias_etiquetas_objetos3.png)
 
 Los campos que se presentan en un registro de esta sección para definir
 **notas públicas** son los siguientes:
@@ -3354,8 +2561,8 @@ Los campos que se presentan en un registro de esta sección para definir
     subcampo ***a***. Cuando el formato no use subcampos, este campo
     debe permanecer vacío.
 
-![\*\*Equivalencias para etiquetas bibliográficas con objetos
-4\*\*](wpid-Equivalencias_etiquetas_objetos4.png)
+![Equivalencias para etiquetas bibliográficas con objetos
+4\*\*](Equivalencias_etiquetas_objetos4.png)
 
 ### Opciones del catalogador
 
@@ -3364,9 +2571,9 @@ Control bibliográfico para cada uno de los catalogadores autorizados,
 habilitando o restringiendo ciertas acciones y procesos: creación de
 registros, borrado, edición, duplicación, etc.
 
-![\*\*Opciones del catalogador\*\*](wpid-Opciones_catalogador.png)
+![Opciones del catalogador\*\*](Opciones_catalogador.png)
 
-![\*\*Opciones del catalogador 2\*\*](wpid-Opciones_catalogador2.png)
+![Opciones del catalogador 2\*\*](Opciones_catalogador2.png)
 
 Los campos que se presentan en un registro de opciones del catalogador
 son los siguientes:
@@ -3448,7 +2655,7 @@ forma continua, sin espacios. Por ejemplo:
 
 copiar|duplicar|Z3950|Bib:3|AV:CodBarras.
 
-![\*\*Opciones del catalogador 3\*\*](wpid-Opciones_catalogador3.png)
+![Opciones del catalogador 3\*\*](Opciones_catalogador3.png)
 
 ### Equivalencias de etiquetas
 
@@ -3472,9 +2679,9 @@ respectivo en formato *pdf*, por ejemplo, por falta de espacio o por un
 error de conexión, se puede acceder aquí y eliminar esos registros para
 poder generar nuevamente el listado.
 
-![\*\*Registros activos en el editor\*\*](wpid-Registros_activos.png)
+![Registros activos en el editor](Registros_activos.png)
 
-![\*\*Registros activos en el editor 2\*\*](wpid-Registros_activos2.png)
+![Registros activos en el editor 2](Registros_activos2.png)
 
 Los campos que se presentan en un registro de esta sección son los
 siguientes:
@@ -3490,7 +2697,7 @@ siguientes:
     Control bibliográfico, *bib* = Información bibliográfica o *pubper*
     = Publicaciones periódicas.
 
-![\*\*Registros activos en el editor 3\*\*](wpid-Registros_activos3.png)
+![Registros activos en el editor 3](Registros_activos3.png)
 
 ### Monedas
 
@@ -3498,9 +2705,9 @@ Aquí se definen las unidades monetarias que van a gestionar los módulos
 implicados en procesos y acciones de tipo económico, como el de
 Adquisiciones.
 
-![\*\*Monedas\*\*](wpid-Monedas.png)
+![Monedas](Monedas.png)
 
-![\*\*Monedas 2\*\*](wpid-Monedas2.png)
+![Monedas 2](Monedas2.png)
 
 Los campos que se presentan en un registro de monedas son los
 siguientes:
@@ -3518,7 +2725,7 @@ siguientes:
     modelo para llevar a cabo las conversiones, según el tipo de cambio
     establecido.
 
-![\*\*Monedas 3\*\*](wpid-Monedas3.png)
+![Monedas 3](Monedas3.png)
 
 ### Códigos de barras
 
@@ -3527,9 +2734,9 @@ códigos de barras y números de adquisición por biblioteca. Los
 contadores que se definen aquí son independientes para cada biblioteca
 registrada en el sistema.
 
-![\*\*Códigos de barras\*\*](wpid-Codigos_barras.png)
+![Códigos de barras](Codigos_barras.png)
 
-![\*\*Códigos de barras 2\*\*](wpid-Codigos_barras2.png)
+![Códigos de barras 2](Codigos_barras2.png)
 
 Los campos que se presentan en un registro de códigos de barras son los
 siguientes:
@@ -3562,7 +2769,7 @@ siguientes:
         menor a 7 dígitos se completará con ceros a la
         izquierda (0000099)
 
-![\*\*Códigos de barras 3\*\*](wpid-Codigos_barras3.png)
+![Códigos de barras 3](Codigos_barras3.png)
 
 ## Módulo de Circulación [enlace6]
 
@@ -3576,12 +2783,12 @@ El procedimiento a seguir es el siguiente:
 
 -   Acceder a la función haciendo clic sobre el nombre de la misma.
 
-![\*\*Creación de usuarios\*\*](wpid-Creacion_usuarios.png)
+![Creación de usuarios](Creacion_usuarios.png)
 
 -   Escribir el número de cuenta del usuario en el campo de texto de la
     sección *Crear usuario*. Hacer clic en el botón **Crear**.
 
-![\*\*Creación de usuarios 2\*\*](wpid-Creacion_usuarios2.png)
+![Creación de usuarios 2](Creacion_usuarios2.png)
 
 -   Se despliega el registro para completar la información del usuario.
     Introducir los datos correspondientes y hacer clic en el botón
@@ -3718,12 +2925,12 @@ El procedimiento a seguir es el siguiente:
     -   **Valor 1**, **Valor 2** y **Valor 3**: campos destinados a usos
         futuros del sistema.
 
-![\*\*Creación de usuarios 3\*\*](wpid-Creacion_usuarios3.png)
+![Creación de usuarios 3](Creacion_usuarios3.png)
 
 -   El sistema muestra de nuevo la información registrada para su
     verificación. Hacer clic en el botón **Aceptar**.
 
-![\*\*Creación de usuarios 4\*\*](wpid-Creacion_usuarios4.png)
+![Creación de usuarios 4](Creacion_usuarios4.png)
 
 #### Configuración de usuarios de *staff*
 
@@ -3733,7 +2940,7 @@ campo **Función**, por ejemplo, *Circulación* (lo que significa que se
 va a crear un usuario del módulo de Circulación), el sistema da paso a
 una nueva pantalla para definir los privilegios de dicho usuario.
 
-![\*\*Configuración de usuarios de staff\*\*](wpid-Usuarios_staff1.png)
+![Configuración de usuarios de staff](Usuarios_staff1.png)
 
 La siguiente pantalla se muestra después de haber confirmado la
 información introducida en el paso anterior. Los campos que aparecen en
@@ -3814,11 +3021,11 @@ el formulario son:
     para delimitar por bibliotecas las funciones que puede ejecutar el
     operador del módulo. Algunos de ellos son:
 
-![\*\*Configuración de usuarios de staff
-2\*\*](wpid-Usuarios_staff21.png)
+![Configuración de usuarios de staff
+2](Usuarios_staff21.png)
 
-![\*\*Configuración de usuarios de staff
-3\*\*](http://ayudacontextual.janium.com/wp-content/uploads/2014/11/wpid-Usuarios_staff31.png)
+![Configuración de usuarios de staff
+3](http://ayudacontextual.janium.com/wp-content/uploads/2014/11/wpid-Usuarios_staff31.png)
 
 ### Privilegios del staff de Circulación
 
@@ -3827,18 +3034,18 @@ operador del módulo de Circulación. Se configura **para cada número de
 cuenta individual**, es decir, si dos o más operadores comparten un
 mismo número de cuenta, tendrán asignados los mismos privilegios.
 
-![\*\*Privilegios del staff de
-Circulación\*\*](wpid-Privilegios_staff.png)
+![Privilegios del staff de
+Circulación](Privilegios_staff.png)
 
-![\*\*Privilegios del staff de Circulación
-2\*\*](wpid-Privilegios_staff2.png)
+![Privilegios del staff de Circulación
+2](Privilegios_staff2.png)
 
 Los campos que se presentan en un registro de privilegios del staff de
 Circulación **son los mismos** que se muestran en el formulario de
 configuración explicado en la sección anterior.
 
-![\*\*Privilegios del staff de Circulación
-3\*\*](wpid-Privilegios_staff3.png)
+![Privilegios del staff de Circulación
+3](Privilegios_staff3.png)
 
 ### Preferencias para usuarios
 
@@ -3847,9 +3054,9 @@ actuación por defecto del sistema Janium para usuarios concretos. Por
 ejemplo, el idioma de la interfaz o las bibliotecas donde el usuario
 puede o no realizar búsquedas.
 
-![\*\*Preferencias para usuarios\*\*](wpid-Preferencias_usuarios.png)
+![Preferencias para usuarios](Preferencias_usuarios.png)
 
-![\*\*Preferencias para usuarios 2\*\*](wpid-Preferencias_usuarios2.png)
+![Preferencias para usuarios 2](Preferencias_usuarios2.png)
 
 Los campos que se presentan en un registro de preferencias para usuarios
 son los siguientes:
@@ -3868,7 +3075,7 @@ son los siguientes:
 
 -   **ID. Sesión:** identificador de la sesión del sistema.
 
-![\*\*Preferencias para usuarios 3\*\*](wpid-Preferencias_usuarios3.png)
+![Preferencias para usuarios 3](Preferencias_usuarios3.png)
 
 ### Ubicaciones o colecciones de los materiales (Circulación)
 
@@ -3880,9 +3087,9 @@ de Catalogación**).
 Aquí se definen los distintos tipos de domicilio que se van a manejar en
 el sistema Janium.
 
-![\*\*Tipos de domicilio\*\*](wpid-Tipos_domicilio.png)
+![Tipos de domicilio](Tipos_domicilio.png)
 
-![\*\*Tipos de domicilio 2\*\*](wpid-Tipos_domicilio2.png)
+![Tipos de domicilio 2](Tipos_domicilio2.png)
 
 Los campos que se presentan en un registro de tipos de domicilio son los
 siguientes:
@@ -3906,7 +3113,7 @@ siguientes:
     domicilio sin necesidad de que medie validación alguna por parte del
     personal del módulo de Circulación.
 
-![\*\*Tipos de domicilio 3\*\*](wpid-Tipos_domicilio3.png)
+![Tipos de domicilio 3](Tipos_domicilio3.png)
 
 ### Estados de los ejemplares (Circulación)
 
@@ -3927,11 +3134,11 @@ Es posible asignar dos valores para uso estadístico interno a cada
 usuario del sistema. Estas categorías son definidas de acuerdo a las
 necesidades de cada institución.
 
-![\*\*Códigos para clases estadísticas 1 y 2 de
-usuarios\*\*](wpid-Cat_usuarios.png)
+![Códigos para clases estadísticas 1 y 2 de
+usuarios](Cat_usuarios.png)
 
-![\*\*Códigos para clases estadísticas 1 y 2 de usuarios
-2\*\*](wpid-Cat_usuarios2.png)
+![Códigos para clases estadísticas 1 y 2 de usuarios
+2](Cat_usuarios2.png)
 
 Los campos que se presentan en un registro de códigos para clases
 estadísticas de existencias son los siguientes:
@@ -3941,8 +3148,8 @@ estadísticas de existencias son los siguientes:
 
 -   **Descripción:** nombre o descripción breve acerca de la categoría.
 
-![\*\*Códigos para clases estadísticas 1 y 2 de usuarios
-3\*\*](wpid-Cat_usuarios3.png)
+![Códigos para clases estadísticas 1 y 2 de usuarios
+3](Cat_usuarios3.png)
 
 ### Configuración de parámetros de circulación
 
@@ -3962,9 +3169,9 @@ bloqueos de los usuarios. Los perfiles agrupan a usuarios con
 características similares que van a tener el mismo patrón de
 privilegios.
 
-![\*\*Perfil del usuario\*\*](wpid-Perfil_usuario.png)
+![Perfil del usuario](Perfil_usuario.png)
 
-![\*\*Perfil del usuario 2\*\*](wpid-Perfil_usuario2.png)
+![Perfil del usuario 2](Perfil_usuario2.png)
 
 Los campos que se presentan en un registro de perfil del usuario son los
 siguientes:
@@ -4031,16 +3238,16 @@ siguientes:
     los usuarios que tengan asignado este perfil y hagan uso de algún
     servicio establecido por la institución como de pago.
 
-![\*\*Perfil del usuario 3\*\*](wpid-Perfil_usuario3.png)
+![Perfil del usuario 3](Perfil_usuario3.png)
 
 #### Periodos de préstamo
 
 Define las unidades de medida temporal de préstamo de los materiales que
 se van a usar en el sistema Janium (horas, días, etc.).
 
-![\*\*Periodos de préstamo\*\*](wpid-Periodos_prestamo.png)
+![Periodos de préstamo](Periodos_prestamo.png)
 
-![\*\*Periodos de préstamo 2\*\*](wpid-Periodos_prestamo2.png)
+![Periodos de préstamo 2](Periodos_prestamo2.png)
 
 Los campos que se presentan en un registro de periodos de préstamo son
 los siguientes:
@@ -4066,7 +3273,7 @@ los siguientes:
 -   **Hora:** hora máxima en que se podrá devolver el material, antes de
     que se considere el préstamo como “vencido”.
 
-![\*\*Periodos de préstamo 3\*\*](wpid-Periodos_prestamo3.png)
+![Periodos de préstamo 3](Periodos_prestamo3.png)
 
 #### Razón de multa
 
@@ -4078,9 +3285,9 @@ sanción que se va a aplicar, ya sea monetaria o administrativa, con un
 ejemplar. Aquí se pueden agregar nuevos valores pero **no deben ser
 borrados los que ya se encuentran definidos en el sistema**.
 
-![\*\*Razón de multa\*\*](wpid-Razon_multa1.png)
+![Razón de multa](Razon_multa1.png)
 
-![\*\*Razón de multa 2\*\*](wpid-Razon_multa21.png)
+![Razón de multa 2](Razon_multa21.png)
 
 Los campos que se presentan en un registro de razón de multa son los
 siguientes:
@@ -4103,7 +3310,7 @@ siguientes:
     selecciona *Administrativa*, se suspenderán los servicios al usuario
     por un tiempo específico.
 
-![\*\*Razón de multa 3\*\*](wpid-Razon_multa3.png)
+![Razón de multa 3](Razon_multa3.png)
 
 #### Estructura de multa
 
@@ -4111,9 +3318,9 @@ Define la cifra de los cargos económicos o multas por concepto de
 apartados / reservas y préstamos de los materiales. También especifica
 la cantidad máxima que se va a cobrar a los usuarios.
 
-![\*\*Estructura de multa\*\*](wpid-Estructura_multa.png)
+![Estructura de multa](Estructura_multa.png)
 
-![\*\*Estructura de multa 2\*\*](wpid-Estructura_multa2.png)
+![Estructura de multa 2](Estructura_multa2.png)
 
 Los campos que se presentan en un registro de estructura de multa son
 los siguientes:
@@ -4154,7 +3361,7 @@ NOTA: todos los campos numéricos de cantidad de multa sólo aceptan el
 **punto decimal**, por lo tanto, cada cantidad debe ingresarse sólo con
 ese símbolo separador. Por ejemplo: 10000.00, 5000.00, etc.
 
-![\*\*Estructura de multa 3\*\*](wpid-Estructura_multa3.png)
+![Estructura de multa 3](Estructura_multa3.png)
 
 #### Multa monetaria
 
@@ -4162,9 +3369,9 @@ Define la cantidad de cargos o multas por concepto de vencimiento de los
 préstamos de los materiales. También especifica si la multa se
 incrementa por cada día u hora transcurridos.
 
-![\*\*Multa monetaria\*\*](wpid-Multa_monetaria.png)
+![Multa monetaria](Multa_monetaria.png)
 
-![\*\*Multa monetaria 2\*\*](wpid-Multa_monetaria2.png)
+![Multa monetaria 2](Multa_monetaria2.png)
 
 Los campos que se presentan en un registro de multa monetaria son los
 siguientes:
@@ -4201,7 +3408,7 @@ siguientes:
     Continuando con el ejemplo, si pasasen diez horas, el cargo por
     renta sería de **50.00**.
 
-![\*\*Multa monetaria 3\*\*](wpid-Multa_monetaria3.png)
+![Multa monetaria 3](Multa_monetaria3.png)
 
 #### Multa administrativa
 
@@ -4209,9 +3416,9 @@ Define el periodo durante el que se suspenderá el servicio al usuario
 multado, lo que significa que, por ejemplo, en ese intervalo de tiempo
 no podrá solicitar el préstamo o renovación de un material.
 
-![\*\*Multa administrativa\*\*](wpid-Multa_administrativa.png)
+![Multa administrativa](Multa_administrativa.png)
 
-![\*\*Multa administrativa 2\*\*](wpid-Multa_administrativa2.png)
+![Multa administrativa 2](Multa_administrativa2.png)
 
 Los campos que se presentan en un registro de multa administrativa son
 los siguientes:
@@ -4238,7 +3445,7 @@ los siguientes:
     selecciona ninguno, la multa se aplicará a todos los tipos de
     material del sistema.
 
-![\*\*Multa administrativa 3\*\*](wpid-Multa_administrativa3.png)
+![Multa administrativa 3](Multa_administrativa3.png)
 
 #### Reglas de circulación
 
@@ -4246,9 +3453,9 @@ En ellas, se combinan el **periodo de préstamo** y la **estructura de
 multa** para crear una base que se utilizará como regla al prestar un
 material. También definen cuántas veces se puede renovar un préstamo.
 
-![\*\*Reglas de circulación\*\*](wpid-Reglas_circulacion.png)
+![Reglas de circulación](Reglas_circulacion.png)
 
-![\*\*Reglas de circulación 2\*\*](wpid-Reglas_circulacion2.png)
+![Reglas de circulación 2](Reglas_circulacion2.png)
 
 Los campos que se presentan en un registro de reglas de circulación son
 los siguientes:
@@ -4279,7 +3486,7 @@ los siguientes:
 -   **Límite de material:** número máximo de materiales a la vez que
     puede tener en préstamo un usuario para esta regla.
 
-![\*\*Reglas de circulación 3\*\*](wpid-Reglas_circulacion3.png)
+![Reglas de circulación 3](Reglas_circulacion3.png)
 
 #### Mapas de circulación
 
@@ -4292,9 +3499,9 @@ una biblioteca específica a un usuario de determinada biblioteca y con
 cierto perfil. Además, con ellos se pueden calcular las multas y la
 forma en que se deben incrementar.
 
-![\*\*Mapas de circulación\*\*](wpid-Mapas_circulacion.png)
+![Mapas de circulación](Mapas_circulacion.png)
 
-![\*\*Mapas de circulación 2\*\*](wpid-Mapas_circulacion2.png)
+![Mapas de circulación 2](Mapas_circulacion2.png)
 
 Los campos que se presentan en un registro de mapas de circulación son
 los siguientes:
@@ -4341,18 +3548,18 @@ los siguientes:
     previos, como a los usuarios cuyo perfil y biblioteca también se
     establecieron más arriba.
 
-![\*\*Mapas de circulación 3\*\*](wpid-Mapas_circulacion3.png)
+![Mapas de circulación 3](Mapas_circulacion3.png)
 
 #### Configuración de parámetros para el cobro de multas
 
 Define los días y las horas que se considerarán para cobrar multas a un
 usuario con adeudos.
 
-![\*\*Configuración de parámetros para el cobro de
-multas\*\*](wpid-Parametros_multas.png)
+![Configuración de parámetros para el cobro de
+multas](Parametros_multas.png)
 
-![\*\*Configuración de parámetros para el cobro de multas
-2\*\*](wpid-Parametros_multas2.png)
+![Configuración de parámetros para el cobro de multas
+2](Parametros_multas2.png)
 
 Los campos que se presentan en un registro de esta sección son los
 siguientes:
@@ -4380,16 +3587,16 @@ siguientes:
     horas. El horario de la biblioteca se establece en el parámetro
     *Biblioteca*.
 
-![\*\*Configuración de parámetros para el cobro de multas
-3\*\*](wpid-Parametros_multas3.png)
+![Configuración de parámetros para el cobro de multas
+3](Parametros_multas3.png)
 
 #### Días no laborables
 
 Define los días de la semana en que la biblioteca cierra habitualmente.
 
-![\*\*Días no laborables\*\*](wpid-Dias_no_habiles.png)
+![Días no laborables](Dias_no_habiles.png)
 
-![\*\*Días no laborables 2\*\*](wpid-Dias_no_habiles2.png)
+![Días no laborables 2](Dias_no_habiles2.png)
 
 Los campos que se presentan en un registro de días no laborables son los
 siguientes:
@@ -4400,16 +3607,16 @@ siguientes:
 -   **Día:** día de la semana en que se produce el cierre de la
     biblioteca elegida en el campo anterior.
 
-![\*\*Días no laborables 3\*\*](wpid-Dias_no_habiles3.png)
+![Días no laborables 3](Dias_no_habiles3.png)
 
 #### Fechas de cierre
 
 Define los días en que la biblioteca cierra por conceptos como
 vacaciones, días feriados / festivos, etc.
 
-![\*\*Fechas de cierre\*\*](wpid-Fechas_cierre.png)
+![Fechas de cierre](Fechas_cierre.png)
 
-![\*\*Fechas de cierre 2\*\*](wpid-Fechas_cierre2.png)
+![Fechas de cierre 2](Fechas_cierre2.png)
 
 Los campos que se presentan en un registro de fechas de cierre son los
 siguientes:
@@ -4434,7 +3641,7 @@ NOTA: las fechas se ingresan en un formato año-mes-día (AAAA-MM-DD). Se
 puede utilizar el icono del **calendario** para buscar e ingresar la
 fecha.
 
-![\*\*Fechas de cierre 3\*\*](wpid-Fechas_cierre3.png)
+![Fechas de cierre 3](Fechas_cierre3.png)
 
 ### Definición de notificaciones
 
@@ -4445,11 +3652,11 @@ los días que acumulan de vencimiento de los mismos. **Cabe aclarar que
 los mensajes deben ser distintos para las devoluciones y los
 vencimientos**.
 
-![\*\*Definición de
-notificaciones\*\*](wpid-Definicion_notificaciones.png)
+![Definición de
+notificaciones](Definicion_notificaciones.png)
 
-![\*\*Definición de notificaciones
-2\*\*](wpid-Definicion_notificaciones2.png)
+![Definición de notificaciones
+2](Definicion_notificaciones2.png)
 
 Los campos que se presentan en un registro de definición de
 notificaciones son los siguientes:
@@ -4482,15 +3689,15 @@ notificaciones son los siguientes:
 -   **Texto al final de la notificación:** parte final del mensaje que
     se incluirá en el correo electrónico que será enviado al usuario.
 
-![\*\*Definición de notificaciones
-3\*\*](wpid-Definicion_notificaciones3.png)
+![Definición de notificaciones
+3](Definicion_notificaciones3.png)
 
 A continuación, se muestra una posible notificación de ejemplo. En ella,
 se han señalado todas y cada una de las partes de la información que el
 sistema completa de forma automática.
 
-![\*\*Definición de notificaciones
-4\*\*](wpid-Definicion_notificaciones4.png)
+![Definición de notificaciones
+4](Definicion_notificaciones4.png)
 
 ### Impresión de papeletas
 
@@ -4503,10 +3710,10 @@ acciones como pagos por préstamos o cobro de multas.
 Define el formato y la estructura que van a presentar las papeletas
 impresas.
 
-![\*\*Configuración de papeletas\*\*](wpid-Configuracion_papeletas.png)
+![Configuración de papeletas](Configuracion_papeletas.png)
 
-![\*\*Configuración de papeletas
-2\*\*](wpid-Configuracion_papeletas2.png)
+![Configuración de papeletas
+2](Configuracion_papeletas2.png)
 
 Los campos que se presentan en un registro de configuración de papeletas
 son los siguientes:
@@ -4548,8 +3755,8 @@ son los siguientes:
     definido. A diferencia de la impresión de etiquetas, aquí no es
     necesario ni recomendable usar el formato **.eps**.
 
-![\*\*Configuración de papeletas
-3\*\*](wpid-Configuracion_papeletas3.png)
+![Configuración de papeletas
+3](Configuracion_papeletas3.png)
 
 #### Campos a imprimir en las papeletas
 
@@ -4557,10 +3764,10 @@ Define en detalle los campos de información que van a mostrarse en las
 papeletas impresas, así como la distribución y el despliegue de cada de
 uno de ellos.
 
-![\*\*Campos a imprimir en las papeletas\*\*](wpid-Campos_papeletas.png)
+![Campos a imprimir en las papeletas](Campos_papeletas.png)
 
-![\*\*Campos a imprimir en las papeletas
-2\*\*](wpid-Campos_papeletas2.png)
+![Campos a imprimir en las papeletas
+2](Campos_papeletas2.png)
 
 Los campos que se presentan en un registro de esta sección son los
 siguientes:
@@ -4582,15 +3789,15 @@ siguientes:
 -   **Despliegue (1 = Sí, 0 = No):** regula si el campo se va a
     desplegar en la papeleta o no.
 
-![\*\*Campos a imprimir en las papeletas
-3\*\*](wpid-Campos_papeletas3.png)
+![Campos a imprimir en las papeletas
+3](Campos_papeletas3.png)
 
 #### Ejemplo de papeleta
 
 A continuación, se muestra un posible ejemplo de papeleta creada por el
 sistema Janium.
 
-![\*\*Ejemplo de papeleta\*\*](wpid-Ejemplo_papeleta.png)
+![Ejemplo de papeleta](Ejemplo_papeleta.png)
 
 ## Módulo de Adquisiciones [enlace7]
 
@@ -4605,9 +3812,9 @@ ellos se podrán crear todas las opciones que sean necesarias.
 NOTA: al ser el proceso de configuración **similar para las cuatro
 categorías**, en esta sección sólo se describe el mismo una vez.
 
-![\*\*Categorías de fondos\*\*](wpid-Cat_fondos.png)
+![Categorías de fondos](Cat_fondos.png)
 
-![\*\*Categorías de fondos 2\*\*](wpid-Cat_fondos2.png)
+![Categorías de fondos 2](Cat_fondos2.png)
 
 Los campos que se presentan en un registro de categorías de fondos son
 los siguientes:
@@ -4618,7 +3825,7 @@ los siguientes:
 -   **Descripción:** nombre o texto descriptivo breve acerca de la
     categoría.
 
-![\*\*Categorías de fondos 3\*\*](wpid-Cat_fondos3.png)
+![Categorías de fondos 3](Cat_fondos3.png)
 
 ### Fondos
 
@@ -4637,9 +3844,9 @@ Así, durante la configuración, el fondo para *material bibliográfico* se
 crearía una sola vez, mientras que cada ciclo de fondo se crearía
 conforme se fuera necesitando, es decir para *2015*, *2016*, etc.
 
-![\*\*Fondos\*\*](wpid-Fondos.png)
+![Fondos](Fondos.png)
 
-![\*\*Fondos 2\*\*](wpid-Fondos2.png)
+![Fondos 2](Fondos2.png)
 
 Los campos que se presentan en un registro de fondos son los siguientes:
 
@@ -4668,7 +3875,7 @@ Los campos que se presentan en un registro de fondos son los siguientes:
 -   **Notas:** cualquier comentario o indicación adicional sobre el
     fondo.
 
-![\*\*Fondos 3\*\*](wpid-Fondos3.png)
+![Fondos 3](Fondos3.png)
 
 ### Ciclos fiscales de fondos
 
@@ -4679,9 +3886,9 @@ identificado por el tipo de material que pretende adquirir pero,
 periódicamente, puede asignar una cantidad de dinero parcial a ese
 fondo. Cada una de esas asignaciones sería un ciclo de fondo.
 
-![\*\*Ciclos fiscales de fondos\*\*](wpid-Ciclos_fondos.png)
+![Ciclos fiscales de fondos](Ciclos_fondos.png)
 
-![\*\*Ciclos fiscales de fondos 2\*\*](wpid-Ciclos_fondos2.png)
+![Ciclos fiscales de fondos 2](Ciclos_fondos2.png)
 
 Los campos que se presentan en un registro de ciclos de fondos son los
 siguientes:
@@ -4756,7 +3963,7 @@ siguientes:
 -   **Descuento promedio:** promedio del descuento obtenido al utilizar
     este fondo. Es actualizado automáticamente por el sistema.
 
-![\*\*Ciclos fiscales de fondos 3\*\*](wpid-Ciclos_fondos3.png)
+![Ciclos fiscales de fondos 3](Ciclos_fondos3.png)
 
 ### Monedas (Adquisiciones)
 
@@ -4780,9 +3987,9 @@ todas las opciones que sean necesarias.
 NOTA: al ser el proceso de configuración **similar para las dos
 categorías**, en esta sección sólo se describe el mismo una vez.
 
-![\*\*Categorías de proveedores\*\*](wpid-Cat_proveedores.png)
+![Categorías de proveedores](Cat_proveedores.png)
 
-![\*\*Categorías de proveedores 2\*\*](wpid-Cat_proveedores2.png)
+![Categorías de proveedores 2](Cat_proveedores2.png)
 
 Los campos que se presentan en un registro de categorías de proveedores
 son los siguientes:
@@ -4793,7 +4000,7 @@ son los siguientes:
 -   **Descripción:** nombre o texto descriptivo breve acerca de la
     categoría.
 
-![\*\*Categorías de proveedores 3\*\*](wpid-Cat_proveedores3.png)
+![Categorías de proveedores 3](Cat_proveedores3.png)
 
 ### Proveedores
 
@@ -4805,9 +4012,9 @@ menos un proveedor. Si algunos materiales se adquieren por medio de
 **donaciones** o **canje**, se debe crear también un proveedor que
 identifique esos tipos de adquisiciones.
 
-![\*\*Proveedores\*\*](wpid-Proveedores.png)
+![Proveedores](Proveedores.png)
 
-![\*\*Proveedores 2\*\*](wpid-Proveedores2.png)
+![Proveedores 2](Proveedores2.png)
 
 Los campos que se presentan en un registro de proveedores son los
 siguientes:
@@ -4886,7 +4093,7 @@ siguientes:
     nombre de este campo puede variar según el tipo de regulación de
     cada país.
 
-![\*\*Proveedores 3\*\*](wpid-Proveedores3.png)
+![Proveedores 3](Proveedores3.png)
 
 ### Tipos de descuento
 
@@ -4903,9 +4110,9 @@ orden para dicho proveedor, se aplicará el tipo de descuento definido,
 con lo que el sistema hará el ajuste aplicando dicho descuento al total
 de la línea de orden.
 
-![\*\*Tipos de descuento\*\*](wpid-Tipos_descuento.png)
+![Tipos de descuento](Tipos_descuento.png)
 
-![\*\*Tipos de descuento 2\*\*](wpid-Tipos_descuento2.png)
+![Tipos de descuento 2](Tipos_descuento2.png)
 
 Los campos que se presentan en un registro de tipos de descuento son los
 siguientes:
@@ -4927,7 +4134,7 @@ siguientes:
     ingresó el valor **1**, para indicar que se tratará de un
     porcentaje, en este campo se debe indicar dicho porcentaje numérico.
 
-![\*\*Tipos de descuento 3\*\*](wpid-Tipos_descuento3.png)
+![Tipos de descuento 3](Tipos_descuento3.png)
 
 ### Ciclos para proveedores
 
@@ -4945,9 +4152,9 @@ este caso son los de *Período de reclamo en días* y *Período de
 cancelación en días*. Estos campos se pueden modificar conforme se vaya
 utilizando el ciclo y conforme a las necesidades de la institución.
 
-![\*\*Ciclos para proveedores\*\*](wpid-Ciclos_proveedores.png)
+![Ciclos para proveedores](Ciclos_proveedores.png)
 
-![\*\*Ciclos para proveedores 2\*\*](wpid-Ciclos_proveedores2.png)
+![Ciclos para proveedores 2](Ciclos_proveedores2.png)
 
 Los campos que se presentan en un registro de ciclos para proveedores
 son los siguientes:
@@ -5028,7 +4235,7 @@ son los siguientes:
     ejemplar o copia, según el tipo de descuento definido en el campo
     anterior.
 
-![\*\*Ciclos para proveedores 3\*\*](wpid-Ciclos_proveedores3.png)
+![Ciclos para proveedores 3](Ciclos_proveedores3.png)
 
 ### Equivalencias para campos de órdenes
 
@@ -5041,11 +4248,11 @@ se cree una línea de orden y se decida crear un registro bibliográfico
 dentro de ella, eligiendo su formato respectivo, los campos que se
 usarán para el mismo serán los que se definan en esta sección.
 
-![\*\*Equivalencias para campos de
-órdenes\*\*](wpid-Equivalencias_campos_ordenes.png)
+![Equivalencias para campos de
+órdenes](Equivalencias_campos_ordenes.png)
 
-![\*\*Equivalencias para campos de órdenes
-2\*\*](wpid-Equivalencias_campos_ordenes2.png)
+![Equivalencias para campos de órdenes
+2](Equivalencias_campos_ordenes2.png)
 
 Por otro lado, este parámetro está relacionado con otro,
 ***Descripciones de campos***, que se encuentra dentro de la sección
@@ -5063,8 +4270,8 @@ adq.descripcion” y son las siguientes:
 (Cada una de estas descripciones se corresponde con uno de los cinco
 campos de descripción de las líneas de orden).
 
-![\*\*Equivalencias para campos de órdenes
-3\*\*](wpid-Equivalencias_campos_ordenes3.png)
+![Equivalencias para campos de órdenes
+3](Equivalencias_campos_ordenes3.png)
 
 Los campos que se presentan en un registro de equivalencias para campos
 de órdenes son los siguientes:
@@ -5096,8 +4303,8 @@ de órdenes son los siguientes:
     selecciona AUTOR, cuando se copien los datos, el sistema insertará
     el autor del bibliográfico en la *descripcion2*.
 
-![\*\*Equivalencias para campos de órdenes
-4\*\*](wpid-Equivalencias_campos_ordenes4.png)
+![Equivalencias para campos de órdenes
+4](Equivalencias_campos_ordenes4.png)
 
 NOTA: si se crean nuevos formatos para describir materiales, es posible
 que sea necesario **actualizar** las equivalencias para campos de
@@ -5108,9 +4315,9 @@ que sea necesario **actualizar** las equivalencias para campos de
 Aquí se definen los tipos de órdenes de adquisición de materiales que se
 presentan de forma predeterminada en el sistema Janium.
 
-![\*\*Tipos de orden\*\*](wpid-Tipos_orden_adq.png)
+![Tipos de orden](Tipos_orden_adq.png)
 
-![\*\*Tipos de orden 2\*\*](wpid-Tipos_orden_adq2.png)
+![Tipos de orden 2](Tipos_orden_adq2.png)
 
 Los campos que se presentan en un registro de tipos de orden son los
 siguientes:
@@ -5121,7 +4328,7 @@ siguientes:
 -   **Descripción:** nombre o descripción breve acerca del tipo de
     orden.
 
-![\*\*Tipos de orden 3\*\*](wpid-Tipos_orden_adq3.png)
+![Tipos de orden 3](Tipos_orden_adq3.png)
 
 ### Tipos de cancelación
 
@@ -5129,9 +4336,9 @@ Aquí se definen los tipos o razones de cancelación de órdenes de
 adquisición de materiales que se presentan de forma predeterminada en el
 sistema Janium.
 
-![\*\*Tipos de cancelación\*\*](wpid-Tipos_cancelacion.png)
+![Tipos de cancelación](Tipos_cancelacion.png)
 
-![\*\*Tipos de cancelación 2\*\*](wpid-Tipos_cancelacion2.png)
+![Tipos de cancelación 2](Tipos_cancelacion2.png)
 
 Los campos que se presentan en un registro de tipos de cancelación son
 los siguientes:
@@ -5142,7 +4349,7 @@ los siguientes:
 -   **Descripción:** nombre o descripción breve acerca del tipo de
     cancelación.
 
-![\*\*Tipos de cancelación 3\*\*](wpid-Tipos_cancelacion3.png)
+![Tipos de cancelación 3](Tipos_cancelacion3.png)
 
 ### Tipos de reclamación
 
@@ -5150,9 +4357,9 @@ Aquí se definen los tipos o razones de reclamación a los proveedores por
 materiales ordenados y no recibidos, o recibidos con algún defecto, que
 se presentan de forma predeterminada en el sistema Janium.
 
-![\*\*Tipos de reclamación\*\*](wpid-Tipos_reclamacion.png)
+![Tipos de reclamación](Tipos_reclamacion.png)
 
-![\*\*Tipos de reclamación 2\*\*](wpid-Tipos_reclamacion2.png)
+![Tipos de reclamación 2](Tipos_reclamacion2.png)
 
 Los campos que se presentan en un registro de tipos de reclamación son
 los siguientes:
@@ -5163,7 +4370,7 @@ los siguientes:
 -   **Descripción:** nombre o descripción breve acerca del tipo de
     reclamación.
 
-![\*\*Tipos de reclamación 3\*\*](wpid-Tipos_reclamacion3.png)
+![Tipos de reclamación 3](Tipos_reclamacion3.png)
 
 ### Reclamaciones
 
@@ -5171,9 +4378,9 @@ Aquí se registran todas las reclamaciones de adquisiciones que ha
 llevado a cabo el sistema Janium, con información sobre el tipo, fecha,
 orden y linea de compra, etc.
 
-![\*\*Reclamaciones\*\*](wpid-Reclamaciones.png)
+![Reclamaciones](Reclamaciones.png)
 
-![\*\*Reclamaciones 2\*\*](wpid-Reclamaciones2.png)
+![Reclamaciones 2](Reclamaciones2.png)
 
 Los campos que se presentan en un registro de reclamaciones son los
 siguientes:
@@ -5216,7 +4423,7 @@ siguientes:
 -   **Fecha de respuesta:** fecha en la que ha tenido lugar la respuesta
     a la reclamación por parte del proveedor.
 
-![\*\*Reclamaciones 3\*\*](wpid-Reclamaciones3.png)
+![Reclamaciones 3](Reclamaciones3.png)
 
 ### Tipos de avisos
 
@@ -5225,9 +4432,9 @@ por el sistema Janium, en relación con la adquisición de materiales.
 Este parámetro está directamente relacionado con el siguiente: *Textos
 para avisos / reclamaciones*.
 
-![\*\*Tipos de avisos\*\*](wpid-Tipos_avisos_adq.png)
+![Tipos de avisos](Tipos_avisos_adq.png)
 
-![\*\*Tipos de avisos 2\*\*](wpid-Tipos_avisos_adq2.png)
+![Tipos de avisos 2](Tipos_avisos_adq2.png)
 
 Los campos que se presentan en un registro de tipos de avisos son los
 siguientes:
@@ -5238,7 +4445,7 @@ siguientes:
 -   **Descripción:** nombre o descripción breve acerca del tipo de
     aviso.
 
-![\*\*Tipos de avisos 3\*\*](wpid-Tipos_avisos_adq3.png)
+![Tipos de avisos 3](Tipos_avisos_adq3.png)
 
 ### Textos para avisos / reclamaciones
 
@@ -5247,11 +4454,11 @@ los avisos que van a ser enviados a los proveedores para notificarles,
 por ejemplo, la cancelación de una orden de compra o la reclamación de
 materiales no recibidos, o recibidos con algún defecto.
 
-![\*\*Textos para avisos /
-reclamaciones\*\*](wpid-Textos_avisos_adq.png)
+![Textos para avisos /
+reclamaciones](Textos_avisos_adq.png)
 
-![\*\*Textos para avisos / reclamaciones
-2\*\*](wpid-Textos_avisos_adq2.png)
+![Textos para avisos / reclamaciones
+2](Textos_avisos_adq2.png)
 
 Los campos que se presentan en un registro de textos para avisos son los
 siguientes:
@@ -5288,8 +4495,8 @@ siguientes:
 -   **Texto al final de la notificación:** parte final del mensaje que
     se incluirá en el correo electrónico que será enviado al proveedor.
 
-![\*\*Textos para avisos / reclamaciones
-3\*\*](wpid-Textos_avisos_adq3.png)
+![Textos para avisos / reclamaciones
+3](Textos_avisos_adq3.png)
 
 ### Indexar líneas de órdenes de compra y facturas
 
@@ -5297,8 +4504,8 @@ Para llevar a cabo esta acción de mantenimiento automático del sistema
 Janium relacionada con Adquisiciones, se debe hacer clic sobre su nombre
 en la pantalla principal del módulo.
 
-![\*\*Indexar líneas de órdenes de compra y
-facturas\*\*](wpid-Indexar_adq.png)
+![Indexar líneas de órdenes de compra y
+facturas](Indexar_adq.png)
 
 ## Módulo de Publicaciones periódicas [enlace8]
 
@@ -5311,9 +4518,9 @@ recibir dichos fascículos, es necesario seleccionar de qué tipo se
 tratan. Este proceso se lleva a cabo aquí, además de poder crear nuevos
 tipos que sean solicitados por la institución.
 
-![\*\*Tipo de fascículos\*\*](wpid-Tipos_fasciculos.png)
+![Tipo de fascículos](Tipos_fasciculos.png)
 
-![\*\*Tipo de fascículos 2\*\*](wpid-Tipos_fasciculos2.png)
+![Tipo de fascículos 2](Tipos_fasciculos2.png)
 
 Los campos que se presentan en un registro de tipos de fascículos son
 los siguientes:
@@ -5324,7 +4531,7 @@ los siguientes:
 -   **Descripción:** nombre o descripción breve, de hasta 60 caracteres,
     acerca del tipo de fascículo.
 
-![\*\*Tipo de fascículos 3\*\*](wpid-Tipos_fasciculos3.png)
+![Tipo de fascículos 3](Tipos_fasciculos3.png)
 
 ### Numeración y cronología
 
@@ -5346,9 +4553,9 @@ correspondientes.
 Con base en el patrón seleccionado después de crear la suscripción, el
 sistema podrá hacer las predicciones.
 
-![\*\*Numeración y cronología\*\*](wpid-Cronologias.png)
+![Numeración y cronología](Cronologias.png)
 
-![\*\*Numeración y cronología 2\*\*](wpid-Cronologias2.png)
+![Numeración y cronología 2](Cronologias2.png)
 
 Los campos que se presentan en un registro de numeración y cronología
 son los siguientes:
@@ -5530,7 +4737,7 @@ son los siguientes:
 -   **Esquema numeración:** campo para ingresar un esquema de numeración
     según MARC.
 
-![\*\*Numeración y cronología 3\*\*](wpid-Cronologias3.png)
+![Numeración y cronología 3](Cronologias3.png)
 
 ### Códigos de cronología
 
@@ -5540,9 +4747,9 @@ registrar los meses, días, estaciones, etc. en los diferentes idiomas.
 En este sentido, el sistema Janium utiliza **códigos de cronología**
 para desplegar los elementos mencionados.
 
-![\*\*Códigos de cronología\*\*](wpid-Codigos_cronologia.png)
+![Códigos de cronología](Codigos_cronologia.png)
 
-![\*\*Códigos de cronología 2\*\*](wpid-Codigos_cronologia2.png)
+![Códigos de cronología 2](Codigos_cronologia2.png)
 
 Los campos que se presentan en un registro de códigos de cronología son
 los siguientes:
@@ -5560,7 +4767,7 @@ los siguientes:
     las fechas de los fascículos dentro del módulo de Publicaciones
     periódicas.
 
-![\*\*Códigos de cronología 3\*\*](wpid-Codigos_cronologia3.png)
+![Códigos de cronología 3](Codigos_cronologia3.png)
 
 ### Proveedores (Publicaciones periódicas)
 
@@ -5576,11 +4783,11 @@ el módulo de Adquisiciones, pero los parámetros no coinciden, aunque se
 trate del mismo, **conviene crear un nuevo registro de proveedor con los
 parámetros específicos para Publicaciones periódicas**.
 
-![\*\*Proveedores en Publicaciones
-periódicas\*\*](wpid-Proveedores_pubper.png)
+![Proveedores en Publicaciones
+periódicas](Proveedores_pubper.png)
 
-![\*\*Proveedores en Publicaciones periódicas
-2\*\*](wpid-Proveedores_pubper2.png)
+![Proveedores en Publicaciones periódicas
+2](Proveedores_pubper2.png)
 
 Los campos que se presentan en un registro de proveedores son los
 siguientes:
@@ -5660,8 +4867,8 @@ siguientes:
     nombre de este campo puede variar según el tipo de regulación de
     cada país.
 
-![\*\*Proveedores en Publicaciones periódicas
-3\*\*](wpid-Proveedores_pubper3.png)
+![Proveedores en Publicaciones periódicas
+3](Proveedores_pubper3.png)
 
 ### Tipos de reclamación (Publicaciones periódicas)
 
@@ -5671,11 +4878,11 @@ esperadas, o si llegan, se reciben incompletos o defectuosos. Para que
 la institución sepa por que está reclamando uno o más fascículos, puede
 seleccionar un tipo de reclamación.
 
-![\*\*Tipos de reclamación en Publicaciones
-periódicas\*\*](wpid-Tipos_reclamacion.png)
+![Tipos de reclamación en Publicaciones
+periódicas](Tipos_reclamacion.png)
 
-![\*\*Tipos de reclamación en Publicaciones periódicas
-2\*\*](wpid-Tipos_reclamacion2.png)
+![Tipos de reclamación en Publicaciones periódicas
+2](Tipos_reclamacion2.png)
 
 Los campos que se presentan en un registro de tipos de reclamación son
 los siguientes:
@@ -5692,8 +4899,8 @@ los siguientes:
     acerca del tipo de reclamación. Este texto es el que va a aparecer
     en la lista correspondiente del módulo de Publicaciones periódicas.
 
-![\*\*Tipos de reclamación en Publicaciones periódicas
-3\*\*](wpid-Tipos_reclamacion3.png)
+![Tipos de reclamación en Publicaciones periódicas
+3](Tipos_reclamacion3.png)
 
 ### Reclamaciones (Publicaciones periódicas)
 
@@ -5710,11 +4917,11 @@ Envío de avisos de publicaciones periódicas (reclamaciones). Ambas están
 localizadas en la sección de este módulo **Tareas de mantenimiento
 general** y son explicadas en ese punto.
 
-![\*\*Reclamaciones en publicaciones
-periódicas\*\*](wpid-Reclamaciones_pubper.png)
+![Reclamaciones en publicaciones
+periódicas](Reclamaciones_pubper.png)
 
-![\*\*Reclamaciones en publicaciones periódicas
-2\*\*](wpid-Reclamaciones_pubper2.png)
+![Reclamaciones en publicaciones periódicas
+2](Reclamaciones_pubper2.png)
 
 Los campos que se presentan en un registro de reclamaciones son los
 siguientes:
@@ -5766,8 +4973,8 @@ siguientes:
 -   **Fecha de respuesta:** fecha en la que ha tenido lugar la respuesta
     a la reclamación por parte del proveedor.
 
-![\*\*Reclamaciones en publicaciones periódicas
-3\*\*](wpid-Reclamaciones_pubper3.png)
+![Reclamaciones en publicaciones periódicas
+3](Reclamaciones_pubper3.png)
 
 ### Textos para reclamaciones
 
@@ -5776,9 +4983,9 @@ el sistema incluye, de forma automática, una serie de textos
 predeterminados en los mensajes que pueden ser modificados en este punto
 para adaptarlos a las necesidades de la institución.
 
-![\*\*Textos para reclamaciones\*\*](wpid-Textos_reclamaciones.png)
+![Textos para reclamaciones](Textos_reclamaciones.png)
 
-![\*\*Textos para reclamaciones 2\*\*](wpid-Textos_reclamaciones2.png)
+![Textos para reclamaciones 2](Textos_reclamaciones2.png)
 
 Los campos que se presentan en un registro de textos para reclamaciones
 son los siguientes:
@@ -5802,12 +5009,12 @@ son los siguientes:
 -   **Texto al final de la notificación:** parte del texto colocado al
     final del mensaje.
 
-![\*\*Textos para reclamaciones 3\*\*](wpid-Textos_reclamaciones3.png)
+![Textos para reclamaciones 3](Textos_reclamaciones3.png)
 
 A continuación, presentamos un posible ejemplo de mensaje de
 reclamación:
 
-![\*\*Textos para reclamaciones 4\*\*](wpid-Textos_reclamaciones4.jpg)
+![Textos para reclamaciones 4](Textos_reclamaciones4.jpg)
 
 ## Módulo de Seguridad avanzada [enlace9]
 
@@ -5873,9 +5080,9 @@ Como la información desplegada puede variar de un usuario individual a
 otro, es recomendable definir los niveles de acceso tomando como
 referencia los grupos de usuarios previamente identificados y definidos.
 
-![\*\*Niveles de seguridad\*\*](wpid-Niveles_seguridad.png)
+![Niveles de seguridad](Niveles_seguridad.png)
 
-![\*\*Niveles de seguridad 2\*\*](wpid-Niveles_seguridad2.png)
+![Niveles de seguridad 2](Niveles_seguridad2.png)
 
 Los campos que se presentan en un registro de niveles de seguridad son
 los siguientes:
@@ -5888,14 +5095,14 @@ los siguientes:
 -   **Nivel de acceso:** valor numérico jerárquico que establece qué
     grado de seguridad va a tener asociado este nivel.
 
-![\*\*Niveles de seguridad 3\*\*](wpid-Niveles_seguridad3.png)
+![Niveles de seguridad 3](Niveles_seguridad3.png)
 
 Por otro lado, el orden para configurar niveles de seguridad es el que
 se describe a continuación: primero, se crea el nivel de seguridad,
 después la descripción del nivel y finalmente, se lleva a cabo la
 asignación a un usuario.
 
-![\*\*Niveles de seguridad 4\*\*](wpid-Niveles_seguridad4.png)
+![Niveles de seguridad 4](Niveles_seguridad4.png)
 
 #### Niveles de seguridad para registros bibliográficos
 
@@ -5912,8 +5119,8 @@ de nivel de acceso al crearlo**. Ese número se comparará con el valor de
 *Nivel de seguridad* asociado al campo de *nivel de acceso* que tenga
 definido el usuario para su perfil.
 
-![\*\*Niveles de seguridad para registros
-bibliográficos\*\*](wpid-Niveles_seguridad_bib.png)
+![Niveles de seguridad para registros
+bibliográficos](Niveles_seguridad_bib.png)
 
 #### Niveles de seguridad para elementos específicos
 
@@ -5949,9 +5156,9 @@ un usuario específico pero no tengan acceso a Circulación, en cuyo caso
 lo harían desde Administración. Además, entre otras cosas define el
 programa con el que inicia la sesión en el sistema el usuario.
 
-![\*\*Control de acceso\*\*](wpid-Control_acceso.png)
+![Control de acceso](Control_acceso.png)
 
-![\*\*Control de acceso 2\*\*](wpid-Control_acceso2.png)
+![Control de acceso 2](Control_acceso2.png)
 
 Los campos que se presentan en un registro de control de acceso son los
 siguientes:
@@ -5986,7 +5193,7 @@ siguientes:
 -   **Valor 3:** instrucciones para definir la tabla en la función de
     mantenimiento de tablas.
 
-![\*\*Control de acceso 3\*\*](wpid-Control_acceso3.png)
+![Control de acceso 3](Control_acceso3.png)
 
 ### Etiquetas aseguradas
 
@@ -5995,7 +5202,7 @@ seguridad para las etiquetas que componen un registro. El sistema
 compara el nivel definido para el registro (mediante la plantilla
 correspondiente), con el nivel definido para el usuario.
 
-![\*\*Etiquetas aseguradas\*\*](wpid-Etiquetas_aseguradas.png)
+![Etiquetas aseguradas](Etiquetas_aseguradas.png)
 
 Se puede acceder a la lista de etiquetas aseguradas a través de este
 parámetro, sin necesidad de tener que abrir el registro desde el módulo
@@ -6003,9 +5210,9 @@ de Control bibliográfico. Sin embargo, esta sección no está diseñada
 para reemplazar a las plantillas sino como ayuda auxiliar para el
 operador de Administración.
 
-![\*\*Etiquetas aseguradas 2\*\*](wpid-Etiquetas_aseguradas2.png)
+![Etiquetas aseguradas 2](Etiquetas_aseguradas2.png)
 
-![\*\*Etiquetas aseguradas 3\*\*](wpid-Etiquetas_aseguradas3.png)
+![Etiquetas aseguradas 3](Etiquetas_aseguradas3.png)
 
 Los campos que se presentan en un registro de etiquetas aseguradas son
 los siguientes:
@@ -6024,7 +5231,7 @@ los siguientes:
 -   **Nivel de seguridad:** valor numérico entero que expresa el nivel
     de seguridad asignado a la etiqueta.
 
-![\*\*Etiquetas aseguradas 4\*\*](wpid-Etiquetas_aseguradas4.png)
+![Etiquetas aseguradas 4](Etiquetas_aseguradas4.png)
 
 ### Niveles de seguridad (Circulación)
 
@@ -6032,11 +5239,11 @@ Es posible definir distintos niveles de seguridad para las funciones del
 módulo de Circulación, con la idea de gestionar qué perfil de seguridad
 debe tener un operador de este módulo para poder ejecutar cada opción.
 
-![\*\*Niveles de seguridad
-(Circulación)\*\*](wpid-Niveles_seguridad_circu.png)
+![Niveles de seguridad
+(Circulación)](Niveles_seguridad_circu.png)
 
-![\*\*Niveles de seguridad (Circulación)
-2\*\*](wpid-Niveles_seguridad_circu2.png)
+![Niveles de seguridad (Circulación)
+2](Niveles_seguridad_circu2.png)
 
 Los campos que se presentan en un registro de niveles de seguridad en
 Circulación son los siguientes:
@@ -6048,8 +5255,8 @@ Circulación son los siguientes:
     de seguridad requerido para poder ejecutar la función indicada en el
     campo anterior.
 
-![\*\*Niveles de seguridad (Circulación)
-3\*\*](wpid-Niveles_seguridad_circu3.png)
+![Niveles de seguridad (Circulación)
+3](Niveles_seguridad_circu3.png)
 
 ### Descripción de niveles de seguridad
 
@@ -6057,11 +5264,11 @@ En este parámetro se definen de forma ampliada los valores establecidos
 en el campo ***Perfil de seguridad*** de la sección *Niveles de
 seguridad*.
 
-![\*\*Descripción de niveles de
-seguridad\*\*](wpid-Descrip_niveles_seguridad.png)
+![Descripción de niveles de
+seguridad](Descrip_niveles_seguridad.png)
 
-![\*\*Descripción de niveles de seguridad
-2\*\*](wpid-Descrip_niveles_seguridad2.png)
+![Descripción de niveles de seguridad
+2](Descrip_niveles_seguridad2.png)
 
 Los campos que se presentan en un registro de descripción de niveles de
 seguridad son los siguientes:
@@ -6073,8 +5280,8 @@ seguridad son los siguientes:
 -   **codnivel:** nombre o descripción ampliada acerca del nivel de
     seguridad definido en el campo anterior.
 
-![\*\*Descripción de niveles de seguridad
-3\*\*](wpid-Descrip_niveles_seguridad3.png)
+![Descripción de niveles de seguridad
+3](Descrip_niveles_seguridad3.png)
 
 ## Módulo de Inventario [enlace10]
 
@@ -6142,15 +5349,15 @@ características:
 El acceso a la función de inventario se realiza a través de la opción
 correspondiente del módulo.
 
-![\*\*Pantalla de ejecución de
-inventarios\*\*](wpid-Pantalla_inventario1.png)
+![Pantalla de ejecución de
+inventarios](Pantalla_inventario1.png)
 
 En esta pantalla se deben marcar aquellas restricciones que se deseen
 aplicar al inventario: *biblioteca*, *ubicación*, *tipo de material* y
 *estado del material*, para después hacer clic en el botón **Transferir
 el archivo y ejecutar el inventario**.
 
-![\*\*Opciones de inventario\*\*](wpid-Opciones_inventario1.png)
+![Opciones de inventario](Opciones_inventario1.png)
 
 #### Obtención de resultados
 
@@ -6163,7 +5370,7 @@ considerados para la comparación.
 Al finalizar el proceso mencionado, el sistema muestra los resultados
 obtenidos en detalle.
 
-![\*\*Resultados del inventario\*\*](wpid-Resultados_inventario1.png)
+![Resultados del inventario](Resultados_inventario1.png)
 
 Las cifras se distribuyen en las siguientes categorías:
 
@@ -6204,16 +5411,16 @@ cero.
 La opción que permite la descarga de los listados aparece representada
 por un icono situado en la parte derecha de la pantalla.
 
-![\*\*Descarga de listados de resultados de
-inventario\*\*](wpid-Descarga_listados_inventario1.png)
+![Descarga de listados de resultados de
+inventario](Descarga_listados_inventario1.png)
 
 ##### Listado de códigos duplicados
 
 Este tipo de lista muestra los números de códigos de barras que fueron
 localizados en dos o más ocasiones.
 
-![\*\*Ejemplo de listado de códigos
-duplicados\*\*](wpid-Ejemplo_listado_duplicados1.png)
+![Ejemplo de listado de códigos
+duplicados](Ejemplo_listado_duplicados1.png)
 
 ##### Listado de códigos inexistentes
 
@@ -6228,8 +5435,8 @@ adicional, título y autor, para su posible búsqueda y recuperación.
 Además, los resultados se encuentran ordenados por estado del material /
 código de barras.
 
-![\*\*Ejemplo de listado de códigos
-inexistentes\*\*](wpid-Ejemplo_listado_inexistentes1.png)
+![Ejemplo de listado de códigos
+inexistentes](Ejemplo_listado_inexistentes1.png)
 
 ##### Listado de códigos sin proceso técnico
 
@@ -6237,8 +5444,8 @@ Este tipo de lista muestra los códigos de barras de los ejemplares cuyos
 números existen en el archivo transferido pero no están registrados en
 el sistema.
 
-![\*\*Ejemplo de listado de códigos sin proceso
-técnico\*\*](wpid-Ejemplo_listado_sinproceso1.png)
+![Ejemplo de listado de códigos sin proceso
+técnico](Ejemplo_listado_sinproceso1.png)
 
 ##### Listado de códigos de otras bibliotecas
 
@@ -6252,8 +5459,8 @@ material, biblioteca propietaria, número de ficha / registro,
 clasificación, volumen, número, tomo, ejemplar, parte, información
 adicional, título y autor.
 
-![\*\*Ejemplo de listado de códigos de otras
-bibliotecas\*\*](wpid-Ejemplo_listado_otrasbibliotecas1.png)
+![Ejemplo de listado de códigos de otras
+bibliotecas](Ejemplo_listado_otrasbibliotecas1.png)
 
 ##### Listado de códigos inventariados
 
@@ -6266,8 +5473,8 @@ material, biblioteca propietaria, número de ficha / registro,
 clasificación, volumen, número, tomo, ejemplar, parte, información
 adicional, título y autor.
 
-![\*\*Ejemplo de listado de códigos
-inventariados\*\*](wpid-Ejemplo_listado_inventariados1.png)
+![Ejemplo de listado de códigos
+inventariados](Ejemplo_listado_inventariados1.png)
 
 ## Tareas de mantenimiento general [enlace11]
 
@@ -6277,8 +5484,8 @@ sin que exista una pantalla intermedia de configuración como en otros
 casos. No obstante, esta circunstancia se advierte individualmente para
 cada una.
 
-![\*\*Tareas de mantenimiento
-general\*\*](wpid-Tareas_mantenimiento.png)
+![Tareas de mantenimiento
+general](Tareas_mantenimiento.png)
 
 ### Mantenimiento a listas de selección
 
@@ -6454,9 +5661,9 @@ A través de este parámetro se pueden definir categorías nuevas de
 reportes que, a su vez, van a permitir diseñar nuevos reportes para los
 distintos módulos del sistema Janium.
 
-![\*\*Nuevos tipos de reportes\*\*](wpid-Tipos_reportes.png)
+![Nuevos tipos de reportes](Tipos_reportes.png)
 
-![\*\*Nuevos tipos de reportes 2\*\*](wpid-Tipos_reportes2.png)
+![Nuevos tipos de reportes 2](Tipos_reportes2.png)
 
 Los campos que se presentan en un registro de nuevos tipos de reportes
 son los siguientes:
@@ -6474,18 +5681,18 @@ son los siguientes:
 -   **Indice:** índice general utilizado en las tablas temporales
     mencionadas.
 
-![\*\*Nuevos tipos de reportes 3\*\*](wpid-Tipos_reportes3.png)
+![Nuevos tipos de reportes 3](Tipos_reportes3.png)
 
 ### Agregar / Quitar columnas en los reportes
 
 Aquí se establecen los campos de información que se van a mostrar como
 seleccionables en el momento del diseño y la creación de algún reporte.
 
-![\*\*Agregar / Quitar columnas en los
-reportes\*\*](wpid-Columnas_reportes.png)
+![Agregar / Quitar columnas en los
+reportes](Columnas_reportes.png)
 
-![\*\*Agregar / Quitar columnas en los reportes
-2\*\*](wpid-Columnas_reportes2.png)
+![Agregar / Quitar columnas en los reportes
+2](Columnas_reportes2.png)
 
 Los campos que se presentan en un registro de esta sección son los
 siguientes:
@@ -6503,8 +5710,8 @@ siguientes:
     desplegar en el reporte para poder ser seleccionados, con mención
     expresa de sus etiquetas asociadas.
 
-![\*\*Agregar / Quitar columnas en los reportes
-3\*\*](wpid-Columnas_reportes3.png)
+![Agregar / Quitar columnas en los reportes
+3](Columnas_reportes3.png)
 
 ## Bitácora de cambios [enlace13]
 
@@ -6514,10 +5721,10 @@ sistema Janium**, que serán mencionadas brevemente aquí, incluyendo
 información como el tipo de cambio, la fecha de realización y el número
 de versión del sistema a la que pertenece.
 
-![\*\*Bitácora de cambios\*\*](wpid-Bitacora.png)
+![Bitácora de cambios](Bitacora.png)
 
-![\*\*Bitácora de cambios
-2\*\*](http://ayudacontextual.janium.com/wp-content/uploads/2014/11/wpid-Bitacora2.png)
+![Bitácora de cambios
+2](http://ayudacontextual.janium.com/wp-content/uploads/2014/11/wpid-Bitacora2.png)
 
 -   <a href="index.html?p=1317#" class="icon"><span>Facebook</span></a>
 -   <a href="index.html?p=1317#" class="icon"><span>Twitter</span></a>

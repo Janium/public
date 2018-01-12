@@ -1,18 +1,9 @@
----
-title: Acceso a formularios de información | Ayuda contextual de Janium
-date: Nov 25, 2014
----
-
 # Acceso a formularios de información
-
-{{date}}
 
 Al acceder a este tipo de de formularios, el sistema Janium permite
 **añadir**, **modificar** o **eliminar** ciertos datos relativos a la
 información que se tenga desplegada en ese momento. Es importante
-insistir en la circunstancia de que, en algunos casos, <span
-style="text-decoration: underline;">no es posible editar determinados
-campos</span>.
+insistir en la circunstancia de que, en algunos casos, _no es posible editar determinados campos_.
 
 Además, desde aquí también es posible borrar el registro completo
 seleccionado.

@@ -1,11 +1,4 @@
----
-title: Acceso a Control de autoridades | Ayuda contextual de Janium
-date: Nov 25, 2014
----
-
 # Acceso a Control de autoridades
-
-{{date}}
 
 En primer lugar, un aspecto importante que es necesario destacar es que
 el acceso al módulo de Control de autoridades se realiza **a través del
