@@ -1,53 +1,107 @@
 # Obtención de resultados de búsqueda
-## Sumarios de resultados
+## Sumario de resultados
 
 Si se recupera más de un registro que coincida con los términos introducidos, se despliega un sumario de resultados como el siguiente:
 
 _NOTA_: esta opción de despliegue de resultados sólo se da en búsquedas **por palabra clave**.
 
-(Ejemplo de búsqueda: término *Tecnología bioquímica*, opción *Por palabra clave*, índice *Palabra*)
+(Ejemplo de búsqueda: término *Tecnología*, opción *Por palabra clave*, índice *Palabra*)
 
-![](despliegue_listado.png) 
+![](DespliegueListado.png) 
 
 Los elementos de que consta este modo de despliegue son:
 
-- **Información sobre registros encontrados en total y desplegados por página.**
+- **Información sobre resultados recuperados en total y desplegados por página.**
 
-![](info_registros.png)
+![](Info_registros.png)
 
-- **Botón de bibliografía:** permite crear una bibliografía a partir de uno o varios registros seleccionados previamente. Por omisión, este botón aparece *desactivado* hasta que se elige algún registro. Sin embargo, se puede configurar para que siempre esté visible se seleccionen o no los registros.
++ **Indicadores acerca del número de página de resultados en la que se encuentra el usuario y la cantidad de páginas totales**.
 
-![](boton_bibliografia.png)
+![](Info_paginas.png)
 
-- **Botón de limitación de resultados:** da paso a la pantalla que permite modificar los datos obtenidos para hacerlos más precisos.
+En este punto, se puede ir directamente a una página concreta sin necesidad de usar las flechas de navegación, de una forma más rápida, introduciendo en el cuadro de texto el número de la misma y haciendo clic después en el botón ***Ir a la página***.
 
-![](boton_limitacion.png)
+![](Info_paginas2.png)
 
-- **Flecha de cambio de página de resultados.**
++ **Flechas de navegación por las páginas de resultados (_página anterior_ y _página siguiente_).**
 
-![](flecha_pagina.png)
+![](Flechas_paginas.png)
 
-- **Casillas de selección:** permiten seleccionar los registros deseados para usarlos posteriormente; por ejemplo, para crear una bibliografía o asignarles una *tag*.
++ **Selector de registros para bibliografía:** esta opción posibilita la selección y deselección masiva de resultados por página completa, para la posterior creación de bibliografías. En concreto, si se hace clic sobre ***Todos***, el sistema seleccionará la totalidad de los registros de la página; mientras que haciendo clic sobre ***Ninguno*** se borrará la selección hecha de forma global.
 
-![](casilla_seleccion.png)
+![](Selector_registros.png)
 
-- **Columna Título:** muestra, de forma predeterminada, el año de publicación, el número de clasificación y el título del material.
+![](Selector_registros2.png)
 
-![](columna_titulo.png)
+Es importante señalar que el número de registros seleccionados por este método **dependerá del límite de resultados por página configurado para el sistema en cuestión**.
 
-- **Columna Autor:** muestra, de forma predeterminada, la información relacionada con el autor o autores y demás menciones de responsabilidad.
+![](Selector_registros3.png)
 
-![](columna_autor.png)
+- **Botón de bibliografía:** permite crear una bibliografía a partir de uno o varios registros seleccionados previamente. Por omisión, el indicador numérico que aparece en este botón es **0**, hasta que se seleccione algún resultado por medio de las opciones correspondientes.
 
-- **Columna Info:** muestra, de forma predeterminada, la biblioteca catalogadora, el formato del registro, el tipo de material, el estado del material y el número de ejemplares.
+![](Boton_bibliografia.png)
 
-![](columna_info.png)
++ **Botón para solicitar préstamo:** ofrece la posibilidad de ejecutar una solicitud de préstamo sobre alguno de los ejemplares asociados al registro activo. Por omisión, el indicador numérico que aparece en este botón es **0**, hasta que se seleccione algún ítem por medio de la casilla situada en la parte izquierda del mismo.
+
+![](Boton_solicitar_prestamo.png)
+
++ **Opción para volver al principio de la página:** haciendo clic sobre esta opción, desde cualquier parte de la página de resultados en que se encuentre el usuario, el sistema regresa automáticamente al comienzo de ella.
+
+![](Opcion_volver_principio.png)
+
++ **Facetado de resultados:** en esta sección se muestra la información que se ha recuperado desglosada por *índices de búsqueda* y acompañada por el número de *referencias* localizadas para los términos indizados.
+
+![](Facetado.png)
+
+Si se pincha sobre uno de los términos destacados, el sistema pasa a una nueva pantalla donde indica el **número de referencias totales** encontradas en la base de datos para dicho término. Al continuar el proceso y pinchar de nuevo sobre el elemento, se ejecuta una nueva búsqueda únicamente para recuperar los registros señalados.
+
+![](Facetado2.png)
+
+![](Facetado3.png)
+
+![](Facetado4.png)
+
++ **Registro en el sumario:** de manera individual, los resultados que se despliegan en el sumario presentan estos elementos:
+
+	![](RegistroEnSumario.png)
+
+	+ **Casillas de selección:** permiten seleccionar, o deseleccionar, los registros deseados para usarlos posteriormente; por ejemplo, para crear una bibliografía o asignarles una _tag_. ![](Casilla_seleccion.png) ![](Casilla_seleccion2.png)
+
+	+ **Portada del registro**: imagen representativa del material y que sirve además para enlazar con el objeto vinculado al registro, en el caso de que exista.
+
+	![](Portada_registro_sumario.png)
+
+	Además, en este punto, el sistema es capaz de mostrar una **portada genérica** para todos aquellos registros que no tengan una asignada, si así lo decide la institución.
+
+	![](Portada_generica_sumario.png)
+	
+	+ **Número de orden del registro dentro del sumario**. ![](Numero_orden_registro.png)
+
+		Este número no es el del registro, propiamente dicho. Es decir, no es su *número de ficha*.
+
+	+ **Clasificación del registro**. ![](Clasif_registro.png)
+
+	+ **Tipo de material del registro**. ![](Tipo_material_registro.png)
+
+	+ **Campo de Título/Autor**. Este elemento, además de presentar la información acerca del título y autor(es) del material, sirve como vínculo para acceder a la vista en detalle del registro, haciendo clic sobre él.
+
+	![](CampoTituloAutor.png)
+
+	+ **Campos adicionales**: pueden mostrar, de forma predeterminada, datos sobre el autor, pie de imprenta (lugar, responsable y fecha de edición) o ISBN.
+
+	![](Campos_adicionales_sumario.png)
+
+	+ **Información sobre ejemplares:** donde se indica la cantidad total de ejemplares, así como las cifras desglosadas de ítems por bibliotecas, incluyendo el estado de los mismos.
+
+	![](Info_items_sumario.png)
 
 Además del modo de despliegue de sumario de resultados que se acaba de explicar, hay otras variantes que tienen lugar en diferentes situaciones:
 
-### Sumario a partir de búsqueda alfabética por índice Tema
+### Sumarios a partir de búsquedas alfabéticas por índices Tema y Autor
 
-![](despliegue_listado2.png)
+![](Despliegue_listado2.png)
+
+![](Despliegue_listado3.png)
 
 ### Sumario a partir de búsqueda por índice ISBN
 
@@ -69,7 +123,7 @@ _NOTA_: esta opción de despliegue de resultados sólo se da en búsquedas **por
 
 (Ejemplo de búsqueda: términos *Diccionario de mitología universal*, índice *Título*)
 
-![](despliegue_detalle.png)
+![](DespliegueDetalle.png)
 
 Las dos secciones de que consta este modo de despliegue son:
 
@@ -77,43 +131,84 @@ Las dos secciones de que consta este modo de despliegue son:
 
 Con los siguientes elementos destacados:
 
-- **Botón para compartir registro:** permite generar un *permalink* al registro seleccionado para su publicación en redes sociales o envío por correo electrónico.
++ **Número de ficha:** este es el número de identificación interna asignado por el sistema de manera automática en el momento de la creación del registro.
 
-![](opciones_compartir.png)
+![](Numero_ficha.png)
 
-- **Botón de bibliografía:** permite crear una bibliografía a partir de uno o varios registros seleccionados previamente. Por omisión, este botón aparece *desactivado* hasta que se elige algún registro. Sin embargo, se puede configurar para que siempre esté visible se seleccionen o no los registros.
++ **Casilla de selección:** permiten seleccionar, o deseleccionar, el registro para usarlo posteriormente; por ejemplo, para crear una bibliografía o asignarle una _tag_. ![](Casilla_seleccion.png) ![](Casilla_seleccion2.png)
 
-![](boton_bibliografia.png)
++ **Portada del registro**: imagen representativa del material y que sirve además para enlazar con el objeto vinculado al registro, en el caso de que exista.
 
-- **Botón para desplegar etiquetas:** da acceso a la vista en formato MARC21 de la información.
+![](Portada_registro_detalle.png)
 
-![](boton_despliegue_etiquetas.png)
+Además, en este punto, el sistema es capaz de mostrar una **portada genérica** para todos aquellos registros que no tengan una asignada, si así lo decide la institución.
 
-![](pantalla_despliegue_etiquetas.png)
+![](Portada_generica_sumario.png)
 
-- **Campos descriptivos:** contienen los datos relativos al registro. El contenido de algunos de ellos enlaza con las autoridades asociadas.
++ **Botón de contenido relacionado:** da acceso a la información bibliográfica enriquecida para el registro, suministrada por el servicio Syndetics Plus.
 
-![](info_bibliografica.png)
+![](Contenido_relacionado.png)
+
+- **Botón para compartir registro:** permite desplegar las opciones configuradas para compartir la información del registro bibliográfico. A saber: permalink (enlace permanente), envío por correo electrónico, publicación en redes sociales (Twitter, Facebook, Pinterest, Google Plus) y código QR.
+
+![](Opciones_compartir.png)
+
+- **Botón de bibliografía:** permite crear una bibliografía a partir de uno o varios registros seleccionados previamente. Por omisión, el indicador numérico que aparece en este botón es **0**, hasta que se seleccione algún registro por medio de la casilla situada en la parte izquierda del mismo.
+
+![](Boton_bibliografia.png)
+
++ **Botón para solicitar préstamo:** ofrece la posibilidad de ejecutar una solicitud de préstamo sobre alguno de los ejemplares asociados al registro activo. Por omisión, el indicador numérico que aparece en este botón es **0**, hasta que se seleccione algún ítem por medio de la casilla situada en la parte izquierda del mismo.
+
+![](Boton_solicitar_prestamo.png)
+
+- **Botón para desplegar etiquetas:** da acceso a la vista del registro con formato de etiquetas según el esquema de catalogación utilizado (en el ejemplo: MARC21).
+
+![](Boton_despliegue_etiquetas.png)
+![](Pantalla_despliegue_etiquetas.png)
+
+- **Campos descriptivos:** contienen los datos relativos al registro catalogado. La información de algunos de ellos enlaza con las autoridades asociadas y, además, se muestra el número de _**referencias**_ que se han encontrado en la base de datos para cada uno de los términos indizados.
+
+![](InfoBibliografica.png)
+
+Si se pincha sobre alguno de estos campos que son, a su vez, **enlaces**, se accede a los registros en los que aparece el término de que se trate.
+
+![](InfoBibliografica2.png)
+
+![](InfoBibliografica3.png)
 
 **_Información de ejemplares_**
 
-En aquellos casos en que el registro bibliográfico tiene asociado algún ejemplar o existencia, es en este apartado donde puede visualizarse la información descriptiva de cada uno de estos **ítems**, como es su localización física, colección a la que pertenece, tipo de material o estado en el que se encuentra.
+En aquellos casos en que el registro bibliográfico tiene asociado algún ejemplar o existencia, es en este apartado donde puede visualizarse la información descriptiva de cada uno de estos **ítems**, como es su localización física, colección a la que pertenece, tipo de material o estado en el que se encuentra. Incluso se puede determinar el número de ítems que se despliega por intervalos.
 
-![](despliegue_ejemplares.png)
+![](DespliegueEjemplares.png)
 
-También es posible modificar la forma en que se ordenan los campos mostrados en esta sección. Para ello, se debe hacer clic en el botón *Ordenar despliegue*, lo que da paso a una ventana emergente donde personalizar la configuración.
+También es posible modificar el **ordenamiento de las columnas** en esta sección, de manera ascendente o descendente. Para ello, se debe hacer clic en la opción situada a la derecha del encabezamiento de la columna correspondiente:
 
-![](ventana_orden_ejemplares.png)
+- **Opción sin activar.**
+
+![](Opcion_orden_ejemplares.png)
+
+- **Ordenamiento ascendente de ítems por código de barras.**
+
+![](Opcion_orden_ejemplares2.png)
+
+- **Ordenamiento descendente de ítems por código de barras.**
+
+![](Opcion_orden_ejemplares3.png)
+
+Además, también se pueden llevar a cabo búsquedas de ejemplares concretos dentro del listado completo, usando la opción **Buscar**. Esto puede resultar muy útil cuando la cantidad de ejemplares para un mismo registro es muy amplia.
+
+![](Buscar_item.png)
 
 ## Búsqueda sin resultados
 
-Cuando al ejecutar una búsqueda no se recupera ningún resultado coincidente, el sistema genera un **sumario de posibles registros** relacionados con los términos introducidos, a partir de una búsqueda alfabética por la primera palabra escrita.
+Cuando al ejecutar una búsqueda no se recupera ningún resultado coincidente, el sistema genera un **sumario de posibles registros relacionados con los términos introducidos**, a partir de una búsqueda alfabética por la primera palabra escrita.
 
 ![](listado_noregistros.png)
 
 Si se produce la circunstancia de que no exista equivalencia alguna entre los términos de búsqueda introducidos y la información recogida en el sistema, lo que se despliega es un mensaje avisando de la situación.
 
-![](mensaje_noregistros.png)
+![](Mensaje_noregistros.png)
 
 ## Recursos vinculados
 
