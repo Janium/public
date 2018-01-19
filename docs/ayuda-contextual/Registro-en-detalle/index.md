@@ -47,6 +47,7 @@ Además, en este punto, el sistema es capaz de mostrar una **portada genérica**
 + **Botón para desplegar etiquetas:** da acceso a la vista del registro con formato de etiquetas según el esquema de catalogación utilizado (en el ejemplo: MARC21).
 
 ![](Boton_despliegue_etiquetas.png)
+
 ![](Pantalla_despliegue_etiquetas.png)
 
 + **Campos descriptivos:** contienen los datos relativos al registro catalogado. La información de algunos de ellos enlaza con las autoridades asociadas y, además, se muestra el número de _**referencias**_ que se han encontrado en la base de datos para cada uno de los términos indizados.
