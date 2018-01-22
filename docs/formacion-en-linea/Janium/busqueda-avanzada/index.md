@@ -1,3 +1,5 @@
-# PRUEBA PARA IMÁGENES PÚBLICAS EN MOODLE #
-
 ![](Busqueda_indices.png)
+![](Busqueda_numero.png)
+![](Busqueda_numero2.png)
+![](LimitadoresBA.png)
+![](Pantalla_BA.png)
