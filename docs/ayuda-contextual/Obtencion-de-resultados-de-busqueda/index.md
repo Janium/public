@@ -209,7 +209,7 @@ Cuando al ejecutar una búsqueda no se recupera ningún resultado coincidente, e
 
 Si se produce la circunstancia de que no exista equivalencia alguna entre los términos de búsqueda introducidos y la información recogida en el sistema, lo que se despliega es un mensaje avisando de la situación.
 
-![](Mensaje_noregistros.png)
+![](mensaje_noregistros.png)
 
 ## Recursos vinculados
 
