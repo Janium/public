@@ -87,7 +87,7 @@ Si se pincha sobre uno de los términos destacados, el sistema pasa a una nueva 
 
 	![](CampoTituloAutor.png)
 
-	+ **Campos adicionales**: pueden mostrar, de forma predeterminada, datos sobre el autor, pie de imprenta (lugar, responsable y fecha de edición) o ISBN.
+	+ **Campos adicionales**: pueden mostrar, de forma predeterminada, datos sobre el autor, edición (lugar, responsable y fecha) o ISBN.
 
 	![](Campos_adicionales_sumario.png)
 
@@ -166,6 +166,10 @@ Además, en este punto, el sistema es capaz de mostrar una **portada genérica**
 ![](Boton_despliegue_etiquetas.png)
 
 ![](Pantalla_despliegue_etiquetas.png)
+
++ **Flechas de navegación por los registros del sumario (_registro anterior_ y _registro siguiente_).**
+
+![](Flechas_paginas.png)
 
 - **Campos descriptivos:** contienen los datos relativos al registro catalogado. La información de algunos de ellos enlaza con las autoridades asociadas y, además, se muestra el número de _**referencias**_ que se han encontrado en la base de datos para cada uno de los términos indizados.
 

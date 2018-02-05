@@ -68,11 +68,13 @@ Los usuarios pueden consultar qué registros tienen tags de dos formas:
 - A través del Referencista electrónico.
 - A través de los Servicios de alerta. En este caso, las tags se despliegan en la sección ***Tagcloud***.
 
-![](Despliegue_tags1.png)
+![](Despliegue_tags.png)
 
 Al hacer clic sobre una de ellas se despliega la lista de registros relacionados. Y al acceder a la vista en detalle de cada uno de ellos, se presentan en la parte inferior las **tags públicas** aplicadas al mismo.
 
 ![](Despliegue_tags2.png)
+
+![](Despliegue_tags3.png)
 
 ### Quitar tags a registros
 

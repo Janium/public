@@ -19,3 +19,4 @@
 ![](PantallaBibliografia.png)
 ![](SeleccionBibliografia.png)
 ![](Selector_registros3.png)
+![](Aviso_bibliografia.png)
