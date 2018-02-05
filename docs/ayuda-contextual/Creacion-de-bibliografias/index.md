@@ -12,6 +12,10 @@ Para ello, en el sumario que se haya obtenido, se pueden marcar las **casillas d
 
 Un comentario importante sobre esta función es que es posible seleccionar registros bibliográficos _procedentes de diferentes búsquedas_, ya que los que se hayan guardado permanecerán en el sistema hasta borrar la bibliografía completa (en el caso de usuarios registrados) o cerrar la sesión activa del catálogo (para usuarios no registrados). De esta forma, no es necesario generar una nueva bibliografía para cada búsqueda que se realice.
 
+Por otro lado, si se intenta acceder a esta función sin haber seleccionado ningún registro, el sistema avisa de esta circunstancia:
+
+![](Aviso_bibliografia.png)
+
 ### Opciones de rango
 
 Estas opciones permiten agregar o borrar registros para la generación de la bibliografía, lo cual se explica a continuación:

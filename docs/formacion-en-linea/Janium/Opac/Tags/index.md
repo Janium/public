@@ -9,6 +9,7 @@
 ![](Creacion_tags3.png)
 ![](Despliegue_tags.png)
 ![](Despliegue_tags2.png)
+![](Despliegue_tags3.png)
 ![](Pantalla_tags.png)
 ![](Quitar_tags.png)
 ![](Quitar_tags2.png)
