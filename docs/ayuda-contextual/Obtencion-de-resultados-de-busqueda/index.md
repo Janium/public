@@ -53,11 +53,13 @@ Es importante señalar que el número de registros seleccionados por este métod
 
 ![](Facetado.png)
 
-Si se pincha sobre uno de los términos destacados, el sistema pasa a una nueva pantalla donde indica el **número de referencias totales** encontradas en la base de datos para dicho término. Al continuar el proceso y pinchar de nuevo sobre el elemento, se ejecuta una nueva búsqueda únicamente para recuperar los registros señalados.
+Si se pincha sobre uno de los términos destacados, el sistema ejecuta una **nueva búsqueda para recuperar únicamente los registros señalados**. Siguiendo con el proceso, en el sumario de resultados se visualiza el filtro aplicado, así como la posibilidad de eliminarlo pinchando sobre el icono de _equis_.
 
 ![](Facetado2.png)
 
 ![](Facetado3.png)
+
+Además, **es posible utilizar más de un filtro a la vez**, si se desea restringir aún más los resultados de la búsqueda realizada.
 
 ![](Facetado4.png)
 
