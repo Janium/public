@@ -18,8 +18,6 @@ Para conocer más en profundidad la estructura general de registros que debe apl
 
 Por su parte, ASCII (acrónimo de *American Standard Code for Information Interchange*) es un código de caracteres basado en el alfabeto latino, tal y como se usa en inglés moderno y en otras lenguas occidentales.
 
-**MARCXML:** es un esquema de trabajo desarrollado por la Biblioteca del Congreso de los Estados Unidos con el objetivo de que los registros descritos en el formato MARC21 sean fácilmente integrables y manipulables por los sistemas actuales de una manera acorde a sus necesidades específicas, todo ello en un entorno XML.
-
 ### Opciones para carga de duplicados / consolidación
 
 Las opciones de configuración que intervienen en el proceso de tratamiento de los registros bibliográficos duplicados durante la importación de los mismos son las siguientes:
